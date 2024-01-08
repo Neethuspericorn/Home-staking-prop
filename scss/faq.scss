@@ -1,5 +1,104 @@
 @import "partials/partials";
-
+.theme-dark{
+  .section-faq{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    .sec-title{
+      color: $white;
+      text-align: center;
+      font-family: $font-primary;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 13px;
+      span{
+        color: $title-mix-blue;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: normal;
+        display: block;
+      }
+    }
+    .sec-subtitle{
+      color: $white;
+      text-align: center;
+      font-family: $font-primary;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 30px;
+      .link{
+        color: #fff;
+        text-decoration: none;
+      }   
+    }
+    
+    .accordion{
+      padding-top: 40px;
+      .accordion-item{
+        background: transparent;
+        border: 0;
+        margin-bottom: 19px;
+        overflow: clip;
+        .accordion-button{
+          box-shadow: none !important;
+          border-radius: 27px;
+          border: 1px solid $accordion-border;
+          background-color: $accordion-bg;
+          font-family: $font-primary;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          color: $white;
+          padding-left: 43px;
+          padding-right: 43px;
+          padding-top: 40px;
+          padding-bottom: 24px;
+          &:after{
+            background-image: none;
+            content: '+';
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Rubik', sans-serif;
+            color:#2966FF;
+            font-size: 35px;
+            // align-self: flex-start;
+          }
+          // &.collapsed{
+          //   padding-bottom: 40px;
+          // }
+          &:not(.collapsed){
+            background-color: $accordion-bg;
+            border-color: $accordion-border;
+            border-bottom-color: transparent !important;
+            border-radius: 12px 12px 0px 0px;
+            &:after{
+              content: '-';
+              color:#2966FF;
+            }
+          }
+        }
+        .accordion-body{
+          background-color: $accordion-bg;
+          padding-top: 0;
+          padding-bottom: 40px;
+          padding-left: 43px;
+          padding-right: 43px;
+          border: 1px solid;
+          border-color: $accordion-border;
+          border-top-color: transparent !important;
+          border-radius: 0px 0px 27px 27px ;
+          color: $white;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
 .section-faq{
   padding-top: 90px;
   padding-bottom: 90px;
@@ -37,19 +136,24 @@
   .accordion{
     padding-top: 40px;
     .accordion-item{
-      background: $accordion-bg;
+      background: transparent;
+      border: 0;
       margin-bottom: 19px;
       overflow: clip;
       .accordion-button{
         box-shadow: none !important;
-        border-radius: 12px;
-        border: 1px solid $accordion-border;
-        background-color: $accordion-bg;
-        font-family: Poppins;
-        font-size: $font-primary;
+        border-radius: 27px;
+        border: 1px solid $white;
+        background-color: $accordion-light;
+        font-family: $font-primary;
+        font-size: 20px;
         font-weight: 500;
         line-height: 30px;
         color: $white;
+        padding-left: 43px;
+        padding-right: 43px;
+        padding-top: 40px;
+        padding-bottom: 24px;
         &:after{
           background-image: none;
           content: '+';
@@ -58,27 +162,33 @@
           justify-content: center;
           font-family: 'Rubik', sans-serif;
           color:#2966FF;
-          font-size: 24px;
+          font-size: 35px;
           // align-self: flex-start;
         }
+        // &.collapsed{
+        //   padding-bottom: 40px;
+        // }
         &:not(.collapsed){
-          background-color: $accordion-bg;
-          border-color: $accordion-border;
+          background-color: $accordion-light;
+          border-color: $white;
           border-bottom-color: transparent !important;
-          border-radius: 12px 12px 0px 0px;
+          border-radius: 27px 27px 0px 0px;
           &:after{
             content: '-';
-            color: #002944;
+            color:#2966FF;
           }
         }
       }
       .accordion-body{
-        background-color: $accordion-bg;
+        background-color: $accordion-light;
         padding-top: 0;
+        padding-bottom: 40px;
+        padding-left: 43px;
+        padding-right: 43px;
         border: 1px solid;
-        border-color: $accordion-border;
+        border-color: $white;
         border-top-color: transparent !important;
-        border-radius: 0px 0px 12px 12px ;
+        border-radius: 0px 0px 27px 27px ;
         color: $white;
         font-size: 16px;
         font-weight: 300;

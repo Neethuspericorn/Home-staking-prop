@@ -1,4 +1,64 @@
 @import "partials/partials";
+.theme-dark{
+    .statistics{
+        margin-bottom: 120px;
+        .title{
+            font-family: $font-primary;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 30px;
+            text-align: center;
+            span{
+                color: $title-mix-blue;
+            }
+        }
+        .content-txt{
+            font-family: $font-primary;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 28px;
+            color: $white;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        .statistics-blks-wrp{
+            display: flex;
+            column-gap: 24px;
+            row-gap: 56px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 70px;
+            .statistics-blks{
+                border-radius: 14px;
+                border: 2px solid $light-dark-border;
+                background: $static-blks-bg;
+                padding: 36px;
+                .blks-title{
+                    color: #2966FF;
+                    text-align: center;
+                    font-family: $font-primary;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-bottom: 36px;
+                    span{
+                        margin-right: 12px;
+                    }
+                }
+                .numerics{
+                    color: #FFF;
+                    text-align: center;
+                    font-family: $font-primary;
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
+
 .statistics{
     margin-bottom: 120px;
     .title{
@@ -8,6 +68,7 @@
         line-height: normal;
         margin-bottom: 30px;
         text-align: center;
+        color: $title-light;
         span{
             color: $title-mix-blue;
         }
@@ -17,7 +78,7 @@
         font-size: 18px;
         font-weight: 300;
         line-height: 28px;
-        color: $white;
+        color: $para-color;
         margin-bottom: 24px;
         text-align: center;
     }
@@ -30,8 +91,8 @@
         margin-top: 70px;
         .statistics-blks{
             border-radius: 14px;
-            border: 2px solid $light-dark-border;
-            background: $static-blks-bg;
+            border: 2px solid $static-blks-border;
+            background: $static-blks-light-bg;
             padding: 36px;
             .blks-title{
                 color: #2966FF;
@@ -46,7 +107,7 @@
                 }
             }
             .numerics{
-                color: #FFF;
+                color: $title-light;
                 text-align: center;
                 font-family: $font-primary;
                 font-size: 28px;

@@ -9,6 +9,100 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
+.theme-dark .section-faq {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.theme-dark .section-faq .sec-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+.theme-dark .section-faq .sec-title span {
+  color: #2966FF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  display: block;
+}
+.theme-dark .section-faq .sec-subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.theme-dark .section-faq .sec-subtitle .link {
+  color: #fff;
+  text-decoration: none;
+}
+.theme-dark .section-faq .accordion {
+  padding-top: 40px;
+}
+.theme-dark .section-faq .accordion .accordion-item {
+  background: transparent;
+  border: 0;
+  margin-bottom: 19px;
+  overflow: clip;
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-button {
+  box-shadow: none !important;
+  border-radius: 27px;
+  border: 1px solid #484848;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
+  padding-left: 43px;
+  padding-right: 43px;
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-button:after {
+  background-image: none;
+  content: "+";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  color: #2966FF;
+  font-size: 35px;
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
+  background-color: #000;
+  border-color: #484848;
+  border-bottom-color: transparent !important;
+  border-radius: 12px 12px 0px 0px;
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed):after {
+  content: "-";
+  color: #2966FF;
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-body {
+  background-color: #000;
+  padding-top: 0;
+  padding-bottom: 40px;
+  padding-left: 43px;
+  padding-right: 43px;
+  border: 1px solid;
+  border-color: #484848;
+  border-top-color: transparent !important;
+  border-radius: 0px 0px 27px 27px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
 .section-faq {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -23,7 +117,7 @@
   margin-bottom: 13px;
 }
 .section-faq .sec-title span {
-  color: #0C15F9;
+  color: #2966FF;
   text-align: center;
   font-family: Poppins;
   font-size: 20px;
@@ -47,20 +141,25 @@
   padding-top: 40px;
 }
 .section-faq .accordion .accordion-item {
-  background: #000;
+  background: transparent;
+  border: 0;
   margin-bottom: 19px;
   overflow: clip;
 }
 .section-faq .accordion .accordion-item .accordion-button {
   box-shadow: none !important;
-  border-radius: 12px;
-  border: 1px solid #484848;
-  background-color: #000;
-  font-family: Poppins;
-  font-size: "Poppins", sans-serif;
+  border-radius: 27px;
+  border: 1px solid #fff;
+  background-color: #F8F8FF;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   color: #fff;
+  padding-left: 43px;
+  padding-right: 43px;
+  padding-top: 40px;
+  padding-bottom: 24px;
 }
 .section-faq .accordion .accordion-item .accordion-button:after {
   background-image: none;
@@ -70,25 +169,28 @@
   justify-content: center;
   font-family: "Rubik", sans-serif;
   color: #2966FF;
-  font-size: 24px;
+  font-size: 35px;
 }
 .section-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
-  background-color: #000;
-  border-color: #484848;
+  background-color: #F8F8FF;
+  border-color: #fff;
   border-bottom-color: transparent !important;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 27px 27px 0px 0px;
 }
 .section-faq .accordion .accordion-item .accordion-button:not(.collapsed):after {
   content: "-";
-  color: #002944;
+  color: #2966FF;
 }
 .section-faq .accordion .accordion-item .accordion-body {
-  background-color: #000;
+  background-color: #F8F8FF;
   padding-top: 0;
+  padding-bottom: 40px;
+  padding-left: 43px;
+  padding-right: 43px;
   border: 1px solid;
-  border-color: #484848;
+  border-color: #fff;
   border-top-color: transparent !important;
-  border-radius: 0px 0px 12px 12px;
+  border-radius: 0px 0px 27px 27px;
   color: #fff;
   font-size: 16px;
   font-weight: 300;

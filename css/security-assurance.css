@@ -99,7 +99,8 @@
   max-width: 340px;
   width: 100%;
   aspect-ratio: 1;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media (max-width: 1199px) {
   .section-security .security-cont-wrp .txt-col {
@@ -123,5 +124,3 @@
 .section-security .security-cont-wrp.assurance .img-col {
   order: 1;
 }
-
-/*# sourceMappingURL=security-assurance.css.map */
