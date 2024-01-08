@@ -3,6 +3,29 @@
 .section-roadmap{
     padding-top: 50px;
     padding-bottom: 100px;
+    position: relative;
+    & > div{
+        position: relative;
+        z-index: 1;
+    }
+    &:before{
+        z-index: 0;
+        content: '';
+        background: url(../img/sec-floating.svg) no-repeat center/contain;
+        width: 130px;
+        aspect-ratio: 1.08;
+        display: block;
+        position: absolute;
+        bottom: 130px;
+        left: -65px;
+        transform: translateX(-100%);
+        @media ($sm-1679){
+            width: 100px;
+            bottom: 100px;
+           
+        }
+         
+    }
     .title{
         font-size: 36px;
         @media ($sm-1679){

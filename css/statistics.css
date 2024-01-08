@@ -9,6 +9,9 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
+.statistics {
+  margin-bottom: 120px;
+}
 .statistics .title {
   font-family: "Poppins", sans-serif;
   font-size: 36px;

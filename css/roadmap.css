@@ -12,6 +12,29 @@
 .section-roadmap {
   padding-top: 50px;
   padding-bottom: 100px;
+  position: relative;
+}
+.section-roadmap > div {
+  position: relative;
+  z-index: 1;
+}
+.section-roadmap:before {
+  z-index: 0;
+  content: "";
+  background: url(../img/sec-floating.svg) no-repeat center/contain;
+  width: 130px;
+  aspect-ratio: 1.08;
+  display: block;
+  position: absolute;
+  bottom: 130px;
+  left: -65px;
+  transform: translateX(-100%);
+}
+@media (max-width: 1679px) {
+  .section-roadmap:before {
+    width: 100px;
+    bottom: 100px;
+  }
 }
 .section-roadmap .title {
   font-size: 36px;

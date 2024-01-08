@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+.section-faq {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.section-faq .sec-title {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 600;
+  color: #002944;
+}
+.section-faq .sec-subtitle {
+  color: #0099FF;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+.section-faq .accordion {
+  padding-top: 40px;
+}
+.section-faq .accordion .accordion-item {
+  border-radius: 12px;
+  border: 1px solid #484848;
+  background: #000;
+  margin-bottom: 19px;
+  overflow: clip;
+}
+.section-faq .accordion .accordion-item .accordion-button {
+  box-shadow: none !important;
+  background-color: transparent;
+  border: 1px solid #B7D7EC;
+  font-size: 22px;
+  color: #002944;
+  font-weight: 500;
+  border-radius: 12px;
+}
+.section-faq .accordion .accordion-item .accordion-button:after {
+  background-image: none;
+  content: "+";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  color: #9CB3C3;
+}
+.section-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
+  background-color: #EAF6FF;
+  border-color: #75C5F9;
+  border-bottom-color: transparent !important;
+  border-radius: 12px 12px 0px 0px;
+}
+.section-faq .accordion .accordion-item .accordion-button:not(.collapsed):after {
+  content: "-";
+  color: #002944;
+}
+.section-faq .accordion .accordion-item .accordion-body {
+  background-color: #EAF6FF;
+  padding-top: 0;
+  border: 1px solid;
+  border-color: #75C5F9;
+  border-top-color: transparent !important;
+  border-radius: 0px 0px 12px 12px;
+  color: #002944;
+  font-size: 18px;
+  line-height: 1.778;
+}
+
+/*# sourceMappingURL=faq.css.map */

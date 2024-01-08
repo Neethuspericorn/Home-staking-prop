@@ -1,0 +1,28 @@
+@import "partials/partials";
+
+.section-partners{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    .title{
+        font-size: 27px;
+        margin-bottom: 1.333em;
+    }
+    .partners-container{
+        margin-bottom: 60px;
+    }
+    .partner-wrp{
+        padding: 35px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #2B2B2B;
+        background-color: #0A0A0A;
+        border-radius: 18px;
+        margin-bottom: 18px;
+        img{
+            max-width: 140px;
+            max-height: 38px;
+            object-fit: contain;
+        }
+    }
+}
