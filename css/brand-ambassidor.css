@@ -19,6 +19,7 @@
   padding-right: 0px;
   padding-bottom: 0px;
   display: flex;
+  border: none;
 }
 .theme-dark .brand-ambassidor::before {
   content: "";
@@ -43,6 +44,9 @@
   align-items: flex-end;
   position: relative;
   padding-left: 17px;
+}
+.theme-dark .brand-ambassidor .img-hldr img {
+  max-width: 100%;
 }
 .theme-dark .brand-ambassidor .img-hldr .cta-float {
   position: absolute;
@@ -95,6 +99,7 @@
 }
 .theme-dark .brand-ambassidor .content-left .content ul {
   margin-left: 20px;
+  margin-bottom: 72px;
 }
 .theme-dark .brand-ambassidor .content-left .content ul li {
   font-family: "Poppins", sans-serif;
@@ -115,7 +120,7 @@
   padding-right: 0px;
   padding-bottom: 0px;
   display: flex;
-  border: none;
+  border: 1px solid #A1BBFF;
 }
 .brand-ambassidor::before {
   content: "";
@@ -140,6 +145,9 @@
   align-items: flex-end;
   position: relative;
   padding-left: 17px;
+}
+.brand-ambassidor .img-hldr img {
+  max-width: 100%;
 }
 .brand-ambassidor .img-hldr .cta-float {
   position: absolute;
@@ -193,6 +201,7 @@
 }
 .brand-ambassidor .content-left .content ul {
   margin-left: 20px;
+  margin-bottom: 72px;
 }
 .brand-ambassidor .content-left .content ul li {
   font-family: "Poppins", sans-serif;

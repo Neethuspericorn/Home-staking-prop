@@ -110,6 +110,15 @@
     font-weight: 600;
     line-height: normal;
     margin-bottom: 13px;
+    @media ($sm-1679){
+      font-size: 36px;
+    }
+    @media ($sm-1481){
+      font-size: 32px;
+    }
+    @media ($sm-1281){
+      font-size: 28px;
+    }
     span{
       color: $title-mix-blue;
       text-align: center;
@@ -127,6 +136,9 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
+    @media ($sm-1679){
+      font-size: 18px;
+    }
     .link{
       color: #fff;
       text-decoration: none;
@@ -154,6 +166,9 @@
         padding-right: 43px;
         padding-top: 40px;
         padding-bottom: 24px;
+        @media ($sm-1679){
+          font-size: 18px;
+        }
         &:after{
           background-image: none;
           content: '+';

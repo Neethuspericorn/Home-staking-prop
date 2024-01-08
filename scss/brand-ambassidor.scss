@@ -10,6 +10,7 @@
         padding-right: 0px;
         padding-bottom: 0px;
         display: flex;
+        border: none;
         &::before{
             content: "";
             background: url('/img/coin-lg-brand.svg') no-repeat center;
@@ -33,6 +34,9 @@
             align-items: flex-end;
             position: relative;
             padding-left: 17px;
+            img{
+                max-width: 100%;
+            }
             .cta-float{
                 position: absolute;
                 top: 44%;
@@ -85,6 +89,7 @@
             .content{
                 ul{
                     margin-left: 20px;
+                    margin-bottom: 72px;
                     li{
                         font-family: $font-primary;
                         margin-bottom: 30px;
@@ -108,7 +113,7 @@
     padding-right: 0px;
     padding-bottom: 0px;
     display: flex;
-    border: none;
+    border: 1px solid $static-blks-border;
     &::before{
         content: "";
         background: url('/img/coin-lg-brand.svg') no-repeat center;
@@ -132,6 +137,9 @@
         align-items: flex-end;
         position: relative;
         padding-left: 17px;
+        img{
+            max-width: 100%;
+        }
         .cta-float{
             position: absolute;
             top: 44%;
@@ -185,6 +193,7 @@
         .content{
             ul{
                 margin-left: 20px;
+                margin-bottom: 72px;
                 li{
                     font-family: $font-primary;
                     margin-bottom: 30px;
