@@ -1,0 +1,74 @@
+// Brand colors
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$nav-dark: #292D32;
+$primary-dark: #2E4276;
+$primary-light: #fff;
+$green: #0DAD4D;
+$text-primary-dark: #2E4276;
+$text-primary-light: #8393BA;
+$primary-blue: #2966FF;
+$table-border: #F2F2FC;
+
+$table-th: #1A1A1B;
+$table-bodrer: #242424;
+// Font stack
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$font-primary: 'Poppins', sans-serif;
+
+// The base body size
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$body-font-size: 1rem !default;
+
+
+// Colours
+$text-grey:#6477aa;
+$border-grey:#e3e4f3;
+$label-txt-blue:#697F9B;
+$label-num:#2E4276;
+$dark-black:#000;
+$success-green:#0DAD4D;
+// $border-grey-1:#B4BFCD;
+$border-grey-1:#B6C3E5;
+$btn-border-green:#7DE0A5;
+$light-green:#E7FFF0;
+$btn-green-text:#0DAD4D;
+
+//my variables
+$input-text-color:#4D6090;
+$blue-text-single:#3072F3;
+$sub-text-color:#768BC2;
+$border-color:#6982C0;
+$bg-color-check:#D3E3F8;
+$light-blue:#2966FF;
+$light-dark:#484D65;
+$orange:#EE8728;
+$dark-border:#484848;
+$bg-dark-blue:#1D355C;
+$light-grey-txt:#9E9E9E;
+
+// Breakpoints
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$lg-320    	: "min-width: 320px";
+$lg-480   	: "min-width: 480px";
+$lg-768    	: "min-width: 768px";
+$lg-992   	: "min-width: 992px";
+$lg-1024   	: "min-width: 1024px";
+$lg-1200 	: "min-width: 1200px";
+
+$sm-479   	: "max-width: 479px";  /*** all Mobile Screen (iphone 6,7,8) ***/
+$sm-579     : "max-width: 579px";
+$sm-767     : "max-width: 767px";  /*** mobile Landscape Size ***/
+$sm-991     : "max-width: 991px";  /*** medium devices (tablets, less than 992px) ***/
+$sm-1023   	: "max-width: 1023px"; /*** iPad in landscape ***/
+$sm-1199 	: "max-width: 1199px"; /**** smaller than desktop 1200 (devices and browsers) ***/
+$sm-1281 	: "max-width: 1281px"; /*** laptop with MDPI (medium density per inch) resolution ***/
+$sm-1367 	: "max-width: 1367px"; /*** SP developers resolution ***/
+$sm-1441 	: "max-width: 1441px"; /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+$sm-1481 	: "max-width: 1481px";
+$sm-1679 	: "max-width: 1679px"; /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+
+
+
+
+
