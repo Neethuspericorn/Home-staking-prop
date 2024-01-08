@@ -568,8 +568,7 @@
   height: 40px;
   border-radius: 50%;
   overflow: hidden;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .wallet-btn-cover {
@@ -987,3 +986,5 @@
     margin-right: 0;
   }
 }
+
+/*# sourceMappingURL=header.css.map */

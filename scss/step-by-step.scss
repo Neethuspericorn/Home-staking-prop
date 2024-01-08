@@ -1,0 +1,259 @@
+@import "partials/partials";
+
+.step-guide{
+    padding-top: 100px;  
+    padding-bottom: 100px;
+}
+
+.step-heading-sec{
+    
+    width: 54%;
+    margin: 0 auto;
+    position: relative;
+  
+
+    &::before{
+        position:absolute;
+        content: "";
+        background-image: url(/img/Stepby_step_icon.png);
+        background-repeat: no-repeat;
+        top: 0;
+        right:-260px;
+        width: 211px;
+        height: 224px;
+    }
+
+.top-title{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#0C15F9;
+
+
+}
+.main-title{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 10px;
+ 
+    span{
+    color:#0C15F9; 
+}
+
+}
+.content-sec{
+    margin-bottom: 60px;
+    p{
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+}
+
+} 
+
+
+.box-sec {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+.box-inner{
+    width: 30%;
+    border: 1px solid #3D72C5;
+    background: linear-gradient(134.63deg, #0C0D30 3.25%, rgba(0, 0, 0, 0) 98.14%);
+  
+    padding: 15px;
+    border-radius: 27px;
+    margin-bottom: 20px;
+
+    .box-icon{
+        width: 84px;
+        height: 84px;
+    }
+
+    .box-subtitle{
+        margin-top: 20px;
+    
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0C15F9;
+
+    }
+    .box-title{
+        margin-bottom: 20px;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    .box-content{
+        p{
+     
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: justified;
+
+        }
+    }
+   
+}
+
+}
+
+
+
+
+@media($sm-1679){
+    .step-heading-sec{
+
+        width: 57%;
+        margin: 0 auto;
+
+        &::before{
+            right: -232px;
+        }
+        .top-title{
+            font-size: 18px;
+        }
+
+       .main-title{
+            font-size: 30px;
+        }
+
+        .content-sec{
+
+            p{
+                font-size: 16px;
+                line-height: 26px;
+            }
+           
+        }
+    }
+
+    .box-sec {
+        .box-inner{
+            .box-icon{
+                width: 64px;
+                height: 64px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .box-title{
+                font-size: 18px;
+            }
+            .box-content{
+                font-size: 13px;
+            }
+        } 
+    }
+
+
+
+
+   }
+
+
+//    @media(max-width:1481px){
+//     .step-heading-sec{
+
+//         width: 57%;
+//         margin: 0 auto;
+
+//         &::before{
+//             right: -232px;
+//         }
+//         .top-title{
+//             font-size: 16px;
+//         }
+
+//        .main-title{
+//             font-size: 26px;
+//             line-height: 43px;
+//         }
+
+//         .content-sec{
+
+//             p{
+//                 font-size: 14px;
+//                 line-height: 24px;
+//             }
+           
+//         }
+//     }
+
+//     .box-sec {
+//         .box-inner{
+//             .box-icon{
+//                 width: 64px;
+//                 height: 64px;
+
+//                 img{
+//                     width: 100%;
+//                     height: 100%;
+//                 }
+//             }
+//             .box-title{
+//                 font-size: 16px;
+//             }
+//             .box-content{
+//                 font-size: 12px;
+//             }
+//         } 
+//     }
+
+
+   
+
+
+//    }
+
+
+   @media($sm-767 ){
+ 
+    .step-heading-sec {
+        width: 100%;
+        
+        &::before{
+            display: none;
+        }
+    }
+
+
+    .box-sec {
+        padding-bottom: 50px;
+        .box-inner{
+            width: 100%;
+        }
+    }
+
+
+   }
+
+   @media (min-width: 768px) and (max-width: 1199px) {
+
+    .box-sec .box-inner {
+        width: 48%;
+    }
+   }
