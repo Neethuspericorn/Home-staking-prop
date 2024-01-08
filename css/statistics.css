@@ -9,3 +9,61 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
+.statistics {
+  margin-bottom: 120px;
+}
+.statistics .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.statistics .title span {
+  color: #0C15F9;
+}
+.statistics .content-txt {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.statistics .statistics-blks-wrp {
+  display: flex;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  row-gap: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.statistics .statistics-blks-wrp .statistics-blks {
+  border-radius: 14px;
+  border: 2px solid #2B2B2B;
+  background: #000101;
+  padding: 36px;
+}
+.statistics .statistics-blks-wrp .statistics-blks .blks-title {
+  color: #2966FF;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 36px;
+}
+.statistics .statistics-blks-wrp .statistics-blks .blks-title span {
+  margin-right: 12px;
+}
+.statistics .statistics-blks-wrp .statistics-blks .numerics {
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+}
