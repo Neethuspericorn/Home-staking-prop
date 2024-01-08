@@ -1,0 +1,188 @@
+@import "partials/partials";
+
+.section-roadmap{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    .title{
+        font-size: 36px;
+        @media ($sm-1679){
+            font-size: 30px;
+        }
+        span{
+            color: $primary-blue;
+        }
+    }
+    .slide-arrows{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 12px;
+        margin-left: auto;
+    }
+    .btn-arrow{
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        width: 58px;
+        aspect-ratio: 1;
+        border-radius: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all ease-in-out 0.1s;
+        font-size: 10px;
+        @media ($sm-1679){
+            width: 50px;
+            font-size: 8px;
+        }
+        @media ($sm-1481){
+            width: 40px;
+            font-size: 6px;
+        }
+        @media ($sm-1199){
+            width: 32px;
+            font-size: 5px;
+        }
+        &:hover{
+            background-color: $primary-blue;
+            border: 1px solid $primary-blue;
+        }
+        &:before{
+            content: ''; 
+            display: block;
+            width: 0; 
+            height: 0; 
+        }
+        &.btn-prev{
+            &:before{
+                border-top: 1em solid transparent;
+                border-bottom: 1em solid transparent; 
+                border-right: 1.2em solid $primary-light; 
+                margin-right: 0.5em;
+            }
+        }
+        &.btn-next{
+            &:before{
+                border-top: 1em solid transparent;
+                border-bottom: 1em solid transparent;
+                border-left: 1.2em solid $primary-light;
+                margin-left: 0.5em;
+            }
+        }
+    }
+}
+.roadmap-slider-wrp{
+    padding-top: 68px;
+    overflow: clip;
+}
+.roadmap-slider{
+    margin-left: -12.5px;
+    margin-right: -12.5px;
+    .slick-track{
+        display: flex;
+        .slick-slide{
+            height: inherit;
+        }
+    }
+    .month-title{
+        text-align: center;
+        font-size: 24px;
+        @media ($sm-1679){
+            font-size: 20px;
+        }
+        @media ($sm-1481){
+            font-size: 18px;
+        }
+    }
+
+    .slide{
+        display: flex;
+        flex-direction: column;
+        padding-left: 14px;
+        padding-right: 14px;
+        &.slick-active{
+            .icon{
+                &:before{
+                    background-color: $primary-blue;
+                }
+            }   
+        }
+    }
+    
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        &:before{
+            content: '';
+            left: calc(-50% - 14px);
+            right: 50%;
+            height: 1px;
+            background-color: #2B2B2B;
+            position: absolute;
+            z-index: 1;
+            transition: all ease-in-out 0.3s;
+        }
+        // &:after{
+        //     content: '';
+        //     right: -14px;
+        //     left: 50%;
+        //     height: 1px;
+        //     background-color: #3D72C5;
+        //     position: absolute;
+        //     z-index: 1;
+        // }
+        img{
+            width: 40px;
+            object-fit: contain;
+            position: relative;
+            z-index: 2;
+        }
+    }
+
+   
+
+    .cont-wrp{
+        border: 1px solid $primary-blue;
+        padding: 25px;
+        border-radius: 16px;
+        background-color: #0A0A0A;
+        margin-top: 36px;
+        position: relative;
+        flex: 1;
+        margin-right: 1px;
+        margin-left: 1px;
+        &:before{
+            content: '';
+            height: 36px;
+            width: 1px;
+            position: absolute;
+            background-color: $primary-blue;
+            top: -37px;
+            left: 50%;
+        }
+        .month{
+            font-size: 24px;
+            line-height: 1.5;
+            text-transform: uppercase;
+            @media ($sm-1679){
+                font-size: 20px;
+            }
+            @media ($sm-1481){
+                font-size: 18px;
+            }
+        }
+        .txt{
+            margin-bottom: 0;   
+            font-size: 14px; 
+            line-height: 1.7143;
+            color: #9F9F9F; 
+            @media ($sm-1199){
+                font-size: 12px; 
+            }
+        }
+        
+    }
+
+    
+}
