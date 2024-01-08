@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
 .campaign {
   padding-bottom: 100px;
 }
@@ -119,32 +130,9 @@
     right: -69px;
   }
 }
-@media (max-width: 1481px) {
-  .campaign .campaign-title {
-    font-size: 16px;
-  }
-  .campaign .campaign-subtitle {
-    font-size: 26px;
-    line-height: 43px;
-  }
-  .campaign .two-col .top-heading {
-    font-size: 24px;
-    line-height: 40px;
-  }
-  .campaign .two-col .campaign-content p {
-    font-size: 14px;
-    line-height: 22px;
-  }
-  .campaign .two-col .right-sec .right-boxes .bottom-content {
-    font-size: 19px;
-  }
-  .campaign .two-col .right-sec::before {
-    right: -69px;
-  }
-}
 @media (max-width: 767px) {
   .campaign .campaign-subtitle {
-    padding-bottom: 35px;
+    padding-bottom: 35px !important;
   }
   .campaign .two-col {
     flex-wrap: wrap;
@@ -160,11 +148,32 @@
     padding-left: 0px;
   }
   .campaign .two-col .right-sec::before {
-    right: 79px;
+    right: -70px;
     top: 160px;
   }
   .campaign .two-col .right-sec .right-boxes:last-child {
     margin-bottom: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .campaign .campaign-subtitle {
+    padding-bottom: 35px !important;
+  }
+  .campaign .two-col {
+    flex-wrap: wrap;
+  }
+  .campaign .two-col .top-heading {
+    padding: 10px 0px;
+  }
+  .campaign .two-col .left-sec {
+    width: 100% !important;
+  }
+  .campaign .two-col .right-sec {
+    padding-top: 50px;
+    padding-left: 0px !important;
+  }
+  .campaign .two-col .right-sec::before {
+    top: 149px !important;
   }
 }
 

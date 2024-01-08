@@ -1,6 +1,8 @@
+@import "partials/partials";
 
 .by-props-sec{
-    padding-bottom: 100px;
+    // padding-top: 100px;
+
     .heading{
     text-align: center;
     font-size: 36px;
@@ -78,7 +80,7 @@
 
 
 
-@media(max-width:1679px){
+@media($sm-1679){
    
 
     .by-props-sec{
@@ -102,28 +104,28 @@
    }
 
 
-   @media(max-width:1481px){
+//    @media(max-width:1481px){
     
 
-    .by-props-sec{
+//     .by-props-sec{
 
-        .heading{
-            font-size: 22px;
-            line-height: 40px;
-         }
-        .four-props {
+//         .heading{
+//             font-size: 22px;
+//             line-height: 40px;
+//          }
+//         .four-props {
             
-            .box-props {
-                p{
-                    font-size: 12px;
-                }
-            }
+//             .box-props {
+//                 p{
+//                     font-size: 12px;
+//                 }
+//             }
 
-        }
-    } 
+//         }
+//     } 
 
 
-   }
+//    }
 
 
    @media(max-width:767px){
@@ -140,4 +142,21 @@
             }
         }
     }
+   }
+
+   @media (min-width: 768px) and (max-width: 1199px) {
+
+    
+    .by-props-sec {
+        padding: 50px 0px;
+        .four-props{
+            flex-wrap: wrap;
+
+            .box-props{
+                width: 48%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
    }
