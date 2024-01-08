@@ -28,6 +28,7 @@
     }
     .title{
         font-size: 36px;
+        color: #2E4276;
         @media ($sm-1679){
             font-size: 30px;
         }
@@ -109,6 +110,7 @@
     .month-title{
         text-align: center;
         font-size: 24px;
+        color: #2E4276;
         @media ($sm-1679){
             font-size: 20px;
         }
@@ -125,7 +127,7 @@
         &.slick-active{
             .icon{
                 &:before{
-                    background-color: $primary-blue;
+                    background-color: #B6C3E5;
                 }
             }   
         }
@@ -141,20 +143,12 @@
             left: calc(-50% - 14px);
             right: 50%;
             height: 1px;
-            background-color: #2B2B2B;
+            background-color: #B6C3E5;
             position: absolute;
             z-index: 1;
             transition: all ease-in-out 0.3s;
         }
-        // &:after{
-        //     content: '';
-        //     right: -14px;
-        //     left: 50%;
-        //     height: 1px;
-        //     background-color: #3D72C5;
-        //     position: absolute;
-        //     z-index: 1;
-        // }
+       
         img{
             width: 40px;
             object-fit: contain;
@@ -163,13 +157,11 @@
         }
     }
 
-   
-
     .cont-wrp{
-        border: 1px solid $primary-blue;
+        border: 1px solid transparent;
         padding: 25px;
         border-radius: 16px;
-        background-color: #0A0A0A;
+        background-color: #F8F8FF;
         margin-top: 36px;
         position: relative;
         flex: 1;
@@ -180,7 +172,7 @@
             height: 36px;
             width: 1px;
             position: absolute;
-            background-color: $primary-blue;
+            background-color: #B6C3E5;
             top: -37px;
             left: 50%;
         }
@@ -188,6 +180,7 @@
             font-size: 24px;
             line-height: 1.5;
             text-transform: uppercase;
+            color: #2E4276;
             @media ($sm-1679){
                 font-size: 20px;
             }
@@ -199,7 +192,7 @@
             margin-bottom: 0;   
             font-size: 14px; 
             line-height: 1.7143;
-            color: #9F9F9F; 
+            color: #4D6090; 
             @media ($sm-1199){
                 font-size: 12px; 
             }
@@ -208,4 +201,44 @@
     }
 
     
+}
+
+.theme-dark{
+    .section-roadmap{
+        .title{
+            color: #ffffff;
+        }
+        .cont-wrp{
+            border: 1px solid $primary-blue;
+            background-color: #0A0A0A;
+            &:before{
+                background-color: $primary-blue;
+            }
+            .txt{
+                color: #9F9F9F; 
+            }
+        }
+
+        .icon{
+            &:before{
+                background-color: #2B2B2B;
+            }
+        }
+        .slide{
+            &.slick-active{
+                .icon{
+                    &:before{
+                        background-color: $primary-blue;
+                    }
+                }   
+            }
+        }
+
+        .roadmap-slider{
+            .month-title,
+            .month{
+                color: #ffffff;
+            }
+        } 
+    }
 }
