@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
 .by-props-sec {
-  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .by-props-sec .heading {
   text-align: center;
@@ -60,15 +71,6 @@
     font-size: 13px;
   }
 }
-@media (max-width: 1481px) {
-  .by-props-sec .heading {
-    font-size: 22px;
-    line-height: 40px;
-  }
-  .by-props-sec .four-props .box-props p {
-    font-size: 12px;
-  }
-}
 @media (max-width: 767px) {
   .by-props-sec {
     padding: 50px 0px;
@@ -78,6 +80,18 @@
   }
   .by-props-sec .four-props .box-props {
     width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .by-props-sec {
+    padding: 50px 0px;
+  }
+  .by-props-sec .four-props {
+    flex-wrap: wrap;
+  }
+  .by-props-sec .four-props .box-props {
+    width: 48%;
     margin-bottom: 20px;
   }
 }

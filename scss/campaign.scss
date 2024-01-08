@@ -1,3 +1,5 @@
+@import "partials/partials";
+
 .campaign{
     padding-bottom: 100px;
     .campaign-title{
@@ -128,7 +130,7 @@
 
 
 
-@media(max-width:1679px){
+@media($sm-1679){
 
 
     .campaign {
@@ -172,57 +174,57 @@
    }
 
 
-   @media(max-width:1481px){
+//    @media(max-width:1481px){
   
 
 
-    .campaign {
-        .campaign-title{
-            font-size: 16px;
-        }
-        .campaign-subtitle{
-            font-size: 26px;
-            line-height: 43px;
-        }
+//     .campaign {
+//         .campaign-title{
+//             font-size: 16px;
+//         }
+//         .campaign-subtitle{
+//             font-size: 26px;
+//             line-height: 43px;
+//         }
 
-        .two-col {
-            .top-heading {
-                font-size: 24px;
-                line-height: 40px;
-            }
-            .campaign-content{
-                p{
-                    font-size: 14px;
-                    line-height: 22px;
-                }
-            }
-            .right-sec{
-                .right-boxes {
-                    .bottom-content{
-                        font-size: 19px;
-                    }
-                }
-                &::before{
-                    right: -69px;
-                }
-            }
+//         .two-col {
+//             .top-heading {
+//                 font-size: 24px;
+//                 line-height: 40px;
+//             }
+//             .campaign-content{
+//                 p{
+//                     font-size: 14px;
+//                     line-height: 22px;
+//                 }
+//             }
+//             .right-sec{
+//                 .right-boxes {
+//                     .bottom-content{
+//                         font-size: 19px;
+//                     }
+//                 }
+//                 &::before{
+//                     right: -69px;
+//                 }
+//             }
            
-        }
+//         }
 
-    }
-
-
+//     }
 
 
 
-   }
+
+
+//    }
 
 
    @media(max-width:767px){
    
     .campaign {
       .campaign-subtitle{
-        padding-bottom: 35px;
+        padding-bottom: 35px !important;
       }
         .two-col{
             flex-wrap: wrap;
@@ -239,7 +241,7 @@
                 padding-left: 0px;
 
                 &::before {
-                    right: 79px;
+                    right: -70px;
                     top: 160px;
                 }
 
@@ -255,3 +257,38 @@
 
  
    }
+
+   
+   
+
+   @media (min-width: 768px) and (max-width: 1199px) {
+
+    .campaign {
+        .campaign-subtitle{
+          padding-bottom: 35px !important;
+        }
+
+    .two-col{
+        flex-wrap: wrap;
+     
+        .top-heading{
+            padding: 10px 0px;
+        }
+        .left-sec{
+            width: 100% !important; 
+        }
+
+        .right-sec{
+            padding-top: 50px;
+            padding-left: 0px !important;
+        
+            &::before {
+      
+                top: 149px !important;
+            }
+        }
+        }
+
+
+   }
+}
