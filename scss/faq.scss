@@ -103,7 +103,7 @@
   padding-top: 90px;
   padding-bottom: 90px;
   .sec-title{
-    color: $white;
+    color: $title-light;
     text-align: center;
     font-family: $font-primary;
     font-size: 40px;
@@ -121,7 +121,7 @@
     }
   }
   .sec-subtitle{
-    color: $white;
+    color: $para-color;
     text-align: center;
     font-family: $font-primary;
     font-size: 20px;
@@ -149,7 +149,7 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 30px;
-        color: $white;
+        color: $title-light;
         padding-left: 43px;
         padding-right: 43px;
         padding-top: 40px;
@@ -189,7 +189,7 @@
         border-color: $white;
         border-top-color: transparent !important;
         border-radius: 0px 0px 27px 27px ;
-        color: $white;
+        color: $para-color;
         font-size: 16px;
         font-weight: 300;
         line-height: 24px;

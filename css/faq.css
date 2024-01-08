@@ -108,7 +108,7 @@
   padding-bottom: 90px;
 }
 .section-faq .sec-title {
-  color: #fff;
+  color: #2E4276;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
@@ -126,7 +126,7 @@
   display: block;
 }
 .section-faq .sec-subtitle {
-  color: #fff;
+  color: #4D6090;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -155,7 +155,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
-  color: #fff;
+  color: #2E4276;
   padding-left: 43px;
   padding-right: 43px;
   padding-top: 40px;
@@ -191,7 +191,7 @@
   border-color: #fff;
   border-top-color: transparent !important;
   border-radius: 0px 0px 27px 27px;
-  color: #fff;
+  color: #4D6090;
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
