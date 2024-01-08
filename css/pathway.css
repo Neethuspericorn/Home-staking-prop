@@ -96,4 +96,53 @@ section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
   height: 48px;
 }
 
+section.buy-props {
+  margin-top: 115px;
+}
+section.buy-props .txt-head {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 75px;
+}
+section.buy-props .txt-head span {
+  color: #0C15F9;
+}
+section.buy-props .props-outer {
+  display: flex;
+  align-items: center;
+  border-radius: 27px;
+  border: 1px solid #1A2339;
+  background: #000;
+  padding: 40px;
+  margin-bottom: 37px;
+  justify-content: space-between;
+}
+section.buy-props .props-outer .text-sec-prop {
+  display: flex;
+}
+section.buy-props .props-outer .text-props-content {
+  padding-right: 100px;
+}
+section.buy-props .props-outer .text-props-content h3 {
+  font-size: 23px;
+  font-weight: 600;
+}
+section.buy-props .props-outer .text-props-content p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 12px;
+}
+section.buy-props .number-txt {
+  background: #0C0D30;
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 42px;
+  flex-shrink: 0;
+}
+section.buy-props .img-icn-outr {
+  margin-right: 53px;
+}
+
 /*# sourceMappingURL=pathway.css.map */

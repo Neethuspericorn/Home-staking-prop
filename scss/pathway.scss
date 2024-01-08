@@ -104,3 +104,57 @@ section.utility-section
     }
 
 }
+section.buy-props {
+    margin-top: 115px;
+    .txt-head
+    {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 75px;
+        span
+        {
+            color:#0C15F9;
+        }
+    }
+    .props-outer {
+        display: flex;
+        align-items: center;
+        border-radius: 27px;
+        border: 1px solid #1A2339;
+        background: #000;
+        padding: 40px;
+        margin-bottom: 37px;
+        justify-content: space-between;
+        .text-sec-prop
+        {
+            display:flex;
+        }
+        .text-props-content
+        {
+            padding-right: 100px;
+           h3
+           {
+                font-size: 23px;
+                font-weight: 600;
+           }
+           p
+           {
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 12px;
+           }
+        }
+    }
+    .number-txt {
+        background: #0C0D30;
+        width: 42px;
+        height: 42px;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 42px;
+        flex-shrink: 0;
+    }
+    .img-icn-outr {
+        margin-right: 53px;
+    }
+}
