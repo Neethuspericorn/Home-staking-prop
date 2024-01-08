@@ -9,9 +9,6 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
-.by-props-sec {
-  padding-top: 100px;
-}
 .by-props-sec .heading {
   text-align: center;
   font-size: 36px;
