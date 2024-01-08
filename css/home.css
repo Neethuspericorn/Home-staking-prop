@@ -93,8 +93,7 @@
   border-radius: 12px;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .card-sec .h-card-block h2 {
   font-size: 1.375rem;
@@ -188,3 +187,5 @@
     font-size: 12px;
   }
 }
+
+/*# sourceMappingURL=home.css.map */

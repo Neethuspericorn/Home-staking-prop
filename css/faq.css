@@ -14,34 +14,53 @@
   padding-bottom: 90px;
 }
 .section-faq .sec-title {
-  font-size: 36px;
-  line-height: 1;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
   font-weight: 600;
-  color: #002944;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+.section-faq .sec-title span {
+  color: #0C15F9;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  display: block;
 }
 .section-faq .sec-subtitle {
-  color: #0099FF;
-  font-weight: 600;
-  margin-bottom: 0.5em;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.section-faq .sec-subtitle .link {
+  color: #fff;
+  text-decoration: none;
 }
 .section-faq .accordion {
   padding-top: 40px;
 }
 .section-faq .accordion .accordion-item {
-  border-radius: 12px;
-  border: 1px solid #484848;
   background: #000;
   margin-bottom: 19px;
   overflow: clip;
 }
 .section-faq .accordion .accordion-item .accordion-button {
   box-shadow: none !important;
-  background-color: transparent;
-  border: 1px solid #B7D7EC;
-  font-size: 22px;
-  color: #002944;
-  font-weight: 500;
   border-radius: 12px;
+  border: 1px solid #484848;
+  background-color: #000;
+  font-family: Poppins;
+  font-size: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
 }
 .section-faq .accordion .accordion-item .accordion-button:after {
   background-image: none;
@@ -50,11 +69,12 @@
   align-items: center;
   justify-content: center;
   font-family: "Rubik", sans-serif;
-  color: #9CB3C3;
+  color: #2966FF;
+  font-size: 24px;
 }
 .section-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
-  background-color: #EAF6FF;
-  border-color: #75C5F9;
+  background-color: #000;
+  border-color: #484848;
   border-bottom-color: transparent !important;
   border-radius: 12px 12px 0px 0px;
 }
@@ -63,13 +83,14 @@
   color: #002944;
 }
 .section-faq .accordion .accordion-item .accordion-body {
-  background-color: #EAF6FF;
+  background-color: #000;
   padding-top: 0;
   border: 1px solid;
-  border-color: #75C5F9;
+  border-color: #484848;
   border-top-color: transparent !important;
   border-radius: 0px 0px 12px 12px;
-  color: #002944;
-  font-size: 18px;
-  line-height: 1.778;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
 }

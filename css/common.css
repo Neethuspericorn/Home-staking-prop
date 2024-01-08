@@ -124,7 +124,6 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   -webkit-background-clip: text;
-  -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
   box-shadow: inset 0 0 20px 20px #fff;
 }
@@ -725,13 +724,13 @@ button {
     padding: 15px 25px;
   }
   .filter-dropdown-menu .react-custom-select .css-13cymwt-control,
-  .filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
+.filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
     padding: 3px 24px;
   }
 }
 @media (max-width: 1481px) {
   .filter-dropdown-menu .react-custom-select .css-13cymwt-control,
-  .filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
+.filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
     padding: 3px 18px;
     font-size: 13px;
   }
@@ -774,18 +773,18 @@ button {
 }
 @media (max-width: 579px) {
   .filter-dropdown-menu .react-custom-select .css-13cymwt-control,
-  .filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
+.filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
     padding: 2px 15px;
     height: 44px;
   }
   .footer-sec .footer-nav-sec .contact-info-block .contact-info-wrapper,
-  .footer-sec .footer-nav-sec .f-nav-ul .f-nav-link {
+.footer-sec .footer-nav-sec .f-nav-ul .f-nav-link {
     font-size: 14px;
   }
 }
 @media (max-width: 479px) {
   .filter-dropdown-menu .react-custom-select .css-13cymwt-control,
-  .filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
+.filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
     height: 41px;
   }
 }
@@ -892,3 +891,5 @@ button {
   border: none;
   margin-left: auto;
 }
+
+/*# sourceMappingURL=common.css.map */
