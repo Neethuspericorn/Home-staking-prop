@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+.brand-ambassidor {
+  background: linear-gradient(180deg, #092E63 0%, #0C0D30 100%);
+  border-radius: 41px;
+  padding: 56px 63px;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  display: flex;
+}
+.brand-ambassidor::before {
+  content: "";
+  background: url("/img/coin-lg-brand.svg") no-repeat center;
+  width: 238px;
+  height: 255px;
+  position: absolute;
+  top: -95px;
+  left: 37%;
+}
+.brand-ambassidor::after {
+  content: "";
+  background: url("/img/coin-sm-brand.svg") no-repeat center;
+  width: 164px;
+  height: 167px;
+  position: absolute;
+  left: 60px;
+  bottom: -110px;
+}
+.brand-ambassidor .img-hldr {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  padding-left: 17px;
+}
+.brand-ambassidor .img-hldr .cta-float {
+  position: absolute;
+  top: 44%;
+  transform: translateY(-50%);
+  background: url(/img/cta-btn-brand.svg) no-repeat center;
+  background-size: contain;
+  width: 389px;
+  height: 121px;
+  padding: 36px 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-ambassidor .img-hldr .cta-float a {
+  color: #fff;
+  text-decoration: none;
+}
+.brand-ambassidor .content-left {
+  max-width: 556px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  flex: 1 0 auto;
+}
+.brand-ambassidor .content-left .tagline {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  color: #0C15F9;
+  margin-bottom: 14px;
+}
+.brand-ambassidor .content-left .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.brand-ambassidor .content-left .title span {
+  color: #0C15F9;
+}
+.brand-ambassidor .content-left .content-txt {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.brand-ambassidor .content-left .content ul {
+  margin-left: 20px;
+}
+.brand-ambassidor .content-left .content ul li {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #fff;
+}

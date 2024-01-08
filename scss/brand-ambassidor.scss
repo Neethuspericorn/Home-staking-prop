@@ -1,0 +1,98 @@
+@import "partials/partials";
+.brand-ambassidor{
+    background: linear-gradient(180deg, #092E63 0%, #0C0D30 100%);
+    border-radius: 41px;
+    padding: 56px 63px;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    &::before{
+        content: "";
+        background: url('/img/coin-lg-brand.svg') no-repeat center;
+        width: 238px;
+        height: 255px;
+        position: absolute;
+        top: -95px;
+        left: 37%;
+    }
+    &::after{
+        content: "";
+        background: url('/img/coin-sm-brand.svg') no-repeat center;
+        width: 164px;
+        height: 167px;
+        position: absolute;
+       left:60px;
+       bottom: -110px;
+    }
+    .img-hldr{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        padding-left: 17px;
+        .cta-float{
+            position: absolute;
+            top: 44%;
+            transform: translateY(-50%);
+            background: url(/img/cta-btn-brand.svg) no-repeat center;
+            background-size: contain;
+            width: 389px;
+            height: 121px;
+            padding: 36px 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+    .content-left{
+        max-width: 556px;
+        width: 100%;
+        font-family: $font-primary;
+        flex: 1 0 auto;
+        .tagline{
+            font-family: $font-primary;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: normal;
+            color: $title-mix-blue;
+            margin-bottom: 14px;
+        }
+        .title{
+            font-family: $font-primary;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 20px;
+            span{
+                color: $title-mix-blue;
+            }
+        }
+        .content-txt{
+            font-family: $font-primary;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 28px;
+            color: $white;
+            margin-bottom: 24px;
+        }
+        .content{
+            ul{
+                margin-left: 20px;
+                li{
+                    font-family: $font-primary;
+                    margin-bottom: 30px;
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 28px;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
