@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+section.pathway-outer {
+  margin-top: 65px;
+}
+section.pathway-outer h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: normal;
+}
+section.pathway-outer h3 span {
+  color: #2966FF;
+}
+section.pathway-outer .section-pathway-content {
+  display: flex;
+}
+section.pathway-outer .section-pathway-content .content-area {
+  font-size: 18px;
+  margin-top: 35px;
+  line-height: 28px;
+  padding-right: 85px;
+  font-weight: 300;
+}
+section.pathway-outer .section-pathway-content .img-coin img {
+  height: 260px;
+}
+section.pathway-outer .props-value {
+  margin-top: 25px;
+}
+section.pathway-outer .props-value h4 {
+  color: #0C15F9;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+section.pathway-outer .props-value .input-form-text {
+  border-radius: 30px;
+  border: 1px solid #092E63;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  height: 60px;
+  align-items: center;
+}
+
+section.utility-section {
+  margin-top: 55px;
+}
+section.utility-section .utility-outer {
+  margin-top: 89px;
+}
+section.utility-section .utility-outer h3 {
+  font-size: 29px;
+  margin-bottom: 30px;
+}
+section.utility-section .utility-outer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+section.utility-section .utility-outer ul li {
+  border: 1px solid #191B4F;
+  background: #0A0A0A;
+  margin-right: 32px;
+  height: 62px;
+  width: 30.33%;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+section.utility-section .utility-outer ul li span {
+  margin-left: 20px;
+  font-style: italic;
+}
+section.utility-section .utility-outer .btn-learn-more {
+  text-align: center;
+  margin-top: 32px;
+}
+section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
+  color: #fff;
+  border-radius: 28px;
+  background: #2966FF;
+  min-width: 300px;
+  height: 48px;
+}
+
+/*# sourceMappingURL=pathway.css.map */
