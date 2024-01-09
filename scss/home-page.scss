@@ -19,7 +19,6 @@
 }
 
 .home-banner-sec{
-    overflow: hidden;
     padding: 100px 50px 125px;
     .home-banner-container{
         position: relative;
@@ -449,7 +448,7 @@
         font-size: 14px;
     }
     .home-banner-sec {
-        padding: 80px 50px 100px;
+        padding: 80px 50px 80px;
     }
     .home-banner-sec .home-banner-cover h2 {
         font-size: 36px;
@@ -468,10 +467,12 @@
     }
     .home-banner-sec .home-banner-container::before {
         background-size: 180px;
+        width: 182px;
     }
     .home-banner-sec .home-banner-container::after {
-        right: -160px;
+        right: -80px;
         top: -30px;
+        width: 182px;
     }
     .home-banner-sec .home-banner-cover .btn-block .banner-btn{
         font-size: 14px;
@@ -599,6 +600,8 @@
         background-size: 88%;
         right: -80px;
         bottom: 20px;
+        background-position-x: right;
+
     }
     .home-banner-sec .home-banner-cover .banner-card-wapper .banner-num-card p{
         font-size: 13px;
@@ -611,7 +614,11 @@
         filter: blur(100.3500061035px);
     }
 }
-
+@media($sm-1441){
+    .home-video-block::after {
+        right: -70px;
+    }
+}
 @media(max-width: 1300px){
     .home-banner-sec {
         padding: 50px 20px 60px;
@@ -643,13 +650,13 @@
         width: 120px;
     }
     .home-banner-sec .home-banner-container::before {
-        background-size: 95px;
+        background-size: 110px;
     }
     .home-banner-sec .home-banner-container::after {
-        background-size: 80px;
+        background-size: 100px;
         right: -45px;
-        top: -5px;
-        background-position-y: 30px;
+        top: -15px;
+        // background-position-y: 30px;
     }
     .home-content-outer {
         padding: 0 25px;
@@ -658,7 +665,7 @@
         font-size: 28px;
     }
     .home-banner-sec .home-banner-container::before {
-        left: -40px;
+        left: -20px;
     }
     .home-banner-sec .home-banner-cover h3 {
         font-size: 16px;
@@ -710,7 +717,7 @@
     .home-video-block::after {
         width: 62px;
         height: 55px;
-        background-size: 88%;
+        background-size: 90%;
         right: -50px;
         bottom: 70px;
     }
@@ -818,7 +825,7 @@
         width: 100%;
         background-position: center 3px;
         left: 0;
-        background-size: 65vw;
+        background-size: 60vw;
         top: -100px;
     }
     .home-banner-sec {
@@ -922,6 +929,9 @@
     padding-bottom: 0px;
     display: flex;
     border: 1px solid $static-blks-border;
+    @media ($sm-1679){
+        padding: 45px 40px;
+    }
     @media ($sm-1281){
         flex-direction: column;
         padding: 50px 40px;
@@ -935,6 +945,9 @@
         position: absolute;
         top: -95px;
         left: 37%;
+        @media ($sm-1679){
+            width: 225px;
+        }
         @media ($sm-1199){
             width: 200px;
             height: 200px;
@@ -975,6 +988,9 @@
         border-radius:0 0 41px 0;
         overflow: hidden;
         margin-left: auto;
+        @media ($sm-1679){
+            max-width: 470px;
+        }
         @media ($sm-1441){
             max-width: 360px;
         }
@@ -993,7 +1009,7 @@
             position: absolute;
             top: 44%;
             transform: translateY(-50%);
-            background: url(/img/cta-btn-brand.svg) no-repeat center;
+            background: url('../img/cta-btn-brand.svg') no-repeat center;
             background-size: contain;
             width: 389px;
             height: 121px;
@@ -1110,8 +1126,6 @@
                         margin-bottom: 15px;
                     }
                     @media ($sm-991){
-                        font-size: 12px;
-                        line-height: 22px;
                         margin-bottom: 10px;
                     }
                 }
@@ -1284,6 +1298,18 @@
   }
   .statistics{
     margin-bottom: 120px;
+    @media ($sm-1679){
+        margin-bottom: 100px;
+    }
+    @media ($sm-1481){
+        margin-bottom: 70px;
+    }
+    @media ($sm-1281){
+        margin-bottom: 60px;
+    }
+    @media ($sm-991){
+        margin-bottom: 40px;
+    }
     .title{
         font-family: $font-primary;
         font-size: 36px;
@@ -1321,7 +1347,7 @@
         color: $para-color;
         margin-bottom: 24px;
         text-align: center;
-        @media ($sm-1481){
+        @media ($sm-1679){
             font-size: 16px;
             line-height: 26px;
         }
@@ -1348,26 +1374,27 @@
         margin-top: 70px;
         @media ($sm-1679){
             margin-top: 65px;
-            row-gap: 49px;
+            row-gap: 40px;
+            column-gap: 15px;
         }
         @media ($sm-1481){
             margin-top: 55px;
-            row-gap: 40px;
+            row-gap: 30px;
         }
         @media ($sm-1281){
             margin-top: 50px;
-            row-gap: 35px;
+            row-gap: 25px;
         }
         @media ($sm-991){
             margin-top: 40px;
-            row-gap: 25px;
+            row-gap: 15px;
         }
         .statistics-blks{
             border-radius: 14px;
             border: 2px solid $static-blks-border;
             background: $static-blks-light-bg;
             padding: 36px 18px;
-            flex: 1;
+            flex: 0 0 23%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1390,13 +1417,20 @@
                 line-height: normal;
                 margin-bottom: 36px;
                 @media ($sm-1679){
-                    margin-bottom: 25px;
+                    font-size: 14px;
+                    margin-bottom: 22px;
+                    img{
+                        width: 15px;
+                    }
                 }
                 @media ($sm-991){
                     margin-bottom: 20px;
                 }
                 span{
                     margin-right: 12px;
+                    @media ($sm-1679){
+                        margin-right: 8px;
+                    }
                 }
             }
             .numerics{
@@ -1407,16 +1441,13 @@
                 font-weight: 600;
                 line-height: normal;
                 @media ($sm-1679){
-                    font-size: 26px;
-                }
-                @media ($sm-1481){
                     font-size: 24px;
                 }
-                @media ($sm-1441){
+                @media ($sm-1481){
                     font-size: 22px;
                 }
                 @media ($sm-1281){
-                    font-size: 22px;
+                    font-size: 20px;
                 }
                 @media ($sm-991){
                     font-size: 20px;
@@ -1522,34 +1553,37 @@
             &::before{
                 position:absolute;
                 content: "";
-                background-image: url(/img/probase-icon-light.png);
+                background-image: url(../img/probase-icon-light.png);
                 background-repeat: no-repeat;
-                top: 112px;
+                top: 80px;
                 right: -93px;
                 width: 211px;
                 height: 224px; 
                 
                 // top: 89px;
                 // right: -65px
+               
             }
 
             .right-boxes{
                 background: linear-gradient(150.43deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
                 border: 1px solid #A1BBFF;
                 border-radius: 27px;
-                padding: 50px 30px;
+                padding: 34px;
+                padding-bottom: 45px;
                 margin-bottom: 25px;
                
-
+                @media (max-width: 1679px) {
+                    padding: 30px;
+                    padding-bottom: 40px;
+                }
 
                 .bottom-content{
                     color:  #2E4276;
                     font-size: 28px;
                     font-weight: 600;
-                    line-height: 42px;
-                    letter-spacing: 0em;
                     text-align: left;
-                    padding-top: 20px;
+                    padding-top: 8px;
 
                 }
             }
@@ -1583,7 +1617,7 @@
             .campaign-content{
                 p{
                     font-size: 16px;
-                    line-height: 24px;
+                    line-height: 30px;
                 }
             }
             .right-sec{
@@ -1593,7 +1627,9 @@
                     }
                 }
                 &::before{
-                    right: -69px;
+                    right: -100px;
+                    background-size: 200px;
+                    top: 70px;
                 }
             }
            
@@ -1670,7 +1706,7 @@
         .two-col {
 
             .campaign-content p {
-                font-size: 12px;
+                font-size: 14px;
                 line-height: 22px;
             }
 
@@ -1796,7 +1832,7 @@
     &::before{
         position:absolute;
         content: "";
-        background: url(/img/coin-lg-brand.svg) no-repeat;
+        background: url(../img/coin-lg-brand.svg) no-repeat;
         top: -31px;
         right: -223px;
         width: 211px;
@@ -1851,13 +1887,17 @@ justify-content: space-between;
 flex-wrap: wrap;
 
 .box-inner{
-    width: 30%;
+    width: calc((100% / 3) - 35px);
+    // width: 30%;
     border: 1px solid #A1BBFF;
     background: linear-gradient(150.43deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
-    padding: 15px;
+    padding: 25px;
     border-radius: 27px;
     margin-bottom: 20px;
-
+    @media (max-width: 1679px) {
+        width: calc((100% / 3) - 20px);
+        padding: 20px;
+    }
     .box-icon{
         border: 1px solid #A1BBFF;
         width: 84px;
@@ -1870,7 +1910,6 @@ flex-wrap: wrap;
 
     .box-subtitle{
         margin-top: 20px;
-    
         font-size: 13px;
         font-weight: 500;
         line-height: 20px;
@@ -1880,11 +1919,9 @@ flex-wrap: wrap;
 
     }
     .box-title{
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         font-size: 23px;
         font-weight: 600;
-        line-height: 35px;
-        letter-spacing: 0em;
         text-align: left;
         color: $primary-dark;
 
@@ -1896,9 +1933,11 @@ flex-wrap: wrap;
         font-weight: 300;
         line-height: 24px;
         letter-spacing: 0em;
-        text-align: justified;
+        text-align: justify;
         color:#4D6090;
-        ;
+        @media (max-width: 1679px) {
+            font-size: 13px;
+        }
 
         }
     }
@@ -1920,7 +1959,8 @@ flex-wrap: wrap;
         margin: 0 auto;
 
         &::before{
-            right: -170px;
+            right: -200px;
+            background-size: 200px
         }
         .top-title{
             font-size: 18px;
@@ -1988,7 +2028,7 @@ flex-wrap: wrap;
 
             p{
                 font-size: 14px;
-                line-height: 24px;
+                line-height: 22px;
             }
            
         }
@@ -2004,7 +2044,7 @@ flex-wrap: wrap;
             }
             .box-title{
                 font-size: 18px;
-                margin-bottom: 0;
+                // margin-bottom: 0;
             }
             .box-content{
                 p{
@@ -2045,26 +2085,8 @@ flex-wrap: wrap;
             font-size: 22px;
             line-height: 32px;
         }
-        .content-sec{
-
-            p{
-                font-size: 12px;
-                line-height: 22px;
-            }
-           
-        }
     } 
-    .box-sec {
-        .box-inner{
-            .box-content{
-                p{
-                    font-size: 12px;
-                    line-height: 22px;
-                }
-               
-            }
-        }
-    }
+
  
 }
    @media($sm-767 ){
@@ -2076,7 +2098,7 @@ flex-wrap: wrap;
         
         &::before{
           
-            background: url(/img/coin-sm-brand.svg) no-repeat;
+            background: url(../img/coin-sm-brand.svg) no-repeat;
             width: 150px;
             height: 150px;
             content: "";
@@ -2176,6 +2198,116 @@ flex-wrap: wrap;
     }
 
 }
+
+@media($sm-1679){
+   
+
+    .by-props-sec{
+
+        .heading{
+            font-size: 30px;
+            line-height: 44px;
+         }
+        .four-props {
+            
+            .box-props {
+                p{
+                    font-size: 13px;
+                }
+            }
+
+        }
+    } 
+
+
+   }
+
+
+   @media($sm-1441){
+    
+
+    .by-props-sec{
+
+        .heading{
+            font-size: 28px;
+            line-height: 43px;
+         }
+        .four-props {
+            
+            .box-props {
+                p{
+                    font-size: 14px;
+                }
+            }
+
+        }
+    } 
+
+
+   }
+   @media ($sm-1281){
+    .by-props-sec{
+
+        .heading{
+            font-size: 24px;
+            line-height: 32px;
+         }
+        
+        }
+    }
+   @media ($sm-991){
+    .by-props-sec{
+
+        .heading{
+            font-size: 22px;
+            line-height: 43px;
+         }  
+
+         .four-props {
+            
+            .box-props {
+                p{
+                    font-size: 14px;
+                }
+            }
+
+        }
+        }
+   }
+
+   @media($sm-767){
+ 
+
+    .by-props-sec {
+        padding: 50px 0px;
+        .four-props{
+            flex-wrap: wrap;
+
+            .box-props{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+   }
+
+   @media (min-width: 768px) and (max-width: 1199px) {
+
+    
+    .by-props-sec {
+        padding: 50px 0px;
+        .four-props{
+            flex-wrap: wrap;
+
+            .box-props{
+                width: 48%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+   }
+
 // Anju End
 
 // Antony
@@ -2464,7 +2596,7 @@ flex-wrap: wrap;
                 font-size: 18px;
             }
             @media ($sm-1199){
-                font-size: 14px;
+                font-size: 16px;
                 line-height: 1.2;
             }
         }
@@ -2473,8 +2605,9 @@ flex-wrap: wrap;
             font-size: 14px; 
             line-height: 1.7143;
             color: #4D6090; 
-            @media ($sm-1199){
-                font-size: 12px; 
+            font-weight: 300;
+            @media ($sm-579){
+                font-size: 13px; 
             }
         }
         
@@ -2497,9 +2630,7 @@ flex-wrap: wrap;
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    @media ($sm-991){
-         
-    }
+     
     .title{
         font-size: 36px;
         line-height: 1.5;
@@ -2573,7 +2704,7 @@ flex-wrap: wrap;
                     line-height: 1.6;
                     
                 }
-                @media ($sm-991){
+                @media ($sm-579){
                     font-size: 12px;
                 }
                 &:last-child{
@@ -2747,9 +2878,7 @@ flex-wrap: wrap;
                 max-width: 80px;
                 max-height: 20px;
             }
-            @media ($sm-991){
-
-            }
+             
         }
     }
 } 
