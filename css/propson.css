@@ -92,6 +92,15 @@
     font-size: 13px;
   }
 }
+@media (max-width: 1441px) {
+  .by-props-sec .heading {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  .by-props-sec .four-props .box-props p {
+    font-size: 12px;
+  }
+}
 @media (max-width: 767px) {
   .by-props-sec {
     padding: 50px 0px;
@@ -116,3 +125,5 @@
     margin-bottom: 20px;
   }
 }
+
+/*# sourceMappingURL=propson.css.map */

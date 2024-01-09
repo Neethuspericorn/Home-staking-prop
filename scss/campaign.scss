@@ -177,50 +177,90 @@
    }
 
 
-//    @media(max-width:1481px){
+   @media(max-width:1441px){
   
 
 
-//     .campaign {
-//         .campaign-title{
-//             font-size: 16px;
-//         }
-//         .campaign-subtitle{
-//             font-size: 26px;
-//             line-height: 43px;
-//         }
+    .campaign {
+        .campaign-title{
+            font-size: 16px;
+        }
+        .campaign-subtitle{
+            font-size: 28px;
+            line-height: 43px;
+        }
 
-//         .two-col {
-//             .top-heading {
-//                 font-size: 24px;
-//                 line-height: 40px;
-//             }
-//             .campaign-content{
-//                 p{
-//                     font-size: 14px;
-//                     line-height: 22px;
-//                 }
-//             }
-//             .right-sec{
-//                 .right-boxes {
-//                     .bottom-content{
-//                         font-size: 19px;
-//                     }
-//                 }
-//                 &::before{
-//                     right: -69px;
-//                 }
-//             }
+        .two-col {
+            .top-heading {
+                font-size: 26px;
+                line-height: 40px;
+            }
+            .campaign-content{
+                p{
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+            .right-sec{
+                .right-boxes {
+                    .bottom-content{
+                        font-size: 19px;
+                    }
+                }
+                &::before{
+                    right: -69px;
+                }
+            }
            
-//         }
+        }
 
-//     }
+   }
+
+ }
+
+@media ($sm-991){
+    .campaign {
+        .campaign-subtitle{
+          font-size: 22px;
+          line-height: 32px;
+        }
+
+        .two-col {
+
+            .top-heading {
+                font-size: 20px;
+                line-height: 26px;
+            }
+
+            .join-us {
+
+                a{
+                    font-size: 14px;
+                    padding: 15px 60px;
+                }
+             
+            }
+
+            .right-sec{
+
+                .right-boxes{
+
+                    .bottom-content {
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+
+                } 
+            }
 
 
+        }
+       
+        
+        
+    }
 
-
-
-//    }
+}
 
 
    @media($sm-767 ){
@@ -244,8 +284,8 @@
                 padding-left: 0px;
 
                 &::before {
-                    right: -70px;
-                    top: 160px;
+                    right: -52px;
+                    top: 144px;
                 }
 
                 .right-boxes{

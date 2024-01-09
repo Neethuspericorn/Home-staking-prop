@@ -162,10 +162,6 @@ flex-wrap: wrap;
                 width: 64px;
                 height: 64px;
 
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
             }
             .box-title{
                 font-size: 18px;
@@ -182,61 +178,71 @@ flex-wrap: wrap;
    }
 
 
-//    @media(max-width:1481px){
-//     .step-heading-sec{
+   @media(max-width:1441px){
+    .step-heading-sec{
 
-//         width: 57%;
-//         margin: 0 auto;
+        width: 57%;
+        margin: 0 auto;
 
-//         &::before{
-//             right: -232px;
-//         }
-//         .top-title{
-//             font-size: 16px;
-//         }
+        &::before{
+            right: -232px;
+        }
+        .top-title{
+            font-size: 16px;
+        }
 
-//        .main-title{
-//             font-size: 26px;
-//             line-height: 43px;
-//         }
+       .main-title{
+            font-size: 28px;
+            line-height: 43px;
+        }
 
-//         .content-sec{
+        .content-sec{
 
-//             p{
-//                 font-size: 14px;
-//                 line-height: 24px;
-//             }
+            p{
+                font-size: 14px;
+                line-height: 24px;
+            }
            
-//         }
-//     }
+        }
+    }
 
-//     .box-sec {
-//         .box-inner{
-//             .box-icon{
-//                 width: 64px;
-//                 height: 64px;
+    .box-sec {
+        .box-inner{
+            .box-icon{
+                width: 64px;
+                height: 64px;
 
-//                 img{
-//                     width: 100%;
-//                     height: 100%;
-//                 }
-//             }
-//             .box-title{
-//                 font-size: 16px;
-//             }
-//             .box-content{
-//                 font-size: 12px;
-//             }
-//         } 
-//     }
-
-
-   
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .box-title{
+                font-size: 16px;
+            }
+            .box-content{
+                font-size: 12px;
+            }
+        } 
+    }
 
 
-//    }
+ }
 
+@media ($sm-991){
+    .step-guide{
+        padding: 50px 0px;
+    }
 
+    .step-heading-sec{
+
+        .main-title{
+            font-size: 22px;
+            line-height: 32px;
+        }
+    } 
+ 
+}
    @media($sm-767 ){
  
     .step-heading-sec {
@@ -249,7 +255,7 @@ flex-wrap: wrap;
 
 
     .box-sec {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         .box-inner{
             width: 100%;
         }
