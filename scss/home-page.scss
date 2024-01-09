@@ -2606,9 +2606,7 @@ flex-wrap: wrap;
             line-height: 1.7143;
             color: #4D6090; 
             font-weight: 300;
-            @media ($sm-579){
-                font-size: 13px; 
-            }
+             
         }
         
     }
@@ -2704,9 +2702,7 @@ flex-wrap: wrap;
                     line-height: 1.6;
                     
                 }
-                @media ($sm-579){
-                    font-size: 12px;
-                }
+                 
                 &:last-child{
                     margin-bottom: 0;
                 }
