@@ -583,7 +583,7 @@ button {
     padding: 3px 24px; } }
 @media (max-width: 1481px) {
   .filter-dropdown-menu .react-custom-select .css-13cymwt-control,
-  .filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
+.filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
     padding: 3px 18px;
     font-size: 13px; }
 
@@ -620,7 +620,7 @@ button {
     padding: 6px 15px; } }
 @media (max-width: 579px) {
   .filter-dropdown-menu .react-custom-select .css-13cymwt-control,
-  .filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
+.filter-dropdown-menu .react-custom-select .css-t3ipsp-control {
     padding: 2px 15px;
     height: 44px; }
 

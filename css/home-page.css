@@ -1791,7 +1791,7 @@
     font-size: 14px;
   }
   .campaign .two-col .campaign-content p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 22px;
   }
   .campaign .two-col .top-heading {
@@ -2022,7 +2022,7 @@
   }
   .step-heading-sec .content-sec p {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 22px;
   }
   .box-sec .box-inner .box-icon {
     width: 64px;
@@ -2030,7 +2030,6 @@
   }
   .box-sec .box-inner .box-title {
     font-size: 18px;
-    margin-bottom: 0;
   }
   .box-sec .box-inner .box-content p {
     font-size: 14px;
@@ -2052,14 +2051,6 @@
   .step-heading-sec .main-title {
     font-size: 22px;
     line-height: 32px;
-  }
-  .step-heading-sec .content-sec p {
-    font-size: 12px;
-    line-height: 22px;
-  }
-  .box-sec .box-inner .box-content p {
-    font-size: 12px;
-    line-height: 22px;
   }
 }
 @media (max-width: 767px) {
@@ -2528,7 +2519,7 @@
 }
 @media (max-width: 1199px) {
   .roadmap-slider .cont-wrp .month {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
   }
 }
@@ -2537,11 +2528,7 @@
   font-size: 14px;
   line-height: 1.7143;
   color: #4D6090;
-}
-@media (max-width: 1199px) {
-  .roadmap-slider .cont-wrp .txt {
-    font-size: 14px;
-  }
+  font-weight: 300;
 }
 
 .section-security {
@@ -2659,11 +2646,6 @@
   .section-security .security-cont-wrp ul li {
     margin-bottom: 1.2em;
     line-height: 1.6;
-  }
-}
-@media (max-width: 991px) {
-  .section-security .security-cont-wrp ul li {
-    font-size: 12px;
   }
 }
 .section-security .security-cont-wrp ul li:last-child {

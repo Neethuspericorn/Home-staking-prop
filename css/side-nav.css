@@ -348,12 +348,22 @@
     -webkit-transform: translateY(7px) rotate(45deg);
     -ms-transform: translateY(7px) rotate(45deg);
     -o-transform: translateY(7px) rotate(45deg);
+<<<<<<< HEAD
+    transform: translateY(7px) rotate(45deg);
+  }
+=======
     transform: translateY(7px) rotate(45deg); }
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
   .nav-collapse .nav-block .nav-logo-wrapper .nav-toggle-btn .nav-line:nth-child(3) {
     -webkit-transform: translateY(-7px) rotate(-45deg);
     -ms-transform: translateY(-7px) rotate(-45deg);
     -o-transform: translateY(-7px) rotate(-45deg);
+<<<<<<< HEAD
+    transform: translateY(-7px) rotate(-45deg);
+  }
+=======
     transform: translateY(-7px) rotate(-45deg); }
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
   .nav-collapse .nav-block .nav-logo-wrapper .nav-toggle-btn .nav-line:nth-child(2) {
     opacity: 0; }
 
@@ -378,6 +388,12 @@
 
   .nav-block .navbar-collapse-block .wallet-btn-block-mob .wallet-btn-mob {
     padding: 12px;
+<<<<<<< HEAD
+    font-size: 15px;
+  }
+}
+=======
     font-size: 15px; } }
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
 
 /*# sourceMappingURL=side-nav.css.map */
