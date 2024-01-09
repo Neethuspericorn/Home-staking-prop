@@ -16,9 +16,10 @@
   line-height: 54px;
   letter-spacing: 0em;
   padding-bottom: 30px;
+  color: #2E4276;
 }
 .by-props-sec .heading span {
-  color: #0C15F9;
+  color: #2966FF;
 }
 .by-props-sec .four-props {
   display: flex;
@@ -30,7 +31,7 @@
   width: 24%;
   border-radius: 15px;
   padding: 20px 30px;
-  background: linear-gradient(0deg, #050D16, #050D16), linear-gradient(0deg, #09192B, #09192B);
+  background: #B8DCFF;
 }
 .by-props-sec .four-props .box-props p {
   font-size: 18px;
@@ -39,15 +40,16 @@
   letter-spacing: 0em;
   text-align: left;
   margin: 0;
+  color: #2E4276;
 }
 .by-props-sec .four-props .box-props:nth-child(2) {
-  background: linear-gradient(0deg, #031212, #031212), linear-gradient(0deg, #062222, #062222);
+  background: #DFFAFC;
 }
 .by-props-sec .four-props .box-props:nth-child(3) {
-  background: linear-gradient(0deg, #100414, #100414), linear-gradient(0deg, #280A33, #280A33);
+  background: #F8E1FF;
 }
 .by-props-sec .four-props .box-props:last-child {
-  background: linear-gradient(0deg, #0F0F0F, #0F0F0F), linear-gradient(0deg, #1E1D1D, #1E1D1D);
+  background: #E6E6E6;
 }
 .by-props-sec .four-props .box-props .imgs-props {
   padding-right: 10px;
@@ -59,13 +61,59 @@
   max-height: 100%;
 }
 
+.theme-dark .by-props-sec .heading {
+  color: #fff;
+}
+.theme-dark .by-props-sec .heading span {
+  color: #0C15F9;
+}
+.theme-dark .by-props-sec .four-props .box-props {
+  background: linear-gradient(0deg, #050D16, #050D16), linear-gradient(0deg, #09192B, #09192B);
+}
+.theme-dark .by-props-sec .four-props .box-props:nth-child(2) {
+  background: linear-gradient(0deg, #031212, #031212), linear-gradient(0deg, #062222, #062222);
+}
+.theme-dark .by-props-sec .four-props .box-props:nth-child(3) {
+  background: linear-gradient(0deg, #100414, #100414), linear-gradient(0deg, #280A33, #280A33);
+}
+.theme-dark .by-props-sec .four-props .box-props:last-child {
+  background: linear-gradient(0deg, #0F0F0F, #0F0F0F), linear-gradient(0deg, #1E1D1D, #1E1D1D);
+}
+.theme-dark .by-props-sec .four-props .box-props p {
+  color: #fff;
+}
+
 @media (max-width: 1679px) {
   .by-props-sec .heading {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 44px;
   }
   .by-props-sec .four-props .box-props p {
     font-size: 13px;
+  }
+}
+@media (max-width: 1441px) {
+  .by-props-sec .heading {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  .by-props-sec .four-props .box-props p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1281px) {
+  .by-props-sec .heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 991px) {
+  .by-props-sec .heading {
+    font-size: 22px;
+    line-height: 43px;
+  }
+  .by-props-sec .four-props .box-props p {
+    font-size: 14px;
   }
 }
 @media (max-width: 767px) {
@@ -92,3 +140,5 @@
     margin-bottom: 20px;
   }
 }
+
+/*# sourceMappingURL=propson.css.map */
