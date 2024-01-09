@@ -151,15 +151,29 @@
 @media (max-width: 1679px) {
   .section-faq .sec-subtitle {
     font-size: 18px;
+    line-height: 28px;
   }
 }
 @media (max-width: 1481px) {
   .section-faq .sec-subtitle {
     font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 1281px) {
+  .section-faq .sec-subtitle {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 991px) {
+  .section-faq .sec-subtitle {
+    font-size: 12px;
+    line-height: 22px;
   }
 }
 .section-faq .sec-subtitle .link {
-  color: #fff;
+  color: #4D6090;
   text-decoration: none;
 }
 .section-faq .accordion {
@@ -189,16 +203,24 @@
 @media (max-width: 1679px) {
   .section-faq .accordion .accordion-item .accordion-button {
     font-size: 20px;
+    line-height: 30px;
   }
 }
 @media (max-width: 1481px) {
   .section-faq .accordion .accordion-item .accordion-button {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 @media (max-width: 1281px) {
   .section-faq .accordion .accordion-item .accordion-button {
-    font-size: 16px;
+    font-size: 14px;
+    padding-top: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .section-faq .accordion .accordion-item .accordion-button {
+    padding-top: 25px;
   }
 }
 .section-faq .accordion .accordion-item .accordion-button:after {
@@ -216,6 +238,7 @@
   border-color: #fff;
   border-bottom-color: transparent !important;
   border-radius: 27px 27px 0px 0px;
+  padding-bottom: 10px;
 }
 .section-faq .accordion .accordion-item .accordion-button:not(.collapsed):after {
   content: "-";

@@ -21,6 +21,12 @@
   display: flex;
   border: none;
 }
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor {
+    flex-direction: column;
+    padding: 50px 40px;
+  }
+}
 .theme-dark .brand-ambassidor::before {
   content: "";
   background: url("/img/coin-lg-brand.svg") no-repeat center;
@@ -29,6 +35,12 @@
   position: absolute;
   top: -95px;
   left: 37%;
+}
+@media (max-width: 991px) {
+  .theme-dark .brand-ambassidor::before {
+    width: 170px;
+    height: 170px;
+  }
 }
 .theme-dark .brand-ambassidor::after {
   content: "";
@@ -39,6 +51,20 @@
   left: 60px;
   bottom: -110px;
 }
+@media (max-width: 1199px) {
+  .theme-dark .brand-ambassidor::after {
+    width: 120px;
+    height: 120px;
+    bottom: -70px;
+  }
+}
+@media (max-width: 991px) {
+  .theme-dark .brand-ambassidor::after {
+    width: 100px;
+    height: 100px;
+    bottom: -70px;
+  }
+}
 .theme-dark .brand-ambassidor .img-hldr {
   display: flex;
   align-items: flex-end;
@@ -46,13 +72,25 @@
   padding-left: 17px;
   max-width: 490px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1441px) {
   .theme-dark .brand-ambassidor .img-hldr {
-    max-width: 390px;
+    max-width: 360px;
+  }
+}
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor .img-hldr {
+    overflow: visible;
+    margin: 0 auto;
+    max-width: 100%;
   }
 }
 .theme-dark .brand-ambassidor .img-hldr img {
   max-width: 100%;
+}
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor .img-hldr img {
+    display: none;
+  }
 }
 .theme-dark .brand-ambassidor .img-hldr .cta-float {
   position: absolute;
@@ -67,6 +105,20 @@
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 1441px) {
+  .theme-dark .brand-ambassidor .img-hldr .cta-float {
+    top: 61%;
+    width: 285px;
+  }
+}
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor .img-hldr .cta-float {
+    position: unset;
+    top: unset;
+    max-width: 250px;
+    transform: none;
+  }
+}
 .theme-dark .brand-ambassidor .img-hldr .cta-float a {
   color: #fff;
   text-decoration: none;
@@ -77,6 +129,11 @@
   font-family: "Poppins", sans-serif;
   flex: 1 0 auto;
 }
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor .content-left {
+    max-width: 100%;
+  }
+}
 .theme-dark .brand-ambassidor .content-left .tagline {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
@@ -84,6 +141,22 @@
   line-height: normal;
   color: #2966FF;
   margin-bottom: 14px;
+}
+@media (max-width: 1679px) {
+  .theme-dark .brand-ambassidor .content-left .tagline {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor .content-left .tagline {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .theme-dark .brand-ambassidor .content-left .tagline {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 }
 .theme-dark .brand-ambassidor .content-left .title {
   font-family: "Poppins", sans-serif;
@@ -110,6 +183,7 @@
 @media (max-width: 991px) {
   .theme-dark .brand-ambassidor .content-left .title {
     font-size: 22px;
+    margin-bottom: 10px;
   }
 }
 .theme-dark .brand-ambassidor .content-left .title span {
@@ -136,11 +210,19 @@
 @media (max-width: 991px) {
   .theme-dark .brand-ambassidor .content-left .content-txt {
     font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 10px;
   }
 }
 .theme-dark .brand-ambassidor .content-left .content ul {
   margin-left: 20px;
   margin-bottom: 72px;
+}
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor .content-left .content ul {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
 }
 .theme-dark .brand-ambassidor .content-left .content ul li {
   font-family: "Poppins", sans-serif;
@@ -156,6 +238,19 @@
     margin-bottom: 20px;
   }
 }
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor .content-left .content ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .theme-dark .brand-ambassidor .content-left .content ul li {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+}
 
 .brand-ambassidor {
   background: linear-gradient(150deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
@@ -169,23 +264,58 @@
   display: flex;
   border: 1px solid #A1BBFF;
 }
+@media (max-width: 1281px) {
+  .brand-ambassidor {
+    flex-direction: column;
+    padding: 50px 40px;
+  }
+}
 .brand-ambassidor::before {
   content: "";
   background: url("/img/coin-lg-brand.svg") no-repeat center;
+  background-size: contain;
   width: 238px;
   height: 255px;
   position: absolute;
   top: -95px;
   left: 37%;
 }
+@media (max-width: 1199px) {
+  .brand-ambassidor::before {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 991px) {
+  .brand-ambassidor::before {
+    width: 170px;
+    height: 170px;
+    left: 35%;
+  }
+}
 .brand-ambassidor::after {
   content: "";
   background: url("/img/coin-sm-brand.svg") no-repeat center;
+  background-size: contain;
   width: 164px;
   height: 167px;
   position: absolute;
   left: 60px;
   bottom: -110px;
+}
+@media (max-width: 1199px) {
+  .brand-ambassidor::after {
+    width: 120px;
+    height: 120px;
+    bottom: -70px;
+  }
+}
+@media (max-width: 991px) {
+  .brand-ambassidor::after {
+    width: 100px;
+    height: 100px;
+    bottom: -70px;
+  }
 }
 .brand-ambassidor .img-hldr {
   display: flex;
@@ -194,19 +324,29 @@
   padding-left: 17px;
   flex: 1 0 auto;
   max-width: 490px;
+  border-radius: 0 0 41px 0;
+  overflow: hidden;
+  margin-left: auto;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1441px) {
   .brand-ambassidor .img-hldr {
-    max-width: 390px;
+    max-width: 360px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1281px) {
   .brand-ambassidor .img-hldr {
-    max-width: 390px;
+    overflow: visible;
+    margin: 0 auto;
+    max-width: 100%;
   }
 }
 .brand-ambassidor .img-hldr img {
   max-width: 100%;
+}
+@media (max-width: 1281px) {
+  .brand-ambassidor .img-hldr img {
+    display: none;
+  }
 }
 .brand-ambassidor .img-hldr .cta-float {
   position: absolute;
@@ -221,10 +361,18 @@
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1441px) {
   .brand-ambassidor .img-hldr .cta-float {
-    max-width: 310px;
-    top: 50%;
+    top: 61%;
+    width: 285px;
+  }
+}
+@media (max-width: 1281px) {
+  .brand-ambassidor .img-hldr .cta-float {
+    position: unset;
+    top: unset;
+    max-width: 250px;
+    transform: none;
   }
 }
 .brand-ambassidor .img-hldr .cta-float a {
@@ -236,6 +384,11 @@
   width: 100%;
   font-family: "Poppins", sans-serif;
   flex: 1 1 auto;
+}
+@media (max-width: 1281px) {
+  .brand-ambassidor .content-left {
+    max-width: 100%;
+  }
 }
 .brand-ambassidor .content-left .tagline {
   font-family: "Poppins", sans-serif;
@@ -258,6 +411,7 @@
 @media (max-width: 991px) {
   .brand-ambassidor .content-left .tagline {
     font-size: 14px;
+    margin-bottom: 10px;
   }
 }
 .brand-ambassidor .content-left .title {
@@ -286,6 +440,7 @@
 @media (max-width: 991px) {
   .brand-ambassidor .content-left .title {
     font-size: 22px;
+    margin-bottom: 10px;
   }
 }
 .brand-ambassidor .content-left .title span {
@@ -313,11 +468,18 @@
   .brand-ambassidor .content-left .content-txt {
     font-size: 12px;
     line-height: 22px;
+    margin-bottom: 10px;
   }
 }
 .brand-ambassidor .content-left .content ul {
   margin-left: 20px;
   margin-bottom: 72px;
+}
+@media (max-width: 1281px) {
+  .brand-ambassidor .content-left .content ul {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
 }
 .brand-ambassidor .content-left .content ul li {
   font-family: "Poppins", sans-serif;
@@ -343,5 +505,6 @@
   .brand-ambassidor .content-left .content ul li {
     font-size: 12px;
     line-height: 22px;
+    margin-bottom: 10px;
   }
 }

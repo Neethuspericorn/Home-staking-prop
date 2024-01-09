@@ -11,6 +11,15 @@
       font-weight: 600;
       line-height: normal;
       margin-bottom: 13px;
+      @media ($sm-1679){
+        font-size: 36px;
+      }
+      @media ($sm-1481){
+        font-size: 32px;
+      }
+      @media ($sm-1281){
+        font-size: 28px;
+      }
       span{
         color: $title-mix-blue;
         text-align: center;
@@ -28,6 +37,22 @@
       font-size: 20px;
       font-weight: 300;
       line-height: 30px;
+      @media ($sm-1679){
+        font-size: 18px;
+        line-height: 28px;
+      }
+      @media ($sm-1481){
+        font-size: 16px;
+        line-height: 26px;
+      }
+      @media ($sm-1281){
+        font-size: 14px;
+        line-height: 24px;
+      }
+      @media ($sm-991){
+        font-size: 12px;
+        line-height: 22px;
+      }
       .link{
         color: #fff;
         text-decoration: none;
@@ -55,6 +80,21 @@
           padding-right: 43px;
           padding-top: 40px;
           padding-bottom: 24px;
+          @media ($sm-1679){
+            font-size: 20px;
+            line-height: 30px;
+          }
+          @media ($sm-1481){
+            font-size: 16px;
+            line-height: 26px;
+          }
+          @media ($sm-1281){
+            font-size: 14px;
+            padding-top: 25px;
+          }
+          @media ($sm-991){
+            padding-top: 25px;
+          }
           &:after{
             background-image: none;
             content: '+';
@@ -74,6 +114,7 @@
             border-color: $accordion-border;
             border-bottom-color: transparent !important;
             border-radius: 12px 12px 0px 0px;
+            padding-bottom: 10px;
             &:after{
               content: '-';
               color:#2966FF;
@@ -138,12 +179,22 @@
     line-height: 30px;
     @media ($sm-1679){
       font-size: 18px;
+      line-height: 28px;
     }
     @media ($sm-1481){
       font-size: 16px;
+      line-height: 26px;
+    }
+    @media ($sm-1281){
+      font-size: 14px;
+      line-height: 24px;
+    }
+    @media ($sm-991){
+      font-size: 12px;
+      line-height: 22px;
     }
     .link{
-      color: #fff;
+      color: $para-color;
       text-decoration: none;
     }   
   }
@@ -171,12 +222,18 @@
         padding-bottom: 24px;
         @media ($sm-1679){
           font-size: 20px;
+          line-height: 30px;
         }
         @media ($sm-1481){
-          font-size: 18px;
+          font-size: 16px;
+          line-height: 26px;
         }
         @media ($sm-1281){
-          font-size: 16px;
+          font-size: 14px;
+          padding-top: 25px;
+        }
+        @media ($sm-991){
+          padding-top: 25px;
         }
         &:after{
           background-image: none;
@@ -197,6 +254,7 @@
           border-color: $white;
           border-bottom-color: transparent !important;
           border-radius: 27px 27px 0px 0px;
+          padding-bottom: 10px;
           &:after{
             content: '-';
             color:#2966FF;
