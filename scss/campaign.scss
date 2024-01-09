@@ -137,6 +137,7 @@
 
 
     .campaign {
+        padding-bottom: 50px;
         .campaign-title{
             font-size: 18px;
         }
@@ -182,6 +183,7 @@
 
 
     .campaign {
+        padding-bottom: 50px;
         .campaign-title{
             font-size: 16px;
         }
@@ -301,7 +303,10 @@
 
                 &::before {
                     right: -52px;
-                    top: 144px;
+                    top: 167px;
+                    height: 150px;
+                    width: 150px;
+                    background-size: contain;
                 }
 
                 .right-boxes{

@@ -112,6 +112,10 @@
 }
 
 @media (max-width: 1679px) {
+  .step-guide {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .step-heading-sec {
     width: 57%;
     margin: 0 auto;
@@ -141,6 +145,10 @@
   }
 }
 @media (max-width: 1441px) {
+  .step-guide {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .step-heading-sec {
     width: 57%;
     margin: 0 auto;
@@ -206,11 +214,12 @@
   }
   .step-heading-sec::before {
     background: url(/img/coin-sm-brand.svg) no-repeat;
-    width: 164px;
-    height: 167px;
+    width: 150px;
+    height: 150px;
     content: "";
-    right: -10px;
-    top: -93px;
+    right: -38px;
+    top: -82px;
+    background-size: contain;
   }
   .box-sec {
     padding-bottom: 0px;
