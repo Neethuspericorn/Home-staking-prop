@@ -44,6 +44,12 @@
   align-items: flex-end;
   position: relative;
   padding-left: 17px;
+  max-width: 490px;
+}
+@media (max-width: 991px) {
+  .theme-dark .brand-ambassidor .img-hldr {
+    max-width: 390px;
+  }
 }
 .theme-dark .brand-ambassidor .img-hldr img {
   max-width: 100%;
@@ -86,6 +92,26 @@
   line-height: normal;
   margin-bottom: 20px;
 }
+@media (max-width: 1679px) {
+  .theme-dark .brand-ambassidor .content-left .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1441px) {
+  .theme-dark .brand-ambassidor .content-left .title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor .content-left .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 991px) {
+  .theme-dark .brand-ambassidor .content-left .title {
+    font-size: 22px;
+  }
+}
 .theme-dark .brand-ambassidor .content-left .title span {
   color: #2966FF;
 }
@@ -96,6 +122,21 @@
   line-height: 28px;
   color: #fff;
   margin-bottom: 24px;
+}
+@media (max-width: 1679px) {
+  .theme-dark .brand-ambassidor .content-left .content-txt {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1281px) {
+  .theme-dark .brand-ambassidor .content-left .content-txt {
+    font-size: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .theme-dark .brand-ambassidor .content-left .content-txt {
+    font-size: 12px;
+  }
 }
 .theme-dark .brand-ambassidor .content-left .content ul {
   margin-left: 20px;
@@ -108,6 +149,12 @@
   font-weight: 300;
   line-height: 28px;
   color: #fff;
+}
+@media (max-width: 1679px) {
+  .theme-dark .brand-ambassidor .content-left .content ul li {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 }
 
 .brand-ambassidor {
@@ -145,6 +192,18 @@
   align-items: flex-end;
   position: relative;
   padding-left: 17px;
+  flex: 1 0 auto;
+  max-width: 490px;
+}
+@media (max-width: 1199px) {
+  .brand-ambassidor .img-hldr {
+    max-width: 390px;
+  }
+}
+@media (max-width: 991px) {
+  .brand-ambassidor .img-hldr {
+    max-width: 390px;
+  }
 }
 .brand-ambassidor .img-hldr img {
   max-width: 100%;
@@ -162,6 +221,12 @@
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 1199px) {
+  .brand-ambassidor .img-hldr .cta-float {
+    max-width: 310px;
+    top: 50%;
+  }
+}
 .brand-ambassidor .img-hldr .cta-float a {
   color: #fff;
   text-decoration: none;
@@ -170,7 +235,7 @@
   max-width: 556px;
   width: 100%;
   font-family: "Poppins", sans-serif;
-  flex: 1 0 auto;
+  flex: 1 1 auto;
 }
 .brand-ambassidor .content-left .tagline {
   font-family: "Poppins", sans-serif;
@@ -180,6 +245,21 @@
   color: #2966FF;
   margin-bottom: 14px;
 }
+@media (max-width: 1679px) {
+  .brand-ambassidor .content-left .tagline {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1281px) {
+  .brand-ambassidor .content-left .tagline {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991px) {
+  .brand-ambassidor .content-left .tagline {
+    font-size: 14px;
+  }
+}
 .brand-ambassidor .content-left .title {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
@@ -187,6 +267,26 @@
   line-height: normal;
   margin-bottom: 20px;
   color: #2E4276;
+}
+@media (max-width: 1679px) {
+  .brand-ambassidor .content-left .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1441px) {
+  .brand-ambassidor .content-left .title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1281px) {
+  .brand-ambassidor .content-left .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 991px) {
+  .brand-ambassidor .content-left .title {
+    font-size: 22px;
+  }
 }
 .brand-ambassidor .content-left .title span {
   color: #2966FF;
@@ -199,6 +299,22 @@
   color: #4D6090;
   margin-bottom: 24px;
 }
+@media (max-width: 1679px) {
+  .brand-ambassidor .content-left .content-txt {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1281px) {
+  .brand-ambassidor .content-left .content-txt {
+    font-size: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .brand-ambassidor .content-left .content-txt {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
 .brand-ambassidor .content-left .content ul {
   margin-left: 20px;
   margin-bottom: 72px;
@@ -210,4 +326,22 @@
   font-weight: 300;
   line-height: 28px;
   color: #4D6090;
+}
+@media (max-width: 1679px) {
+  .brand-ambassidor .content-left .content ul li {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1281px) {
+  .brand-ambassidor .content-left .content ul li {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .brand-ambassidor .content-left .content ul li {
+    font-size: 12px;
+    line-height: 22px;
+  }
 }
