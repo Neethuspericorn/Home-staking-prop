@@ -13,6 +13,30 @@
   padding-top: 90px;
   padding-bottom: 90px;
 }
+@media (max-width: 1679px) {
+  .theme-dark .section-faq {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 1481px) {
+  .theme-dark .section-faq {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 1199px) {
+  .theme-dark .section-faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .theme-dark .section-faq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .theme-dark .section-faq .sec-title {
   color: #fff;
   text-align: center;
@@ -78,6 +102,11 @@
     line-height: 22px;
   }
 }
+@media (max-width: 1199px) {
+  .theme-dark .section-faq .sec-subtitle br {
+    display: none;
+  }
+}
 .theme-dark .section-faq .sec-subtitle .link {
   color: #fff;
   text-decoration: none;
@@ -139,6 +168,11 @@
   color: #2966FF;
   font-size: 35px;
 }
+@media (max-width: 1281px) {
+  .theme-dark .section-faq .accordion .accordion-item .accordion-button:after {
+    font-size: 25px;
+  }
+}
 .theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
   background-color: #000;
   border-color: #484848;
@@ -169,6 +203,30 @@
 .section-faq {
   padding-top: 90px;
   padding-bottom: 90px;
+}
+@media (max-width: 1679px) {
+  .section-faq {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 1481px) {
+  .section-faq {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 1199px) {
+  .section-faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .section-faq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 .section-faq .sec-title {
   color: #2E4276;
@@ -235,6 +293,11 @@
     line-height: 22px;
   }
 }
+@media (max-width: 1199px) {
+  .section-faq .sec-subtitle br {
+    display: none;
+  }
+}
 .section-faq .sec-subtitle .link {
   color: #4D6090;
   text-decoration: none;
@@ -295,6 +358,11 @@
   font-family: "Rubik", sans-serif;
   color: #2966FF;
   font-size: 35px;
+}
+@media (max-width: 1281px) {
+  .section-faq .accordion .accordion-item .accordion-button:after {
+    font-size: 25px;
+  }
 }
 .section-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
   background-color: #F8F8FF;

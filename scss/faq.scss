@@ -3,6 +3,22 @@
   .section-faq{
     padding-top: 90px;
     padding-bottom: 90px;
+    @media ($sm-1679){
+      padding-top: 80px;
+    padding-bottom: 80px;
+    }
+    @media ($sm-1481){
+      padding-top: 70px;
+    padding-bottom: 70px;
+    }
+    @media ($sm-1199){
+      padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    @media ($sm-991){
+      padding-top: 30px;
+    padding-bottom: 30px;
+    }
     .sec-title{
       color: $white;
       text-align: center;
@@ -52,6 +68,11 @@
       @media ($sm-991){
         font-size: 12px;
         line-height: 22px;
+      }
+      br{
+        @media ($sm-1199){
+          display: none;
+        }
       }
       .link{
         color: #fff;
@@ -105,6 +126,9 @@
             color:#2966FF;
             font-size: 35px;
             // align-self: flex-start;
+            @media ($sm-1281){
+              font-size: 25px;
+            }
           }
           // &.collapsed{
           //   padding-bottom: 40px;
@@ -143,6 +167,22 @@
 .section-faq{
   padding-top: 90px;
   padding-bottom: 90px;
+  @media ($sm-1679){
+    padding-top: 80px;
+  padding-bottom: 80px;
+  }
+  @media ($sm-1481){
+    padding-top: 70px;
+  padding-bottom: 70px;
+  }
+  @media ($sm-1199){
+    padding-top: 50px;
+  padding-bottom: 50px;
+  }
+  @media ($sm-991){
+    padding-top: 30px;
+  padding-bottom: 30px;
+  }
   .sec-title{
     color: $title-light;
     text-align: center;
@@ -192,6 +232,11 @@
     @media ($sm-991){
       font-size: 12px;
       line-height: 22px;
+    }
+    br{
+      @media ($sm-1199){
+        display: none;
+      }
     }
     .link{
       color: $para-color;
@@ -245,6 +290,9 @@
           color:#2966FF;
           font-size: 35px;
           // align-self: flex-start;
+          @media ($sm-1281){
+            font-size: 25px;
+          }
         }
         &:not(.collapsed){
           background-color: $accordion-light;
