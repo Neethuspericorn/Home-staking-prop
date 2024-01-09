@@ -388,7 +388,7 @@
   max-width: 556px;
   width: 100%;
   font-family: "Poppins", sans-serif;
-  flex: 1 0 auto;
+  flex: 1 1 auto;
 }
 @media (max-width: 1281px) {
   .theme-dark .brand-ambassidor .content-left {
