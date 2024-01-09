@@ -34,6 +34,10 @@
             align-items: flex-end;
             position: relative;
             padding-left: 17px;
+            max-width: 490px;
+            @media ($sm-991){
+                max-width: 390px;
+            }
             img{
                 max-width: 100%;
             }
@@ -74,6 +78,18 @@
                 font-weight: 600;
                 line-height: normal;
                 margin-bottom: 20px;
+                @media ($sm-1679){
+                    font-size: 30px; 
+                }
+                @media ($sm-1441){
+                    font-size: 28px;
+                }
+                @media ($sm-1281){
+                    font-size: 24px;
+                }
+                @media ($sm-991){
+                    font-size: 22px;
+                }
                 span{
                     color: $title-mix-blue;
                 }
@@ -85,6 +101,15 @@
                 line-height: 28px;
                 color: $white;
                 margin-bottom: 24px;
+                @media ($sm-1679){
+                    font-size: 16px;
+                }
+                @media ($sm-1281){
+                    font-size: 14px;
+                }
+                @media ($sm-991){
+                    font-size: 12px;
+                }
             }
             .content{
                 ul{
@@ -97,6 +122,10 @@
                         font-weight: 300;
                         line-height: 28px;
                         color: $white;
+                        @media ($sm-1679){
+                            font-size: 16px;
+                            margin-bottom: 20px;
+                        }
                     }
                 }
             }
@@ -137,6 +166,14 @@
         align-items: flex-end;
         position: relative;
         padding-left: 17px;
+        flex: 1 0 auto;
+        max-width: 490px;
+        @media ($sm-1199){
+            max-width: 390px;
+        }
+        @media ($sm-991){
+            max-width: 390px;
+        }
         img{
             max-width: 100%;
         }
@@ -152,6 +189,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            @media ($sm-1199){
+                max-width: 310px;
+                top: 50%;
+            }
             a{
                 color: $white;
                 text-decoration: none;
@@ -162,7 +203,7 @@
         max-width: 556px;
         width: 100%;
         font-family: $font-primary;
-        flex: 1 0 auto;
+        flex: 1 1 auto;
         .tagline{
             font-family: $font-primary;
             font-size: 20px;
@@ -170,6 +211,15 @@
             line-height: normal;
             color: $title-mix-blue;
             margin-bottom: 14px;
+            @media ($sm-1679){
+                font-size: 18px; 
+            }
+            @media ($sm-1281){
+                font-size: 16px;
+            }
+            @media ($sm-991){
+                font-size: 14px;
+            }
         }
         .title{
             font-family: $font-primary;
@@ -178,6 +228,18 @@
             line-height: normal;
             margin-bottom: 20px;
             color: $title-light;
+            @media ($sm-1679){
+                font-size: 30px; 
+            }
+            @media ($sm-1441){
+                font-size: 28px;
+            }
+            @media ($sm-1281){
+                font-size: 24px;
+            }
+            @media ($sm-991){
+                font-size: 22px;
+            }
             span{
                 color: $title-mix-blue;
             }
@@ -189,6 +251,16 @@
             line-height: 28px;
             color: $para-color;
             margin-bottom: 24px;
+            @media ($sm-1679){
+                font-size: 16px;
+            }
+            @media ($sm-1281){
+                font-size: 14px;
+            }
+            @media ($sm-991){
+                font-size: 12px;
+                line-height: 22px;
+            }
         }
         .content{
             ul{
@@ -201,6 +273,18 @@
                     font-weight: 300;
                     line-height: 28px;
                     color: $para-color;
+                    @media ($sm-1679){
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                    }
+                    @media ($sm-1281){
+                        font-size: 14px;
+                        margin-bottom: 15px;
+                    }
+                    @media ($sm-991){
+                        font-size: 12px;
+                        line-height: 22px;
+                    }
                 }
             }
         }

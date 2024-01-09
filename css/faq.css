@@ -153,6 +153,11 @@
     font-size: 18px;
   }
 }
+@media (max-width: 1481px) {
+  .section-faq .sec-subtitle {
+    font-size: 16px;
+  }
+}
 .section-faq .sec-subtitle .link {
   color: #fff;
   text-decoration: none;
@@ -172,7 +177,7 @@
   border: 1px solid #fff;
   background-color: #F8F8FF;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 500;
   line-height: 30px;
   color: #2E4276;
@@ -183,7 +188,17 @@
 }
 @media (max-width: 1679px) {
   .section-faq .accordion .accordion-item .accordion-button {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1481px) {
+  .section-faq .accordion .accordion-item .accordion-button {
     font-size: 18px;
+  }
+}
+@media (max-width: 1281px) {
+  .section-faq .accordion .accordion-item .accordion-button {
+    font-size: 16px;
   }
 }
 .section-faq .accordion .accordion-item .accordion-button:after {
@@ -217,7 +232,7 @@
   border-top-color: transparent !important;
   border-radius: 0px 0px 27px 27px;
   color: #4D6090;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 24px;
 }
