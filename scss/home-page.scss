@@ -1265,21 +1265,29 @@
             line-height: 26px;
             padding-top: 20px;
           padding-bottom: 20px;
+          padding-left: 35px;
+          padding-right: 35px;
           }
           @media ($sm-1481){
             font-size: 14px;
             line-height: 24px;
             padding-top: 20px;
             padding-bottom: 20px;
+            padding-left: 30px;
+          padding-right: 30px;
           }
           @media ($sm-1281){
             font-size: 14px;
             padding-top: 20px;
             padding-bottom: 20px;
+            padding-left: 25px;
+          padding-right: 25px;
           }
           @media ($sm-991){
             padding-top: 20px;
             padding-bottom: 20px;
+            padding-left: 25px;
+          padding-right: 25px;
           }
           &:after{
             background-image: none;
