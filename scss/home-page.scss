@@ -1681,7 +1681,7 @@
         .two-col {
 
             .campaign-content p {
-                font-size: 12px;
+                font-size: 14px;
                 line-height: 22px;
             }
 
@@ -2003,7 +2003,7 @@ flex-wrap: wrap;
 
             p{
                 font-size: 14px;
-                line-height: 24px;
+                line-height: 22px;
             }
            
         }
@@ -2019,7 +2019,7 @@ flex-wrap: wrap;
             }
             .box-title{
                 font-size: 18px;
-                margin-bottom: 0;
+                // margin-bottom: 0;
             }
             .box-content{
                 p{
@@ -2060,26 +2060,8 @@ flex-wrap: wrap;
             font-size: 22px;
             line-height: 32px;
         }
-        .content-sec{
-
-            p{
-                font-size: 12px;
-                line-height: 22px;
-            }
-           
-        }
     } 
-    .box-sec {
-        .box-inner{
-            .box-content{
-                p{
-                    font-size: 12px;
-                    line-height: 22px;
-                }
-               
-            }
-        }
-    }
+
  
 }
    @media($sm-767 ){
