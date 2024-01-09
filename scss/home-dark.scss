@@ -340,3 +340,76 @@
     
     }}
     
+    .theme-dark
+{
+    section.pathway-outer
+    {
+        h3
+        {
+            color:#fff;
+        }
+        .section-pathway-content .content-area
+        {
+            color:#fff;
+        }
+        .props-value
+        {
+            .input-form-text {
+                border: 1px solid #092E63;
+                color: #fff;
+            }
+        }
+    }
+    section.utility-section
+    {
+        .utility-outer
+        {
+            h3
+            {
+                color: #fff; 
+            }
+            ul
+            {
+                li
+                {
+                    border: 1px solid #191B4F;
+                    background: #0A0A0A;
+                    span{
+                        color: #fff;  
+                    }
+                }
+            }
+            .btn-learn-more {
+                button.btn.btn-learn
+                {
+                    color: #fff;
+                    background: #2966FF;
+                    
+                }
+            }
+    
+        }
+    
+    }
+    section.buy-props {
+       
+        .txt-head
+        {
+            color: #fff;
+        }
+        .props-outer {
+            
+            border: 1px solid #1A2339;
+            background: #000;
+            .text-props-content h3,.text-props-content p
+            {
+                color: #fff;
+            }
+        }
+        .number-txt {
+            background: #0C0D30;
+            color: #FFF;
+        }
+        
+    }
+}

@@ -231,3 +231,42 @@
 .theme-dark .by-props-sec .four-props .box-props p {
   color: #fff;
 }
+
+.theme-dark section.pathway-outer h3 {
+  color: #fff;
+}
+.theme-dark section.pathway-outer .section-pathway-content .content-area {
+  color: #fff;
+}
+.theme-dark section.pathway-outer .props-value .input-form-text {
+  border: 1px solid #092E63;
+  color: #fff;
+}
+.theme-dark section.utility-section .utility-outer h3 {
+  color: #fff;
+}
+.theme-dark section.utility-section .utility-outer ul li {
+  border: 1px solid #191B4F;
+  background: #0A0A0A;
+}
+.theme-dark section.utility-section .utility-outer ul li span {
+  color: #fff;
+}
+.theme-dark section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
+  color: #fff;
+  background: #2966FF;
+}
+.theme-dark section.buy-props .txt-head {
+  color: #fff;
+}
+.theme-dark section.buy-props .props-outer {
+  border: 1px solid #1A2339;
+  background: #000;
+}
+.theme-dark section.buy-props .props-outer .text-props-content h3, .theme-dark section.buy-props .props-outer .text-props-content p {
+  color: #fff;
+}
+.theme-dark section.buy-props .number-txt {
+  background: #0C0D30;
+  color: #FFF;
+}
