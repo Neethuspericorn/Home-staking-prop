@@ -953,7 +953,7 @@
         @media ($sm-1679){
             width: 225px;
         }
-        @media ($sm-1199){
+        @media ($sm-1481){
             width: 200px;
             height: 200px;
         }
@@ -1192,13 +1192,13 @@
       line-height: normal;
       margin-bottom: 13px;
       @media ($sm-1679){
-        font-size: 36px;
+        font-size: 30px;
       }
       @media ($sm-1481){
-        font-size: 32px;
+        font-size: 28px;
       }
       @media ($sm-1281){
-        font-size: 28px;
+        font-size: 24px;
       }
       span{
         color: $title-mix-blue;
@@ -1218,20 +1218,12 @@
       font-weight: 300;
       line-height: 30px;
       @media ($sm-1679){
-        font-size: 18px;
-        line-height: 28px;
-      }
-      @media ($sm-1481){
         font-size: 16px;
         line-height: 26px;
       }
       @media ($sm-1281){
         font-size: 14px;
         line-height: 24px;
-      }
-      @media ($sm-991){
-        font-size: 12px;
-        line-height: 22px;
       }
       br{
         @media ($sm-1199){
@@ -1257,28 +1249,34 @@
           border: 1px solid $white;
           background-color: $accordion-light;
           font-family: $font-primary;
-          font-size: 23px;
+          font-size: 20px;
           font-weight: 500;
           line-height: 30px;
           color: $title-light;
           padding-left: 43px;
           padding-right: 43px;
           padding-top: 40px;
-          padding-bottom: 24px;
+          padding-bottom: 40px;
           @media ($sm-1679){
-            font-size: 20px;
-            line-height: 30px;
-          }
-          @media ($sm-1481){
             font-size: 16px;
             line-height: 26px;
+            padding-top: 20px;
+          padding-bottom: 20px;
+          }
+          @media ($sm-1481){
+            font-size: 14px;
+            line-height: 24px;
+            padding-top: 20px;
+            padding-bottom: 20px;
           }
           @media ($sm-1281){
             font-size: 14px;
-            padding-top: 25px;
+            padding-top: 20px;
+            padding-bottom: 20px;
           }
           @media ($sm-991){
-            padding-top: 25px;
+            padding-top: 20px;
+            padding-bottom: 20px;
           }
           &:after{
             background-image: none;
