@@ -1295,6 +1295,11 @@
 .section-faq .accordion {
   padding-top: 40px;
 }
+@media (max-width: 1679px) {
+  .section-faq .accordion {
+    padding-top: 20px;
+  }
+}
 .section-faq .accordion .accordion-item {
   background: transparent;
   border: 0;
