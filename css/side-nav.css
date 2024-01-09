@@ -409,9 +409,15 @@
     width: 16px !important;
   }
   .nav-collapse .nav-block .nav-logo-wrapper .nav-toggle-btn .nav-line:nth-child(1) {
+    -webkit-transform: translateY(7px) rotate(45deg);
+    -ms-transform: translateY(7px) rotate(45deg);
+    -o-transform: translateY(7px) rotate(45deg);
     transform: translateY(7px) rotate(45deg);
   }
   .nav-collapse .nav-block .nav-logo-wrapper .nav-toggle-btn .nav-line:nth-child(3) {
+    -webkit-transform: translateY(-7px) rotate(-45deg);
+    -ms-transform: translateY(-7px) rotate(-45deg);
+    -o-transform: translateY(-7px) rotate(-45deg);
     transform: translateY(-7px) rotate(-45deg);
   }
   .nav-collapse .nav-block .nav-logo-wrapper .nav-toggle-btn .nav-line:nth-child(2) {
@@ -445,3 +451,5 @@
     font-size: 15px;
   }
 }
+
+/*# sourceMappingURL=side-nav.css.map */

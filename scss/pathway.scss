@@ -169,4 +169,184 @@
         }
     }
 }
+section.pathway-outer
+{
+    h3
+    {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: normal;
+        max-width: 800px;
+        color: #2E4276;
+        @media($sm-1679)
+        {
+            font-size: 30px;
+        }
+        span
+        {
+            color:#2966FF;
+        }
+    }
+    margin-top:65px;
+    .section-pathway-content {
+        display: flex;
+        .content-area
+        {
+            font-size: 18px;
+            margin-top:35px;
+            line-height: 28px;
+            padding-right: 85px;
+            font-weight: 300;
+            color: #4D6090;
+        }
+        .img-coin
+        {
+            img
+            {
+                height: 260px;
+            }
+           
+        }
+    }
+    .props-value
+    {
+        margin-top: 25px;
+        h4
+        {
+            color: #0C15F9;
+            font-size: 18px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        .input-form-text {
+            border-radius: 30px;
+            border: 1px solid #B6C3E5;
+            font-size: 18px;
+            font-weight: 400;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 30px;
+            height: 60px;
+            align-items: center;
+            color: #2E4276;
+        }
+    }
+}
+section.utility-section
+{
+    margin-top: 55px;
+    .utility-outer
+    {
+        margin-top: 89px;
+        h3
+        {
+            font-size: 29px;
+            margin-bottom: 30px;
+            color: #2E4276;
+            font-weight: 600;
+        }
+        ul
+        {
+            list-style:none;
+            display: flex;
+            flex-wrap:wrap;
+            li
+            {
+                border:1px solid #B6C3E5;
+                background: #fff;
+                margin-right: 32px;
+                height: 62px;
+                width: 30.33%;
+                margin-bottom: 20px;
+                border-radius: 30px;
+                padding: 5px 20px;
+                display:flex;
+                align-items:center;
+                font-size: 18px;
+                span
+                {
+                    margin-left: 20px;
+                    font-style: italic;
+                    color: #2E4276;
+                }
+            }
+        }
+        .btn-learn-more {
+            text-align: center;
+            margin-top: 32px;
+            button.btn.btn-learn
+            {
+                color: #fff;
+                border-radius: 28px;
+                background: #2966FF;
+                min-width: 300px;
+                height: 48px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
 
+    }
+
+}
+section.buy-props {
+    margin-top: 115px;
+    .txt-head
+    {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 75px;
+        color: #2E4276;
+        font-weight: 600;
+        span
+        {
+            color:#0C15F9;
+        }
+    }
+    .props-outer {
+        display: flex;
+        align-items: center;
+        border-radius: 27px;
+        border: 1px solid #B6C3E5;
+        background: #fff;
+        padding: 40px;
+        margin-bottom: 37px;
+        justify-content: space-between;
+        .text-sec-prop
+        {
+            display:flex;
+        }
+        .text-props-content
+        {
+            padding-right: 100px;
+           h3
+           {
+                font-size: 23px;
+                font-weight: 600;
+                color: #2E4276;
+           }
+           p
+           {
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 12px;
+            color: #4D6090;
+           }
+        }
+    }
+    .number-txt {
+        background: #F3F3F3;
+        width: 42px;
+        height: 42px;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 42px;
+        flex-shrink: 0;
+        color: #2E4276;
+    font-weight: 500;
+    font-size: 15px;
+    }
+    .img-icn-outr {
+        margin-right: 53px;
+    }
+}
