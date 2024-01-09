@@ -16,7 +16,7 @@
     }
     &::before{
         content: "";
-        background: url('/img/coin-lg-brand.svg') no-repeat center;
+        background: url('../img/coin-lg-brand.svg') no-repeat center;
         background-size: contain;
         width: 238px;
         height: 255px;
@@ -35,7 +35,7 @@
     }
     &::after{
         content: "";
-        background: url('/img/coin-sm-brand.svg') no-repeat center;
+        background: url('../img/coin-sm-brand.svg') no-repeat center;
         background-size: contain;
         width: 164px;
         height: 167px;
@@ -226,7 +226,7 @@
         }
         &::before{
             content: "";
-            background: url('/img/coin-lg-brand.svg') no-repeat center;
+            background: url('../img/coin-lg-brand.svg') no-repeat center;
             width: 238px;
             height: 255px;
             position: absolute;
@@ -239,7 +239,7 @@
         }
         &::after{
             content: "";
-            background: url('/img/coin-sm-brand.svg') no-repeat center;
+            background: url('../img/coin-sm-brand.svg') no-repeat center;
             width: 164px;
             height: 167px;
             position: absolute;
@@ -280,7 +280,7 @@
                 position: absolute;
                 top: 44%;
                 transform: translateY(-50%);
-                background: url(/img/cta-btn-brand.svg) no-repeat center;
+                background: url('../img/cta-btn-brand.svg') no-repeat center;
                 background-size: contain;
                 width: 389px;
                 height: 121px;

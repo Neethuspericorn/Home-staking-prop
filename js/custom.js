@@ -29,4 +29,17 @@ $(document).ready(function () {
 		]
 	});
 	// roadmap slider ends
+
+	// Video slider
+	$('.video-slider').slick({
+		dots: true,
+		infinite: false,
+		speed: 300,
+		dots: false,
+		slidesToShow: 1,
+		fade: true,
+		  cssEase: 'linear',
+		prevArrow: $('.video-prev-btn'),
+		nextArrow: $('.video-next-btn')
+	});
 });
