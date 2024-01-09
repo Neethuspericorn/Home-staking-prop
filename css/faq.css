@@ -9,197 +9,6 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
-.theme-dark .section-faq {
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-@media (max-width: 1679px) {
-  .theme-dark .section-faq {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
-@media (max-width: 1481px) {
-  .theme-dark .section-faq {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-}
-@media (max-width: 1199px) {
-  .theme-dark .section-faq {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-}
-@media (max-width: 991px) {
-  .theme-dark .section-faq {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
-.theme-dark .section-faq .sec-title {
-  color: #fff;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: normal;
-  margin-bottom: 13px;
-}
-@media (max-width: 1679px) {
-  .theme-dark .section-faq .sec-title {
-    font-size: 36px;
-  }
-}
-@media (max-width: 1481px) {
-  .theme-dark .section-faq .sec-title {
-    font-size: 32px;
-  }
-}
-@media (max-width: 1281px) {
-  .theme-dark .section-faq .sec-title {
-    font-size: 28px;
-  }
-}
-.theme-dark .section-faq .sec-title span {
-  color: #2966FF;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: normal;
-  display: block;
-}
-.theme-dark .section-faq .sec-subtitle {
-  color: #fff;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 30px;
-}
-@media (max-width: 1679px) {
-  .theme-dark .section-faq .sec-subtitle {
-    font-size: 18px;
-    line-height: 28px;
-  }
-}
-@media (max-width: 1481px) {
-  .theme-dark .section-faq .sec-subtitle {
-    font-size: 16px;
-    line-height: 26px;
-  }
-}
-@media (max-width: 1281px) {
-  .theme-dark .section-faq .sec-subtitle {
-    font-size: 14px;
-    line-height: 24px;
-  }
-}
-@media (max-width: 991px) {
-  .theme-dark .section-faq .sec-subtitle {
-    font-size: 12px;
-    line-height: 22px;
-  }
-}
-@media (max-width: 1199px) {
-  .theme-dark .section-faq .sec-subtitle br {
-    display: none;
-  }
-}
-.theme-dark .section-faq .sec-subtitle .link {
-  color: #fff;
-  text-decoration: none;
-}
-.theme-dark .section-faq .accordion {
-  padding-top: 40px;
-}
-.theme-dark .section-faq .accordion .accordion-item {
-  background: transparent;
-  border: 0;
-  margin-bottom: 19px;
-  overflow: clip;
-}
-.theme-dark .section-faq .accordion .accordion-item .accordion-button {
-  box-shadow: none !important;
-  border-radius: 27px;
-  border: 1px solid #484848;
-  background-color: #000;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
-  color: #fff;
-  padding-left: 43px;
-  padding-right: 43px;
-  padding-top: 40px;
-  padding-bottom: 24px;
-}
-@media (max-width: 1679px) {
-  .theme-dark .section-faq .accordion .accordion-item .accordion-button {
-    font-size: 20px;
-    line-height: 30px;
-  }
-}
-@media (max-width: 1481px) {
-  .theme-dark .section-faq .accordion .accordion-item .accordion-button {
-    font-size: 16px;
-    line-height: 26px;
-  }
-}
-@media (max-width: 1281px) {
-  .theme-dark .section-faq .accordion .accordion-item .accordion-button {
-    font-size: 14px;
-    padding-top: 25px;
-  }
-}
-@media (max-width: 991px) {
-  .theme-dark .section-faq .accordion .accordion-item .accordion-button {
-    padding-top: 25px;
-  }
-}
-.theme-dark .section-faq .accordion .accordion-item .accordion-button:after {
-  background-image: none;
-  content: "+";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Rubik", sans-serif;
-  color: #2966FF;
-  font-size: 35px;
-}
-@media (max-width: 1281px) {
-  .theme-dark .section-faq .accordion .accordion-item .accordion-button:after {
-    font-size: 25px;
-  }
-}
-.theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
-  background-color: #000;
-  border-color: #484848;
-  border-bottom-color: transparent !important;
-  border-radius: 12px 12px 0px 0px;
-  padding-bottom: 10px;
-}
-.theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed):after {
-  content: "-";
-  color: #2966FF;
-}
-.theme-dark .section-faq .accordion .accordion-item .accordion-body {
-  background-color: #000;
-  padding-top: 0;
-  padding-bottom: 40px;
-  padding-left: 43px;
-  padding-right: 43px;
-  border: 1px solid;
-  border-color: #484848;
-  border-top-color: transparent !important;
-  border-radius: 0px 0px 27px 27px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-}
-
 .section-faq {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -386,6 +195,197 @@
   border-top-color: transparent !important;
   border-radius: 0px 0px 27px 27px;
   color: #4D6090;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.theme-dark .section-faq {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+@media (max-width: 1679px) {
+  .theme-dark .section-faq {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 1481px) {
+  .theme-dark .section-faq {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 1199px) {
+  .theme-dark .section-faq {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .theme-dark .section-faq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.theme-dark .section-faq .sec-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+@media (max-width: 1679px) {
+  .theme-dark .section-faq .sec-title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1481px) {
+  .theme-dark .section-faq .sec-title {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1281px) {
+  .theme-dark .section-faq .sec-title {
+    font-size: 28px;
+  }
+}
+.theme-dark .section-faq .sec-title span {
+  color: #2966FF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  display: block;
+}
+.theme-dark .section-faq .sec-subtitle {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+@media (max-width: 1679px) {
+  .theme-dark .section-faq .sec-subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 1481px) {
+  .theme-dark .section-faq .sec-subtitle {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 1281px) {
+  .theme-dark .section-faq .sec-subtitle {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 991px) {
+  .theme-dark .section-faq .sec-subtitle {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 1199px) {
+  .theme-dark .section-faq .sec-subtitle br {
+    display: none;
+  }
+}
+.theme-dark .section-faq .sec-subtitle .link {
+  color: #fff;
+  text-decoration: none;
+}
+.theme-dark .section-faq .accordion {
+  padding-top: 40px;
+}
+.theme-dark .section-faq .accordion .accordion-item {
+  background: transparent;
+  border: 0;
+  margin-bottom: 19px;
+  overflow: clip;
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-button {
+  box-shadow: none !important;
+  border-radius: 27px;
+  border: 1px solid #484848;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
+  padding-left: 43px;
+  padding-right: 43px;
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+@media (max-width: 1679px) {
+  .theme-dark .section-faq .accordion .accordion-item .accordion-button {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 1481px) {
+  .theme-dark .section-faq .accordion .accordion-item .accordion-button {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 1281px) {
+  .theme-dark .section-faq .accordion .accordion-item .accordion-button {
+    font-size: 14px;
+    padding-top: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .theme-dark .section-faq .accordion .accordion-item .accordion-button {
+    padding-top: 25px;
+  }
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-button:after {
+  background-image: none;
+  content: "+";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  color: #2966FF;
+  font-size: 35px;
+}
+@media (max-width: 1281px) {
+  .theme-dark .section-faq .accordion .accordion-item .accordion-button:after {
+    font-size: 25px;
+  }
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed) {
+  background-color: #000;
+  border-color: #484848;
+  border-bottom-color: transparent !important;
+  border-radius: 12px 12px 0px 0px;
+  padding-bottom: 10px;
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed):after {
+  content: "-";
+  color: #2966FF;
+}
+.theme-dark .section-faq .accordion .accordion-item .accordion-body {
+  background-color: #000;
+  padding-top: 0;
+  padding-bottom: 40px;
+  padding-left: 43px;
+  padding-right: 43px;
+  border: 1px solid;
+  border-color: #484848;
+  border-top-color: transparent !important;
+  border-radius: 0px 0px 27px 27px;
+  color: #fff;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
