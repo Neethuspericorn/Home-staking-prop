@@ -9,39 +9,45 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
-section.pathway-outer {
+.theme-dark section.pathway-outer {
   margin-top: 65px;
 }
-section.pathway-outer h3 {
+.theme-dark section.pathway-outer h3 {
   font-size: 36px;
   font-weight: 600;
   line-height: normal;
+  max-width: 800px;
 }
-section.pathway-outer h3 span {
+@media (max-width: 1679px) {
+  .theme-dark section.pathway-outer h3 {
+    font-size: 30px;
+  }
+}
+.theme-dark section.pathway-outer h3 span {
   color: #2966FF;
 }
-section.pathway-outer .section-pathway-content {
+.theme-dark section.pathway-outer .section-pathway-content {
   display: flex;
 }
-section.pathway-outer .section-pathway-content .content-area {
+.theme-dark section.pathway-outer .section-pathway-content .content-area {
   font-size: 18px;
   margin-top: 35px;
   line-height: 28px;
   padding-right: 85px;
   font-weight: 300;
 }
-section.pathway-outer .section-pathway-content .img-coin img {
+.theme-dark section.pathway-outer .section-pathway-content .img-coin img {
   height: 260px;
 }
-section.pathway-outer .props-value {
+.theme-dark section.pathway-outer .props-value {
   margin-top: 25px;
 }
-section.pathway-outer .props-value h4 {
+.theme-dark section.pathway-outer .props-value h4 {
   color: #0C15F9;
   font-size: 18px;
   margin-bottom: 30px;
 }
-section.pathway-outer .props-value .input-form-text {
+.theme-dark section.pathway-outer .props-value .input-form-text {
   border-radius: 30px;
   border: 1px solid #092E63;
   font-size: 18px;
@@ -52,23 +58,22 @@ section.pathway-outer .props-value .input-form-text {
   height: 60px;
   align-items: center;
 }
-
-section.utility-section {
+.theme-dark section.utility-section {
   margin-top: 55px;
 }
-section.utility-section .utility-outer {
+.theme-dark section.utility-section .utility-outer {
   margin-top: 89px;
 }
-section.utility-section .utility-outer h3 {
+.theme-dark section.utility-section .utility-outer h3 {
   font-size: 29px;
   margin-bottom: 30px;
 }
-section.utility-section .utility-outer ul {
+.theme-dark section.utility-section .utility-outer ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
-section.utility-section .utility-outer ul li {
+.theme-dark section.utility-section .utility-outer ul li {
   border: 1px solid #191B4F;
   background: #0A0A0A;
   margin-right: 32px;
@@ -79,35 +84,37 @@ section.utility-section .utility-outer ul li {
   padding: 5px 20px;
   display: flex;
   align-items: center;
+  font-size: 18px;
 }
-section.utility-section .utility-outer ul li span {
+.theme-dark section.utility-section .utility-outer ul li span {
   margin-left: 20px;
   font-style: italic;
 }
-section.utility-section .utility-outer .btn-learn-more {
+.theme-dark section.utility-section .utility-outer .btn-learn-more {
   text-align: center;
   margin-top: 32px;
 }
-section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
+.theme-dark section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
   color: #fff;
   border-radius: 28px;
   background: #2966FF;
   min-width: 300px;
   height: 48px;
+  font-size: 16px;
+  font-weight: 600;
 }
-
-section.buy-props {
+.theme-dark section.buy-props {
   margin-top: 115px;
 }
-section.buy-props .txt-head {
+.theme-dark section.buy-props .txt-head {
   text-align: center;
   font-size: 36px;
   margin-bottom: 75px;
 }
-section.buy-props .txt-head span {
+.theme-dark section.buy-props .txt-head span {
   color: #0C15F9;
 }
-section.buy-props .props-outer {
+.theme-dark section.buy-props .props-outer {
   display: flex;
   align-items: center;
   border-radius: 27px;
@@ -117,22 +124,22 @@ section.buy-props .props-outer {
   margin-bottom: 37px;
   justify-content: space-between;
 }
-section.buy-props .props-outer .text-sec-prop {
+.theme-dark section.buy-props .props-outer .text-sec-prop {
   display: flex;
 }
-section.buy-props .props-outer .text-props-content {
+.theme-dark section.buy-props .props-outer .text-props-content {
   padding-right: 100px;
 }
-section.buy-props .props-outer .text-props-content h3 {
+.theme-dark section.buy-props .props-outer .text-props-content h3 {
   font-size: 23px;
   font-weight: 600;
 }
-section.buy-props .props-outer .text-props-content p {
+.theme-dark section.buy-props .props-outer .text-props-content p {
   font-size: 14px;
   font-weight: 300;
   margin-top: 12px;
 }
-section.buy-props .number-txt {
+.theme-dark section.buy-props .number-txt {
   background: #0C0D30;
   width: 42px;
   height: 42px;
@@ -141,7 +148,7 @@ section.buy-props .number-txt {
   line-height: 42px;
   flex-shrink: 0;
 }
-section.buy-props .img-icn-outr {
+.theme-dark section.buy-props .img-icn-outr {
   margin-right: 53px;
 }
 
