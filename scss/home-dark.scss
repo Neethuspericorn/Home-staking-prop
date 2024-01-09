@@ -2,200 +2,24 @@
 .theme-dark{
     .brand-ambassidor{
         background: linear-gradient(180deg, #092E63 0%, #0C0D30 100%);
-        border-radius: 41px;
-        padding: 56px 63px;
-        position: relative;
-        margin-top: 80px;
-        margin-bottom: 80px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        display: flex;
         border: none;
-        @media ($sm-1281){
-            flex-direction: column;
-            padding: 50px 40px;
-        }
-        &::before{
-            content: "";
-            background: url('../img/coin-lg-brand.svg') no-repeat center;
-            width: 238px;
-            height: 255px;
-            position: absolute;
-            top: -95px;
-            left: 37%;
-            @media ($sm-991){
-                width: 170px;
-                height: 170px;
-            }
-        }
-        &::after{
-            content: "";
-            background: url('../img/coin-sm-brand.svg') no-repeat center;
-            width: 164px;
-            height: 167px;
-            position: absolute;
-           left:60px;
-           bottom: -110px;
-           @media ($sm-1199){
-            width: 120px;
-            height: 120px;
-            bottom: -70px;
-        }
-        @media ($sm-991){
-            width: 100px;
-            height: 100px;
-            bottom: -70px;
-        }
-        }
-        .img-hldr{
-            display: flex;
-            align-items: flex-end;
-            position: relative;
-            padding-left: 17px;
-            flex: 1 0 auto;
-            max-width: 490px;
-            border-radius:0 0 41px 0;
-            overflow: hidden;
-            margin-left: auto;
-            @media ($sm-1441){
-                max-width: 360px;
-            }
-            @media ($sm-1281){
-                overflow: visible;
-                margin: 0 auto;
-                max-width: 100%;
-            }
-            img{
-                max-width: 100%;
-                @media ($sm-1281){
-                    display: none;
-                }
-            }
-            .cta-float{
-                position: absolute;
-                top: 44%;
-                transform: translateY(-50%);
-                background: url('../img/cta-btn-brand.svg') no-repeat center;
-                background-size: contain;
-                width: 389px;
-                height: 121px;
-                padding: 36px 44px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                @media ($sm-1441){
-                    top:61%;
-                    width: 285px;
-                 }
-                 @media ($sm-1281){
-                     position: unset;
-                     top: unset;
-                     max-width: 250px;
-                     transform: none;
-                 }
-                a{
-                    color: $white;
-                    text-decoration: none;
-                }
-            }
-        }
         .content-left{
-            max-width: 556px;
-            width: 100%;
-            font-family: $font-primary;
-            flex: 1 1 auto;
-            @media ($sm-1281){
-                max-width: 100%;
-            }
             .tagline{
-                font-family: $font-primary;
-                font-size: 20px;
-                font-weight: 500;
-                line-height: normal;
                 color: $title-mix-blue;
-                margin-bottom: 14px;
-                @media ($sm-1679){
-                    font-size: 18px; 
-                }
-                @media ($sm-1281){
-                    font-size: 16px;
-                }
-                @media ($sm-991){
-                    font-size: 14px;
-                    margin-bottom: 10px;
-                }
             }
             .title{
-                font-family: $font-primary;
-                font-size: 36px;
-                font-weight: 600;
-                line-height: normal;
-                margin-bottom: 20px;
                 color: $white;
-                @media ($sm-1679){
-                    font-size: 30px; 
-                }
-                @media ($sm-1441){
-                    font-size: 28px;
-                }
-                @media ($sm-1281){
-                    font-size: 24px;
-                }
-                @media ($sm-991){
-                    font-size: 22px;
-                    margin-bottom: 10px;
-                }
                 span{
                     color: $title-mix-blue;
                 }
             }
             .content-txt{
-                font-family: $font-primary;
-                font-size: 18px;
-                font-weight: 300;
-                line-height: 28px;
                 color: $white;
-                margin-bottom: 24px;
-                @media ($sm-1679){
-                    font-size: 16px;
-                }
-                @media ($sm-1281){
-                    font-size: 14px;
-                }
-                @media ($sm-991){
-                    font-size: 12px;
-                    line-height: 22px;
-                    margin-bottom: 10px;
-                }
             }
             .content{
                 ul{
-                    margin-left: 20px;
-                    margin-bottom: 72px;
-                    @media ($sm-1281){
-                        font-size: 14px;
-                        margin-bottom: 15px;
-                    }
                     li{
-                        font-family: $font-primary;
-                        margin-bottom: 30px;
-                        font-size: 18px;
-                        font-weight: 300;
-                        line-height: 28px;
                         color: $white;
-                        @media ($sm-1679){
-                            font-size: 16px;
-                            margin-bottom: 20px;
-                        }
-                        @media ($sm-1281){
-                            font-size: 14px;
-                            margin-bottom: 15px;
-                        }
-                        @media ($sm-991){
-                            font-size: 12px;
-                            line-height: 22px;
-                            margin-bottom: 10px;
-                        }
                     }
                 }
             }

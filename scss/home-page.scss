@@ -923,6 +923,9 @@
     padding-bottom: 0px;
     display: flex;
     border: 1px solid $static-blks-border;
+    @media ($sm-1679){
+        padding: 45px 40px;
+    }
     @media ($sm-1281){
         flex-direction: column;
         padding: 50px 40px;
@@ -979,6 +982,9 @@
         border-radius:0 0 41px 0;
         overflow: hidden;
         margin-left: auto;
+        @media ($sm-1679){
+            max-width: 470px;
+        }
         @media ($sm-1441){
             max-width: 360px;
         }
@@ -1114,8 +1120,6 @@
                         margin-bottom: 15px;
                     }
                     @media ($sm-991){
-                        font-size: 12px;
-                        line-height: 22px;
                         margin-bottom: 10px;
                     }
                 }
@@ -1288,6 +1292,18 @@
   }
   .statistics{
     margin-bottom: 120px;
+    @media ($sm-1679){
+        margin-bottom: 100px;
+    }
+    @media ($sm-1481){
+        margin-bottom: 70px;
+    }
+    @media ($sm-1281){
+        margin-bottom: 60px;
+    }
+    @media ($sm-991){
+        margin-bottom: 40px;
+    }
     .title{
         font-family: $font-primary;
         font-size: 36px;
@@ -1352,27 +1368,27 @@
         margin-top: 70px;
         @media ($sm-1679){
             margin-top: 65px;
-            row-gap: 45px;
+            row-gap: 40px;
             column-gap: 15px;
         }
         @media ($sm-1481){
             margin-top: 55px;
-            row-gap: 40px;
+            row-gap: 30px;
         }
         @media ($sm-1281){
             margin-top: 50px;
-            row-gap: 35px;
+            row-gap: 25px;
         }
         @media ($sm-991){
             margin-top: 40px;
-            row-gap: 25px;
+            row-gap: 15px;
         }
         .statistics-blks{
             border-radius: 14px;
             border: 2px solid $static-blks-border;
             background: $static-blks-light-bg;
             padding: 36px 18px;
-            flex: 1;
+            flex: 0 0 23%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1398,7 +1414,7 @@
                     font-size: 14px;
                     margin-bottom: 22px;
                     img{
-                        width: 20px;
+                        width: 15px;
                     }
                 }
                 @media ($sm-991){
@@ -1406,6 +1422,9 @@
                 }
                 span{
                     margin-right: 12px;
+                    @media ($sm-1679){
+                        margin-right: 8px;
+                    }
                 }
             }
             .numerics{
@@ -2599,7 +2618,7 @@ flex-wrap: wrap;
             line-height: 1.7143;
             color: #4D6090; 
             @media ($sm-1199){
-                font-size: 12px; 
+                font-size: 14px; 
             }
         }
         
