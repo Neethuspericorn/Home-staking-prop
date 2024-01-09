@@ -15,10 +15,9 @@
     &::before{
         position:absolute;
         content: "";
-        background-image: url(/img/Stepby_step_icon.png);
-        background-repeat: no-repeat;
-        top: 0;
-        right:-260px;
+        background: url(/img/coin-lg-brand.svg) no-repeat;
+        top: -31px;
+        right: -223px;
         width: 211px;
         height: 224px;
     }
@@ -136,7 +135,7 @@ flex-wrap: wrap;
         margin: 0 auto;
 
         &::before{
-            right: -232px;
+            right: -170px;
         }
         .top-title{
             font-size: 18px;
@@ -164,7 +163,7 @@ flex-wrap: wrap;
 
             }
             .box-title{
-                font-size: 18px;
+                font-size: 20px;
             }
             .box-content{
                 font-size: 13px;
@@ -178,14 +177,14 @@ flex-wrap: wrap;
    }
 
 
-   @media(max-width:1441px){
+   @media($sm-1441){
     .step-heading-sec{
 
         width: 57%;
         margin: 0 auto;
 
         &::before{
-            right: -232px;
+            right: -170px;
         }
         .top-title{
             font-size: 16px;
@@ -212,21 +211,34 @@ flex-wrap: wrap;
                 width: 64px;
                 height: 64px;
 
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
+              
             }
             .box-title{
-                font-size: 16px;
+                font-size: 18px;
+                margin-bottom: 0;
             }
             .box-content{
-                font-size: 12px;
+                p{
+                    font-size: 14px;
+                }
+               
             }
         } 
     }
 
 
+ }
+
+ @media ($sm-1281){
+
+    .step-heading-sec{
+
+
+        .main-title{
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
  }
 
 @media ($sm-991){
@@ -236,20 +248,53 @@ flex-wrap: wrap;
 
     .step-heading-sec{
 
+        .top-title {
+            font-size: 14px;
+        }
+
         .main-title{
             font-size: 22px;
             line-height: 32px;
         }
+        .content-sec{
+
+            p{
+                font-size: 12px;
+                line-height: 22px;
+            }
+           
+        }
     } 
+    .box-sec {
+        .box-inner{
+            .box-content{
+                p{
+                    font-size: 12px;
+                    line-height: 22px;
+                }
+               
+            }
+        }
+    }
  
 }
    @media($sm-767 ){
- 
+    .step-guide{
+        padding-top: 70px;
+    }
     .step-heading-sec {
         width: 100%;
         
         &::before{
-            display: none;
+            // display: none;
+            background: url(/img/coin-sm-brand.svg) no-repeat;
+            // width: 120px;
+            // height: 170px;
+            width: 164px;
+            height: 167px;
+            content: "";
+            right: -10px;
+            top: -93px;
         }
     }
 
@@ -268,6 +313,7 @@ flex-wrap: wrap;
 
     .box-sec .box-inner {
         width: 48%;
+
     }
    }
 

@@ -85,7 +85,7 @@
 
 @media (max-width: 1679px) {
   .by-props-sec .heading {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 44px;
   }
   .by-props-sec .four-props .box-props p {
@@ -98,7 +98,22 @@
     line-height: 43px;
   }
   .by-props-sec .four-props .box-props p {
-    font-size: 12px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1281px) {
+  .by-props-sec .heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 991px) {
+  .by-props-sec .heading {
+    font-size: 22px;
+    line-height: 43px;
+  }
+  .by-props-sec .four-props .box-props p {
+    font-size: 14px;
   }
 }
 @media (max-width: 767px) {

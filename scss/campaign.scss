@@ -177,7 +177,7 @@
    }
 
 
-   @media(max-width:1441px){
+   @media($sm-1441){
   
 
 
@@ -217,7 +217,15 @@
    }
 
  }
+ @media ($sm-1281){
 
+    .campaign {
+        .campaign-subtitle{
+          font-size: 24px;
+          line-height: 32px;
+        }
+    }
+ }
 @media ($sm-991){
     .campaign {
         .campaign-subtitle{
@@ -225,7 +233,15 @@
           line-height: 32px;
         }
 
+        .campaign-title {
+            font-size: 14px;
+        }
         .two-col {
+
+            .campaign-content p {
+                font-size: 12px;
+                line-height: 22px;
+            }
 
             .top-heading {
                 font-size: 20px;

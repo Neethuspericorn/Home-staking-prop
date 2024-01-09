@@ -127,7 +127,7 @@
     .by-props-sec{
 
         .heading{
-            font-size: 28px;
+            font-size: 30px;
             line-height: 44px;
          }
         .four-props {
@@ -145,7 +145,7 @@
    }
 
 
-   @media(max-width:1441px){
+   @media($sm-1441){
     
 
     .by-props-sec{
@@ -158,7 +158,7 @@
             
             .box-props {
                 p{
-                    font-size: 12px;
+                    font-size: 14px;
                 }
             }
 
@@ -167,7 +167,35 @@
 
 
    }
+   @media ($sm-1281){
+    .by-props-sec{
 
+        .heading{
+            font-size: 24px;
+            line-height: 32px;
+         }
+        
+        }
+    }
+   @media ($sm-991){
+    .by-props-sec{
+
+        .heading{
+            font-size: 22px;
+            line-height: 43px;
+         }
+
+         .four-props {
+            
+            .box-props {
+                p{
+                    font-size: 14px;
+                }
+            }
+
+        }
+        }
+   }
 
    @media($sm-767){
  

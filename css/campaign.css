@@ -156,10 +156,23 @@
     right: -69px;
   }
 }
+@media (max-width: 1281px) {
+  .campaign .campaign-subtitle {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
 @media (max-width: 991px) {
   .campaign .campaign-subtitle {
     font-size: 22px;
     line-height: 32px;
+  }
+  .campaign .campaign-title {
+    font-size: 14px;
+  }
+  .campaign .two-col .campaign-content p {
+    font-size: 12px;
+    line-height: 22px;
   }
   .campaign .two-col .top-heading {
     font-size: 20px;
