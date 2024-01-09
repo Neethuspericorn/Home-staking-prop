@@ -1,141 +1,4 @@
 @import "partials/partials";
-.theme-dark{
-    .statistics{
-        margin-bottom: 120px;
-        .title{
-            font-family: $font-primary;
-            font-size: 36px;
-            font-weight: 600;
-            line-height: normal;
-            margin-bottom: 30px;
-            text-align: center;
-            color: $white;
-            @media ($sm-1679){
-                font-size: 30px;
-                margin-bottom: 25px; 
-            }
-            @media ($sm-1441){
-                font-size: 28px;
-                margin-bottom: 25px;
-            }
-            @media ($sm-1281){
-                font-size: 24px;
-                margin-bottom: 20px;
-            }
-            @media ($sm-991){
-                font-size: 22px;
-                margin-bottom: 10px;
-            }
-            
-            span{
-                color: $title-mix-blue;
-            }
-        }
-        .content-txt{
-            font-family: $font-primary;
-            font-size: 18px;
-            font-weight: 300;
-            line-height: 28px;
-            color: $white;
-            margin-bottom: 24px;
-            text-align: center;
-            @media ($sm-1481){
-                font-size: 16px;
-                line-height: 26px;
-            }
-            @media ($sm-1281){
-                font-size: 14px;
-                line-height: 24px;
-            }
-            @media ($sm-991){
-                font-size: 12px;
-                line-height: 22px;
-            }
-            br{
-                @media ($sm-1281){
-                    display: none;
-                }
-            }
-        }
-        .statistics-blks-wrp{
-            display: flex;
-            column-gap: 24px;
-            row-gap: 56px;
-            display: flex;
-            flex-wrap: wrap;
-            margin-top: 70px;
-            @media ($sm-1679){
-                margin-top: 65px;
-                row-gap: 49px;
-            }
-            @media ($sm-1481){
-                margin-top: 55px;
-                row-gap: 40px;
-            }
-            @media ($sm-1281){
-                margin-top: 50px;
-                row-gap: 35px;
-            }
-            @media ($sm-991){
-                margin-top: 40px;
-                row-gap: 25px;
-            }
-            .statistics-blks{
-                border-radius: 14px;
-                border: 2px solid $light-dark-border;
-                background: $static-blks-bg;
-                padding: 36px;
-                @media ($sm-991){
-                    flex: 0 0 48%;
-                }
-                @media (max-width:760px){
-                    flex: 1 0 auto;
-                }
-                .blks-title{
-                    color: #2966FF;
-                    text-align: center;
-                    font-family: $font-primary;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: normal;
-                    margin-bottom: 36px;
-                    @media ($sm-1679){
-                        margin-bottom: 25px;
-                    }
-                    @media ($sm-991){
-                        margin-bottom: 20px;
-                    }
-                    span{
-                        margin-right: 12px;
-                    }
-                }
-                .numerics{
-                    color: #FFF;
-                    text-align: center;
-                    font-family: $font-primary;
-                    font-size: 28px;
-                    font-weight: 600;
-                    line-height: normal;
-                    @media ($sm-1679){
-                        font-size: 26px;
-                    }
-                    @media ($sm-1481){
-                        font-size: 24px;
-                    }
-                    @media ($sm-1441){
-                        font-size: 22px;
-                    }
-                    @media ($sm-1281){
-                        font-size: 22px;
-                    }
-                    @media ($sm-991){
-                        font-size: 20px;
-                    }
-                }
-            }
-        }
-    }
-}
 .statistics{
     margin-bottom: 120px;
     .title{
@@ -271,6 +134,144 @@
                 }
                 @media ($sm-991){
                     font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.theme-dark{
+    .statistics{
+        margin-bottom: 120px;
+        .title{
+            font-family: $font-primary;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: normal;
+            margin-bottom: 30px;
+            text-align: center;
+            color: $white;
+            @media ($sm-1679){
+                font-size: 30px;
+                margin-bottom: 25px; 
+            }
+            @media ($sm-1441){
+                font-size: 28px;
+                margin-bottom: 25px;
+            }
+            @media ($sm-1281){
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            @media ($sm-991){
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+            
+            span{
+                color: $title-mix-blue;
+            }
+        }
+        .content-txt{
+            font-family: $font-primary;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 28px;
+            color: $white;
+            margin-bottom: 24px;
+            text-align: center;
+            @media ($sm-1481){
+                font-size: 16px;
+                line-height: 26px;
+            }
+            @media ($sm-1281){
+                font-size: 14px;
+                line-height: 24px;
+            }
+            @media ($sm-991){
+                font-size: 12px;
+                line-height: 22px;
+            }
+            br{
+                @media ($sm-1281){
+                    display: none;
+                }
+            }
+        }
+        .statistics-blks-wrp{
+            display: flex;
+            column-gap: 24px;
+            row-gap: 56px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 70px;
+            @media ($sm-1679){
+                margin-top: 65px;
+                row-gap: 49px;
+            }
+            @media ($sm-1481){
+                margin-top: 55px;
+                row-gap: 40px;
+            }
+            @media ($sm-1281){
+                margin-top: 50px;
+                row-gap: 35px;
+            }
+            @media ($sm-991){
+                margin-top: 40px;
+                row-gap: 25px;
+            }
+            .statistics-blks{
+                border-radius: 14px;
+                border: 2px solid $light-dark-border;
+                background: $static-blks-bg;
+                padding: 36px;
+                @media ($sm-991){
+                    flex: 0 0 48%;
+                }
+                @media (max-width:760px){
+                    flex: 1 0 auto;
+                }
+                .blks-title{
+                    color: #2966FF;
+                    text-align: center;
+                    font-family: $font-primary;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-bottom: 36px;
+                    @media ($sm-1679){
+                        margin-bottom: 25px;
+                    }
+                    @media ($sm-991){
+                        margin-bottom: 20px;
+                    }
+                    span{
+                        margin-right: 12px;
+                    }
+                }
+                .numerics{
+                    color: #FFF;
+                    text-align: center;
+                    font-family: $font-primary;
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: normal;
+                    @media ($sm-1679){
+                        font-size: 26px;
+                    }
+                    @media ($sm-1481){
+                        font-size: 24px;
+                    }
+                    @media ($sm-1441){
+                        font-size: 22px;
+                    }
+                    @media ($sm-1281){
+                        font-size: 22px;
+                    }
+                    @media ($sm-991){
+                        font-size: 20px;
+                    }
                 }
             }
         }
