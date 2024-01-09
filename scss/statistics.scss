@@ -99,6 +99,9 @@
                     font-weight: 500;
                     line-height: normal;
                     margin-bottom: 36px;
+                    @media ($sm-1679){
+                        margin-bottom: 25px;
+                    }
                     @media ($sm-991){
                         margin-bottom: 20px;
                     }
@@ -133,7 +136,6 @@
         }
     }
 }
-
 .statistics{
     margin-bottom: 120px;
     .title{
@@ -238,6 +240,9 @@
                 font-weight: 500;
                 line-height: normal;
                 margin-bottom: 36px;
+                @media ($sm-1679){
+                    margin-bottom: 25px;
+                }
                 @media ($sm-991){
                     margin-bottom: 20px;
                 }
