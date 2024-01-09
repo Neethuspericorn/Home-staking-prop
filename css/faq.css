@@ -374,7 +374,7 @@
   background-color: #000;
   border-color: #484848;
   border-bottom-color: transparent !important;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 27px 27px 0px 0px;
   padding-bottom: 10px;
 }
 .theme-dark .section-faq .accordion .accordion-item .accordion-button:not(.collapsed):after {
