@@ -100,7 +100,7 @@
         padding-left: 43px;
         padding-right: 43px;
         padding-top: 40px;
-        padding-bottom: 24px;
+        padding-bottom: 40px;
         @media ($sm-1679){
           font-size: 20px;
           line-height: 30px;
@@ -108,10 +108,13 @@
         @media ($sm-1481){
           font-size: 16px;
           line-height: 26px;
+          padding-top: 30px;
+        padding-bottom: 30px;
         }
         @media ($sm-1281){
           font-size: 14px;
           padding-top: 25px;
+        padding-bottom: 25px;
         }
         @media ($sm-991){
           padding-top: 25px;
@@ -262,7 +265,7 @@
           padding-left: 43px;
           padding-right: 43px;
           padding-top: 40px;
-          padding-bottom: 24px;
+          padding-bottom: 40px;
           @media ($sm-1679){
             font-size: 20px;
             line-height: 30px;
@@ -270,10 +273,13 @@
           @media ($sm-1481){
             font-size: 16px;
             line-height: 26px;
+            padding-top: 30px;
+          padding-bottom: 30px;
           }
           @media ($sm-1281){
             font-size: 14px;
             padding-top: 25px;
+            padding-bottom: 25px;
           }
           @media ($sm-991){
             padding-top: 25px;

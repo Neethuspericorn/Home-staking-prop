@@ -133,7 +133,7 @@
   padding-left: 43px;
   padding-right: 43px;
   padding-top: 40px;
-  padding-bottom: 24px;
+  padding-bottom: 40px;
 }
 @media (max-width: 1679px) {
   .section-faq .accordion .accordion-item .accordion-button {
@@ -145,12 +145,15 @@
   .section-faq .accordion .accordion-item .accordion-button {
     font-size: 16px;
     line-height: 26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 @media (max-width: 1281px) {
   .section-faq .accordion .accordion-item .accordion-button {
     font-size: 14px;
     padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 @media (max-width: 991px) {
@@ -324,7 +327,7 @@
   padding-left: 43px;
   padding-right: 43px;
   padding-top: 40px;
-  padding-bottom: 24px;
+  padding-bottom: 40px;
 }
 @media (max-width: 1679px) {
   .theme-dark .section-faq .accordion .accordion-item .accordion-button {
@@ -336,12 +339,15 @@
   .theme-dark .section-faq .accordion .accordion-item .accordion-button {
     font-size: 16px;
     line-height: 26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 @media (max-width: 1281px) {
   .theme-dark .section-faq .accordion .accordion-item .accordion-button {
     font-size: 14px;
     padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 @media (max-width: 991px) {
