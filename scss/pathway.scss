@@ -83,14 +83,21 @@ section.pathway-outer
         color: #2E4276;
         @media($sm-1679)
         {
-            font-size: 30px;
+            font-size: 28px;
+        }
+        @media($sm-1199)
+        {
+            font-size: 26px;
+        }
+        @media($sm-767)
+        {
+            font-size: 22px;
         }
         span
         {
             color:#2966FF;
         }
     }
-    margin-top:65px;
     .section-pathway-content {
         display: flex;
         .content-area
@@ -100,12 +107,55 @@ section.pathway-outer
             line-height: 28px;
             font-weight: 300;
             color: #4D6090;
+            @media($sm-1679)
+            {
+                font-size: 15px;
+                margin-top: 20px;
+            }
         }
         .img-coin
         {
+            position: relative;
+            padding-left:45px;
+            @media(max-width:700px)
+            {
+                display:none;
+            }
             img
             {
-                height:360px;
+                height:260px;
+                @media($sm-1679)
+                {
+                    height: 210px;
+                }
+                @media($sm-1199)
+                {
+                    height: 200px;
+                }
+                @media($sm-767)
+                {
+                    height: 180px;
+                }
+            }
+           
+        }
+        .img-coin::before {
+            content: "";
+            background: url(../img/shadow.png);
+            height: 500px;
+            width: 500px;
+            position: absolute;
+            top: -60px;
+            right: 50px;
+            @media($sm-1679)
+            {
+                top: -121px;
+                right: -55px;
+            }
+            @media($sm-1199)
+            {
+                top: -129px;
+                right: -116px;
             }
            
         }
@@ -113,12 +163,21 @@ section.pathway-outer
     .props-value
     {
         margin-top: 25px;
+        @media($sm-1679)
+        {
+            margin-top: 33px;
+        }
         h4
         {
             color: #0C15F9;
             font-size: 18px;
             margin-bottom: 30px;
             font-weight: 600;
+            @media($sm-1679)
+            {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
         }
         .input-form-text {
             border-radius: 30px;
@@ -131,40 +190,81 @@ section.pathway-outer
             height: 60px;
             align-items: center;
             color: #2E4276;
+            @media($sm-1679)
+            {
+                height: 48px;
+            }
+            .text-sec
+            {
+                font-size: 18px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                padding-right: 17px;
+                @media($sm-1679)
+                {
+                    font-size: 14px;
+                }
+            }
         }
     }
 }
 section.utility-section
 {
     margin-top: 55px;
+  
     .utility-outer
     {
         margin-top: 89px;
+        @media($sm-1679)
+        {
+            margin-top: 64px;
+        }
+        @media($sm-767)
+        {
+            margin-top: 40px;
+        }
         h3
         {
             font-size: 29px;
             margin-bottom: 30px;
             color: #2E4276;
             font-weight: 600;
+            @media($sm-1679)
+            {
+                font-size: 28px;
+            }
+            @media($sm-767)
+            {
+                font-size: 22px;
+            }
         }
-        ul
+        .util-list
         {
             list-style:none;
             display: flex;
             flex-wrap:wrap;
-            li
+            .util-outer
             {
                 border:1px solid #B6C3E5;
                 background: #fff;
-                margin-right: 32px;
+                margin-right:15px;
                 height: 62px;
-                width: 30.33%;
                 margin-bottom: 20px;
                 border-radius: 30px;
                 padding: 5px 20px;
                 display:flex;
                 align-items:center;
                 font-size: 18px;
+                @media($sm-1679)
+                {
+                    font-size: 15px;
+                    height: 50px;
+                }
+                @media(max-width:600px)
+                {
+                    margin-right: 0;
+                }
                 span
                 {
                     margin-left: 20px;
@@ -185,6 +285,10 @@ section.utility-section
                 height: 48px;
                 font-size: 16px;
                 font-weight: 600;
+                @media($sm-1679)
+                {
+                    font-size: 15px;
+                }
             }
         }
 
@@ -198,6 +302,14 @@ section.utility-section
 }
 section.buy-props {
     margin-top: 115px;
+    @media($sm-1679)
+    {  
+        margin-top: 85px;
+    }
+    @media($sm-767)
+    {
+        margin-top: 55px;
+    }
     .txt-head
     {
         text-align: center;
@@ -205,6 +317,16 @@ section.buy-props {
         margin-bottom: 60px;
         color: #2E4276;
         font-weight: 600;
+        @media($sm-1679)
+        {
+            font-size: 30px;
+            margin-bottom: 47px;
+        }
+        @media($sm-767)
+        {
+            font-size: 22px;
+            margin-bottom: 38px;
+        }
         span
         {
             color:#0C15F9;
@@ -219,18 +341,44 @@ section.buy-props {
         padding: 40px;
         margin-bottom: 37px;
         justify-content: space-between;
+        @media($sm-1679)
+        {
+            padding: 30px;
+        }
         .text-sec-prop
         {
             display:flex;
+            @media(max-width:500px)
+            {
+                flex-direction: column;
+            }
         }
         .text-props-content
         {
             padding-right: 100px;
+            @media($sm-767)
+            {
+                padding-right: 20px;
+            }
+            @media(max-width:500px)
+            {
+                padding-right: 0px;
+                margin-top: 18px;
+            }
+            
            h3
            {
                 font-size: 23px;
                 font-weight: 600;
                 color: #2E4276;
+                @media($sm-1679)
+                {
+                    font-size: 19px;
+                }
+                @media(max-width:500px)
+                {
+                    font-size: 17px;
+                }
            }
            p
            {
@@ -243,17 +391,37 @@ section.buy-props {
     }
     .number-txt {
         background: #F3F3F3;
-        width: 42px;
-        height: 42px;
+        width: 40px;
+        height: 40px;
         border-radius: 50px;
         text-align: center;
         line-height: 42px;
         flex-shrink: 0;
         color: #2E4276;
-    font-weight: 500;
-    font-size: 15px;
+        font-weight: 500;
+        font-size: 15px;
+        @media($sm-1679)
+        {
+            font-size: 14px;
+        }
+        @media(max-width:500px)
+        {
+            display: none;
+        }
     }
     .img-icn-outr {
         margin-right: 53px;
+        img
+        {
+            height: 60px;
+            @media(max-width:500px)
+            {
+                height: 50px;
+            }
+        }
+        @media($sm-1679)
+        {
+            margin-right: 27px;
+        }
     }
 }
