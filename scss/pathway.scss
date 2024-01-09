@@ -295,13 +295,14 @@ section.utility-section
     }
 
 }
-.floating-icon-left:before {
-    right: -15.33vw;
-    left: auto;
-    top: 0;
-}
+
 section.buy-props {
     margin-top: 115px;
+    .floating-icon-left:before {
+        right: -15.33vw;
+        left: auto;
+        top: 0;
+    }
     @media($sm-1679)
     {  
         margin-top: 85px;

@@ -3138,11 +3138,7 @@ section.utility-section
     }
 
 }
-.floating-icon-left:before {
-    right: -15.33vw;
-    left: auto;
-    top: 0;
-}
+
 section.buy-props {
     margin-top: 115px;
     @media($sm-1679)
@@ -3152,6 +3148,16 @@ section.buy-props {
     @media($sm-767)
     {
         margin-top: 55px;
+    }
+    &.floating-icon-left:before {
+        right: -15.33vw;
+        left: auto;
+        top: 0;
+        @media($sm-1679)
+        {
+            right: -8.33vw !important;
+        }
+       
     }
     .txt-head
     {
@@ -3268,4 +3274,5 @@ section.buy-props {
         }
     }
 }
+
 

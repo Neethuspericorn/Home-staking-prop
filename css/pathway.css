@@ -271,14 +271,13 @@ section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
   }
 }
 
-.floating-icon-left:before {
+section.buy-props {
+  margin-top: 115px;
+}
+section.buy-props .floating-icon-left:before {
   right: -15.33vw;
   left: auto;
   top: 0;
-}
-
-section.buy-props {
-  margin-top: 115px;
 }
 @media (max-width: 1679px) {
   section.buy-props {
