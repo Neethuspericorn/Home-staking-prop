@@ -930,12 +930,17 @@
     display: flex;
     border: 1px solid $static-blks-border;
     @media ($sm-1679){
-        padding: 45px 40px;
+        padding: 45px 40px 0;
+        padding-right: 0px;
+
     }
     @media ($sm-1281){
         flex-direction: column;
-        padding: 50px 40px;
+        padding: 50px 40px 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
+
     &::before{
         content: "";
         background: url('../img/coin-lg-brand.svg') no-repeat center;
@@ -953,9 +958,10 @@
             height: 200px;
         }
         @media ($sm-991){
-            width: 170px;
-            height: 170px;
+            width: 140px;
+            height: 140px;
             left: 35%;
+            top: -70px;
         }
     }
     &::after{
@@ -967,6 +973,10 @@
         position: absolute;
        left:60px;
        bottom: -110px;
+       @media ($sm-1441){
+        width: 140px;
+        height: 150px;
+       }
        @media ($sm-1199){
         width: 120px;
         height: 120px;
@@ -992,7 +1002,8 @@
             max-width: 470px;
         }
         @media ($sm-1441){
-            max-width: 360px;
+            // max-width: 360px;
+            max-width: 378px;
         }
         @media ($sm-1281){
             overflow: visible;
@@ -1018,8 +1029,10 @@
             align-items: center;
             justify-content: center;
             @media ($sm-1441){
-               top:61%;
-               width: 285px;
+               top:48%;
+               width: 300px;
+            //    top:61%;
+            //    width:265%
             }
             @media ($sm-1281){
                 position: unset;
@@ -1038,6 +1051,9 @@
         width: 100%;
         font-family: $font-primary;
         flex: 1 1 auto;
+        @media (max-width:1360px){
+            max-width: 480px;
+        }
         @media ($sm-1281){
             max-width: 100%;
         }
@@ -1051,7 +1067,7 @@
             @media ($sm-1679){
                 font-size: 18px; 
             }
-            @media ($sm-1281){
+            @media ($sm-1441){
                 font-size: 16px;
             }
             @media ($sm-991){
@@ -1068,9 +1084,11 @@
             color: $title-light;
             @media ($sm-1679){
                 font-size: 30px; 
+                margin-bottom: 15px;
             }
             @media ($sm-1441){
-                font-size: 28px;
+                // font-size: 28px;
+                font-size: 25px;
             }
             @media ($sm-1281){
                 font-size: 24px;
@@ -1092,13 +1110,17 @@
             margin-bottom: 24px;
             @media ($sm-1679){
                 font-size: 16px;
+                margin-bottom: 15px;
+            }
+            @media ($sm-1481){
+                font-size: 15px;
             }
             @media ($sm-1281){
                 font-size: 14px;
             }
             @media ($sm-991){
-                font-size: 12px;
-                line-height: 22px;
+                font-size: 14px;
+                line-height: 24px;
                 margin-bottom: 10px;
             }
         }
@@ -1106,6 +1128,9 @@
             ul{
                 margin-left: 20px;
                 margin-bottom: 72px;
+                @media ($sm-1441){
+                    margin-bottom: 40px;
+                }
                 @media ($sm-1281){
                     font-size: 14px;
                     margin-bottom: 15px;
@@ -1119,11 +1144,14 @@
                     color: $para-color;
                     @media ($sm-1679){
                         font-size: 16px;
-                        margin-bottom: 20px;
+                        margin-bottom: 10px;
+                    }
+                    @media ($sm-1481){
+                        font-size: 15px;
+                        margin-bottom: 10px;
                     }
                     @media ($sm-1281){
                         font-size: 14px;
-                        margin-bottom: 15px;
                     }
                     @media ($sm-991){
                         margin-bottom: 10px;
@@ -1302,10 +1330,10 @@
         margin-bottom: 100px;
     }
     @media ($sm-1481){
-        margin-bottom: 70px;
+        margin-bottom: 60px;
     }
     @media ($sm-1281){
-        margin-bottom: 60px;
+        margin-bottom: 50px;
     }
     @media ($sm-991){
         margin-bottom: 40px;
@@ -1324,11 +1352,11 @@
         }
         @media ($sm-1441){
             font-size: 28px;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
         @media ($sm-1281){
             font-size: 24px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
         @media ($sm-991){
             font-size: 22px;
@@ -1356,8 +1384,8 @@
             line-height: 24px;
         }
         @media ($sm-991){
-            font-size: 12px;
-            line-height: 22px;
+            font-size: 14px;
+            line-height: 24px;
         }
         br{
             @media ($sm-1281){
@@ -1374,16 +1402,16 @@
         margin-top: 70px;
         @media ($sm-1679){
             margin-top: 65px;
-            row-gap: 40px;
+            row-gap: 30px;
             column-gap: 15px;
         }
         @media ($sm-1481){
             margin-top: 55px;
-            row-gap: 30px;
+            row-gap: 20px;
         }
         @media ($sm-1281){
             margin-top: 50px;
-            row-gap: 25px;
+            row-gap: 15px;
         }
         @media ($sm-991){
             margin-top: 40px;
@@ -1393,17 +1421,21 @@
             border-radius: 14px;
             border: 2px solid $static-blks-border;
             background: $static-blks-light-bg;
-            padding: 36px 18px;
+            padding: 36px 17px;
             flex: 0 0 23%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            @media ($sm-1679){
+                padding: 25px 17px;
+            }
             @media ($sm-1441){
                 flex: 0 0 30%;
             }
             @media ($sm-1199){
                 flex: 0 0 48%;
+                padding: 20px 18px;
             }
             @media (max-width:760px){
                 flex: 0 0 100%;
@@ -1423,8 +1455,11 @@
                         width: 15px;
                     }
                 }
+                @media ($sm-1441){
+                    margin-bottom: 10px;
+                }
                 @media ($sm-991){
-                    margin-bottom: 20px;
+                    margin-bottom: 10px;
                 }
                 span{
                     margin-right: 12px;
