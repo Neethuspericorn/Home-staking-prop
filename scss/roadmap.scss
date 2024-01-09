@@ -49,9 +49,14 @@
     }
     .col-title{
         @media ($sm-579){
-            flex: 0 0 100%;
-            width: 100%;
+            // flex: 0 0 100%;
+            // width: 100%;
         }
+    }
+    .col-arrows{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
     }
     .title{
         font-size: 36px;
@@ -61,12 +66,19 @@
         }
         @media ($sm-1441){
             font-size: 28px;
-        }
+        } 
         @media ($sm-1281){
             font-size: 24px;
         }
         @media ($sm-991){
             font-size: 22px;
+        }
+        @media ($sm-767){
+            max-width: 240px;
+            line-height: 1.5;
+        }
+        @media ($sm-579){
+            max-width: 180px;
         }
         span{
             color: $primary-blue;
@@ -78,9 +90,7 @@
         justify-content: flex-end;
         gap: 12px;
         margin-left: auto;
-        @media ($sm-579){
-             display: none;
-        }
+         
     }
     .btn-arrow{
         background-color: transparent;
