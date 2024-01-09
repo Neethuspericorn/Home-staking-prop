@@ -30,7 +30,7 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-    color:#0C15F9;
+    color:$primary-blue;
 
 
 }
@@ -42,21 +42,22 @@
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 10px;
- 
+    color: $primary-dark;
     span{
-    color:#0C15F9; 
+    color:$primary-blue;
 }
 
 }
 .content-sec{
     margin-bottom: 60px;
     p{
-        font-family: Poppins;
+      
         font-size: 18px;
         font-weight: 300;
         line-height: 30px;
         letter-spacing: 0em;
         text-align: center;
+        color: #4D6090;
 
     }
 }
@@ -71,16 +72,20 @@ flex-wrap: wrap;
 
 .box-inner{
     width: 30%;
-    border: 1px solid #3D72C5;
-    background: linear-gradient(134.63deg, #0C0D30 3.25%, rgba(0, 0, 0, 0) 98.14%);
-  
+    border: 1px solid #A1BBFF;
+    background: linear-gradient(150.43deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
     padding: 15px;
     border-radius: 27px;
     margin-bottom: 20px;
 
     .box-icon{
+        border: 1px solid #A1BBFF;
         width: 84px;
         height: 84px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .box-subtitle{
@@ -91,7 +96,7 @@ flex-wrap: wrap;
         line-height: 20px;
         letter-spacing: 0em;
         text-align: left;
-        color: #0C15F9;
+        color: $primary-blue;
 
     }
     .box-title{
@@ -101,6 +106,7 @@ flex-wrap: wrap;
         line-height: 35px;
         letter-spacing: 0em;
         text-align: left;
+        color: $primary-dark;
 
     }
     .box-content{
@@ -111,6 +117,8 @@ flex-wrap: wrap;
         line-height: 24px;
         letter-spacing: 0em;
         text-align: justified;
+        color:#4D6090;
+        ;
 
         }
     }
@@ -118,7 +126,6 @@ flex-wrap: wrap;
 }
 
 }
-
 
 
 
@@ -257,3 +264,53 @@ flex-wrap: wrap;
         width: 48%;
     }
    }
+
+
+
+
+
+
+//   ......................... dark theme............................
+
+.theme-dark{
+    .step-heading-sec{
+        .top-title{
+            color:#0C15F9;     
+        }
+
+        .main-title{
+            color: $primary-light;
+            span{
+                color:#0C15F9;  
+            }
+        }
+        .content-sec{
+            p{
+                color: $primary-light;
+            }
+        }
+    }
+
+    .box-sec {
+        .box-inner{
+            background: linear-gradient(134.63deg, #0C0D30 3.25%, rgba(0, 0, 0, 0) 98.14%);
+            border: 1px solid #3D72C5;
+        }
+        .box-icon{
+            border: 1px solid #191B4F
+        }
+        .box-title{
+            color: $primary-light;
+        }
+        .box-subtitle{
+            color: #0C15F9;
+
+            
+        }
+        .box-content{
+            p{
+                color: $primary-light;
+            }
+    }
+}
+}

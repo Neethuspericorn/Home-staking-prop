@@ -18,7 +18,7 @@
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
-  color: #0C15F9;
+  color: #2966FF;
 }
 .campaign .campaign-subtitle {
   font-size: 42px;
@@ -27,9 +27,10 @@
   letter-spacing: 0em;
   text-align: center;
   padding-bottom: 75px;
+  color: #2E4276;
 }
 .campaign .campaign-subtitle span {
-  color: #0C15F9;
+  color: #2966FF;
 }
 .campaign .two-col {
   display: flex;
@@ -50,9 +51,10 @@
   letter-spacing: 0em;
   text-align: left;
   padding: 20px 0px;
+  color: #2E4276;
 }
 .campaign .two-col .top-heading span {
-  color: #0C15F9;
+  color: #2966FF;
 }
 .campaign .two-col .campaign-content {
   padding-bottom: 40px;
@@ -84,7 +86,7 @@
 .campaign .two-col .right-sec::before {
   position: absolute;
   content: "";
-  background-image: url(/img/probase_icon.png);
+  background-image: url(/img/probase-icon-light.png);
   background-repeat: no-repeat;
   top: 112px;
   right: -93px;
@@ -92,13 +94,14 @@
   height: 224px;
 }
 .campaign .two-col .right-sec .right-boxes {
-  background: linear-gradient(134.63deg, #0C0D30 3.25%, rgba(0, 0, 0, 0) 98.14%);
-  border: 1px solid #3D72C5;
+  background: linear-gradient(150.43deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
+  border: 1px solid #A1BBFF;
   border-radius: 27px;
   padding: 50px 30px;
   margin-bottom: 25px;
 }
 .campaign .two-col .right-sec .right-boxes .bottom-content {
+  color: #2E4276;
   font-size: 28px;
   font-weight: 600;
   line-height: 42px;
@@ -175,6 +178,31 @@
   .campaign .two-col .right-sec::before {
     top: 149px !important;
   }
+}
+.theme-dark .campaign .top-heading {
+  color: #fff;
+}
+.theme-dark .campaign .top-heading span {
+  color: #0C15F9;
+}
+.theme-dark .campaign .campaign-title {
+  color: #0C15F9;
+}
+.theme-dark .campaign .campaign-subtitle {
+  color: #fff;
+}
+.theme-dark .campaign .campaign-subtitle span {
+  color: #0C15F9;
+}
+.theme-dark .campaign .join-us a {
+  background-color: #2966FF;
+  color: #fff;
+}
+.theme-dark .campaign .two-col .right-sec::before {
+  background-image: url(/img/probase_icon.png);
+}
+.theme-dark .campaign .two-col .right-sec .right-boxes .bottom-content {
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=campaign.css.map */
