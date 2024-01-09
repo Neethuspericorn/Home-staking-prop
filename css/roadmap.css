@@ -166,7 +166,8 @@
 }
 .roadmap-slider .icon img {
   width: 40px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   position: relative;
   z-index: 2;
 }

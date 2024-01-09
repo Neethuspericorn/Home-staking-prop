@@ -9,6 +9,81 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
+.theme-dark .statistics {
+  margin-bottom: 120px;
+}
+.theme-dark .statistics .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+@media (max-width: 1679px) {
+  .theme-dark .statistics .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1481px) {
+  .theme-dark .statistics .title {
+    font-size: 30px;
+  }
+}
+.theme-dark .statistics .title span {
+  color: #2966FF;
+}
+.theme-dark .statistics .content-txt {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 24px;
+  text-align: center;
+}
+@media (max-width: 1679px) {
+  .theme-dark .statistics .content-txt {
+    font-size: 16px;
+  }
+}
+.theme-dark .statistics .statistics-blks-wrp {
+  display: flex;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  row-gap: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.theme-dark .statistics .statistics-blks-wrp .statistics-blks {
+  border-radius: 14px;
+  border: 2px solid #2B2B2B;
+  background: #000101;
+  padding: 36px;
+}
+.theme-dark .statistics .statistics-blks-wrp .statistics-blks .blks-title {
+  color: #2966FF;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 36px;
+}
+.theme-dark .statistics .statistics-blks-wrp .statistics-blks .blks-title span {
+  margin-right: 12px;
+}
+.theme-dark .statistics .statistics-blks-wrp .statistics-blks .numerics {
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .statistics {
   margin-bottom: 120px;
 }
@@ -19,22 +94,24 @@
   line-height: normal;
   margin-bottom: 30px;
   text-align: center;
+  color: #2E4276;
 }
 .statistics .title span {
-  color: #0C15F9;
+  color: #2966FF;
 }
 .statistics .content-txt {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
-  color: #fff;
+  color: #4D6090;
   margin-bottom: 24px;
   text-align: center;
 }
 .statistics .statistics-blks-wrp {
   display: flex;
-  column-gap: 24px;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
   row-gap: 56px;
   display: flex;
   flex-wrap: wrap;
@@ -42,9 +119,14 @@
 }
 .statistics .statistics-blks-wrp .statistics-blks {
   border-radius: 14px;
-  border: 2px solid #2B2B2B;
-  background: #000101;
+  border: 2px solid #A1BBFF;
+  background: #fff;
   padding: 36px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .statistics .statistics-blks-wrp .statistics-blks .blks-title {
   color: #2966FF;
@@ -59,12 +141,10 @@
   margin-right: 12px;
 }
 .statistics .statistics-blks-wrp .statistics-blks .numerics {
-  color: #FFF;
+  color: #2E4276;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: normal;
 }
-
-/*# sourceMappingURL=statistics.css.map */

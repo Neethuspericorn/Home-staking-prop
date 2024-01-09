@@ -36,7 +36,8 @@
 .section-partners .partner-wrp img {
   max-width: 140px;
   max-height: 38px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /*# sourceMappingURL=partners.css.map */
