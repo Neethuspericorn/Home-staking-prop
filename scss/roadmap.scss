@@ -1,8 +1,6 @@
 @import "partials/partials";
 
-.section-roadmap{
-    padding-top: 50px;
-    padding-bottom: 100px;
+.floating-icon-left{
     position: relative;
     & > div{
         position: relative;
@@ -17,15 +15,24 @@
         display: block;
         position: absolute;
         bottom: 130px;
-        left: -65px;
+        left: -2.333vw;
         transform: translateX(-100%);
         @media ($sm-1679){
             width: 100px;
             bottom: 100px;
-           
+            left: -0.5vw;
+        }
+        @media ($sm-1199){
+            width: 80px;
+            bottom: 80px;
+            left: -0.33vw;
         }
          
     }
+}
+.section-roadmap{
+    padding-top: 50px;
+    padding-bottom: 100px;
     .title{
         font-size: 36px;
         color: #2E4276;
@@ -45,7 +52,7 @@
     }
     .btn-arrow{
         background-color: transparent;
-        border: 1px solid #ffffff;
+        border: 1px solid $primary-blue;
         width: 58px;
         aspect-ratio: 1;
         border-radius: 60px;
@@ -69,6 +76,16 @@
         &:hover{
             background-color: $primary-blue;
             border: 1px solid $primary-blue;
+            &.btn-prev{
+                &:before{
+                    border-right: 1.2em solid #ffffff;  
+                }
+            }
+            &.btn-next{
+                &:before{
+                    border-left: 1.2em solid #ffffff;
+                }
+            }
         }
         &:before{
             content: ''; 
@@ -80,7 +97,7 @@
             &:before{
                 border-top: 1em solid transparent;
                 border-bottom: 1em solid transparent; 
-                border-right: 1.2em solid $primary-light; 
+                border-right: 1.2em solid $primary-blue; 
                 margin-right: 0.5em;
             }
         }
@@ -88,7 +105,7 @@
             &:before{
                 border-top: 1em solid transparent;
                 border-bottom: 1em solid transparent;
-                border-left: 1.2em solid $primary-light;
+                border-left: 1.2em solid $primary-blue;
                 margin-left: 0.5em;
             }
         }
@@ -219,6 +236,20 @@
             }
         }
 
+        .btn-arrow{
+            border: 1px solid #ffffff;
+            &.btn-prev{
+                &:before{
+                    border-right: 1.2em solid #ffffff; 
+                }
+            }
+            &.btn-next{
+                &:before{
+                    border-left: 1.2em solid #ffffff
+                }
+            }
+        }
+
         .icon{
             &:before{
                 background-color: #2B2B2B;
@@ -231,7 +262,7 @@
                         background-color: $primary-blue;
                     }
                 }   
-            }
+            } 
         }
 
         .roadmap-slider{
