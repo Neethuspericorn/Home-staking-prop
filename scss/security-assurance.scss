@@ -95,24 +95,6 @@
         }
         &.security{
             background-color: #F8F8FF;
-            position: relative;
-            &:before{
-                z-index: 0;
-                content: '';
-                background: url(../img/sec-floating.svg) no-repeat center/contain;
-                width: 130px;
-                aspect-ratio: 1.08;
-                display: block;
-                position: absolute;
-                bottom: 160px;
-                left: -65px;
-                transform: translateX(-100%);
-                @media ($sm-1679){
-                    width: 100px;
-                    bottom: 100px;
-                }
-                 
-            }
             .txt-col{
                 @media ($sm-1199){
                     order: 2;
