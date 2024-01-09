@@ -399,6 +399,85 @@
         .header-wrapper .info-block .pros-val.pros-val-down img {
           filter: brightness(0) saturate(100%) invert(60%) sepia(59%) saturate(6568%) hue-rotate(331deg) brightness(125%) contrast(147%); }
   .header-wrapper .theme-toggle-btn-block {
+<<<<<<< HEAD
+    margin-right: 15px;
+  }
+}
+.header-wrapper .theme-toggle-btn-block .theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+.header-wrapper .wallet-btn-cover {
+  position: relative;
+}
+.header-wrapper .wallet-btn-cover .wallet-btn-copy {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #F0F0F8;
+}
+.header-wrapper .wallet-btn {
+  border-radius: 20px;
+  background-color: #fff;
+  color: #4D6090;
+  border: solid 1px #4D6090;
+  padding: 9px 30px;
+  font-size: 0.875rem;
+  transition: 0.3s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.header-wrapper .wallet-btn:hover {
+  opacity: 0.8;
+}
+.header-wrapper .login-btn {
+  margin-left: 15px;
+  border-radius: 20px;
+  border: none;
+  background: #E8EFFF;
+  padding: 8px 30px;
+  transition: 0.3s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #4D6090;
+  font-size: 14px;
+}
+.header-wrapper .login-btn img {
+  margin-left: 25px;
+}
+.header-wrapper .login-btn:hover {
+  opacity: 0.8;
+}
+@media (max-width: 991px) {
+  .header-wrapper .wallet-btn-cover-web {
+    margin-left: 8px;
+  }
+}
+.header-wrapper .wallet-btn-cover-web .wallet-btn-connected {
+  text-align: left;
+}
+.header-wrapper .prof-avt {
+  margin-left: 25px;
+}
+.header-wrapper .prof-avt img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+=======
     display: inline-flex;
     margin-right: 20px; }
     @media (max-width: 1441px) {
@@ -465,6 +544,7 @@
       border-radius: 50%;
       overflow: hidden;
       object-fit: cover; }
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
 
 .wallet-btn-cover {
   position: relative; }
@@ -842,8 +922,17 @@
 
   .filter-wrapper .filter-nav-btn {
     margin-right: 5px;
+<<<<<<< HEAD
+    flex-grow: 1;
+  }
+  .filter-wrapper .filter-nav-btn:last-child {
+    margin-right: 0;
+  }
+}
+=======
     flex-grow: 1; }
     .filter-wrapper .filter-nav-btn:last-child {
       margin-right: 0; } }
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
 
 /*# sourceMappingURL=header.css.map */

@@ -242,6 +242,11 @@
 .sticky-table th:last-child, .sticky-table td:last-child {
   position: sticky;
   right: 0;
+<<<<<<< HEAD
+  background-color: #fff;
+}
+=======
   background-color: #fff; }
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
 
 /*# sourceMappingURL=table.css.map */

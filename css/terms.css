@@ -75,6 +75,12 @@
     font-size: 20px; }
 
   .terms-sec .terms-body-sec h3 {
+<<<<<<< HEAD
+    font-size: 16px;
+  }
+}
+=======
     font-size: 16px; } }
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
 
 /*# sourceMappingURL=terms.css.map */

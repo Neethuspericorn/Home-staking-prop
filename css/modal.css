@@ -195,6 +195,70 @@
   max-width: 900px;
   margin: auto auto 65px;
   position: relative;
+<<<<<<< HEAD
+  padding: 0 50px;
+}
+.conect-wallet p {
+  margin: 0 auto;
+  max-width: 550px;
+  color: #697F9B;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 163.5%;
+}
+.conect-wallet .wallet-title {
+  color: #2E4276;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 163.5%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.conect-wallet .walles-otr {
+  display: flex;
+  width: 100%;
+  column-gap: 27px;
+  margin-top: 40px;
+}
+.conect-wallet .walles-otr .wallet-btn-inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.conect-wallet .walles-otr .wallet-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font: 500 16px/22px "Poppins", sans-serif;
+  padding: 5px 15px;
+  border-radius: 8px;
+  border: 1px solid #E3E4F3;
+  background: #FFF;
+  color: #2E4276;
+  flex: 1 1 0%;
+  height: 64px;
+  box-shadow: none;
+}
+.conect-wallet .walles-otr .wallet-btn:hover, .conect-wallet .walles-otr .wallet-btn.active {
+  border: 1px solid #2966FF;
+  background: #EDF2FF;
+}
+.conect-wallet .walles-otr .wallet-btn .wallet-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+=======
   padding: 0 50px; }
   .conect-wallet p {
     margin: 0 auto;
@@ -249,6 +313,7 @@
         align-items: center;
         justify-content: center;
         overflow: hidden; }
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
 
 @media (min-width: 576px) {
   .custom-modal .modal-medium {
@@ -339,8 +404,13 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
+<<<<<<< HEAD
+    flex-direction: column;
+  }
+=======
     flex-direction: column; }
 
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
   .privacy-policy p {
     font: 300 13px/23px "Poppins", sans-serif; }
 
@@ -1153,6 +1223,32 @@
     z-index: -1;
     border-radius: 8px; }
   .custom-modal .banner-img-block .inp-banner-box .banner-img-inp-label {
+<<<<<<< HEAD
+    height: 100px;
+  }
+}
+.custom-modal .banner-img-block .inp-banner-box .banner-img-inp-label .def-img {
+  filter: brightness(0) saturate(100%) invert(36%) sepia(37%) saturate(616%) hue-rotate(185deg) brightness(92%) contrast(88%);
+}
+@media (max-width: 1679px) {
+  .custom-modal .banner-img-block .inp-banner-box .banner-img-inp-label .def-img {
+    width: 30px;
+  }
+}
+.custom-modal .banner-img-block .inp-banner-box .banner-img-inp-label .banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.custom-modal .banner-img-block .inp-banner-box .img-remove-btn {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 0;
+  line-height: 0;
+  background-color: transparent;
+}
+=======
     width: 100%;
     display: flex;
     align-items: center;
@@ -1179,5 +1275,6 @@
     padding: 0;
     line-height: 0;
     background-color: transparent; }
+>>>>>>> 1a6fc7e38d35923fe440356b199a83c6dcf0c341
 
 /*# sourceMappingURL=modal.css.map */
