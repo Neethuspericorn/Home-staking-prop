@@ -9,147 +9,43 @@
 /*** laptop with HiDPI (High Dots Per Inch) resolution ***/
 /*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
 /* placeholder mixin */
-.theme-dark section.pathway-outer {
-  margin-top: 65px;
-}
 .theme-dark section.pathway-outer h3 {
-  font-size: 36px;
-  font-weight: 600;
-  line-height: normal;
-  max-width: 800px;
-}
-@media (max-width: 1679px) {
-  .theme-dark section.pathway-outer h3 {
-    font-size: 30px;
-  }
-}
-.theme-dark section.pathway-outer h3 span {
-  color: #2966FF;
-}
-.theme-dark section.pathway-outer .section-pathway-content {
-  display: flex;
+  color: #fff;
 }
 .theme-dark section.pathway-outer .section-pathway-content .content-area {
-  font-size: 18px;
-  margin-top: 35px;
-  line-height: 28px;
-  padding-right: 85px;
-  font-weight: 300;
-}
-.theme-dark section.pathway-outer .section-pathway-content .img-coin img {
-  height: 260px;
-}
-.theme-dark section.pathway-outer .props-value {
-  margin-top: 25px;
-}
-.theme-dark section.pathway-outer .props-value h4 {
-  color: #0C15F9;
-  font-size: 18px;
-  margin-bottom: 30px;
+  color: #fff;
 }
 .theme-dark section.pathway-outer .props-value .input-form-text {
-  border-radius: 30px;
   border: 1px solid #092E63;
-  font-size: 18px;
-  font-weight: 400;
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 30px;
-  height: 60px;
-  align-items: center;
-}
-.theme-dark section.utility-section {
-  margin-top: 55px;
-}
-.theme-dark section.utility-section .utility-outer {
-  margin-top: 89px;
+  color: #fff;
 }
 .theme-dark section.utility-section .utility-outer h3 {
-  font-size: 29px;
-  margin-bottom: 30px;
-}
-.theme-dark section.utility-section .utility-outer ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  color: #fff;
 }
 .theme-dark section.utility-section .utility-outer ul li {
   border: 1px solid #191B4F;
   background: #0A0A0A;
-  margin-right: 32px;
-  height: 62px;
-  width: 30.33%;
-  margin-bottom: 20px;
-  border-radius: 30px;
-  padding: 5px 20px;
-  display: flex;
-  align-items: center;
-  font-size: 18px;
 }
 .theme-dark section.utility-section .utility-outer ul li span {
-  margin-left: 20px;
-  font-style: italic;
-}
-.theme-dark section.utility-section .utility-outer .btn-learn-more {
-  text-align: center;
-  margin-top: 32px;
+  color: #fff;
 }
 .theme-dark section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
   color: #fff;
-  border-radius: 28px;
   background: #2966FF;
-  min-width: 300px;
-  height: 48px;
-  font-size: 16px;
-  font-weight: 600;
-}
-.theme-dark section.buy-props {
-  margin-top: 115px;
 }
 .theme-dark section.buy-props .txt-head {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 75px;
-}
-.theme-dark section.buy-props .txt-head span {
-  color: #0C15F9;
+  color: #fff;
 }
 .theme-dark section.buy-props .props-outer {
-  display: flex;
-  align-items: center;
-  border-radius: 27px;
   border: 1px solid #1A2339;
   background: #000;
-  padding: 40px;
-  margin-bottom: 37px;
-  justify-content: space-between;
 }
-.theme-dark section.buy-props .props-outer .text-sec-prop {
-  display: flex;
-}
-.theme-dark section.buy-props .props-outer .text-props-content {
-  padding-right: 100px;
-}
-.theme-dark section.buy-props .props-outer .text-props-content h3 {
-  font-size: 23px;
-  font-weight: 600;
-}
-.theme-dark section.buy-props .props-outer .text-props-content p {
-  font-size: 14px;
-  font-weight: 300;
-  margin-top: 12px;
+.theme-dark section.buy-props .props-outer .text-props-content h3, .theme-dark section.buy-props .props-outer .text-props-content p {
+  color: #fff;
 }
 .theme-dark section.buy-props .number-txt {
   background: #0C0D30;
-  width: 42px;
-  height: 42px;
-  border-radius: 50px;
-  text-align: center;
-  line-height: 42px;
-  flex-shrink: 0;
-}
-.theme-dark section.buy-props .img-icn-outr {
-  margin-right: 53px;
+  color: #FFF;
 }
 
 section.pathway-outer {
@@ -177,12 +73,11 @@ section.pathway-outer .section-pathway-content .content-area {
   font-size: 18px;
   margin-top: 35px;
   line-height: 28px;
-  padding-right: 85px;
   font-weight: 300;
   color: #4D6090;
 }
 section.pathway-outer .section-pathway-content .img-coin img {
-  height: 260px;
+  height: 360px;
 }
 section.pathway-outer .props-value {
   margin-top: 25px;
@@ -255,13 +150,19 @@ section.utility-section .utility-outer .btn-learn-more button.btn.btn-learn {
   font-weight: 600;
 }
 
+.floating-icon-left:before {
+  right: -15.33vw;
+  left: auto;
+  top: 0;
+}
+
 section.buy-props {
   margin-top: 115px;
 }
 section.buy-props .txt-head {
   text-align: center;
   font-size: 36px;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
   color: #2E4276;
   font-weight: 600;
 }
