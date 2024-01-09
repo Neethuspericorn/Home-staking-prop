@@ -261,7 +261,11 @@
             align-items: flex-end;
             position: relative;
             padding-left: 17px;
+            flex: 1 0 auto;
             max-width: 490px;
+            border-radius:0 0 41px 0;
+            overflow: hidden;
+            margin-left: auto;
             @media ($sm-1441){
                 max-width: 360px;
             }
