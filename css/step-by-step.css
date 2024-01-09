@@ -22,10 +22,9 @@
 .step-heading-sec::before {
   position: absolute;
   content: "";
-  background-image: url(/img/Stepby_step_icon.png);
-  background-repeat: no-repeat;
-  top: 0;
-  right: -260px;
+  background: url(/img/coin-lg-brand.svg) no-repeat;
+  top: -31px;
+  right: -223px;
   width: 211px;
   height: 224px;
 }
@@ -36,7 +35,7 @@
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
-  color: #0C15F9;
+  color: #2966FF;
 }
 .step-heading-sec .main-title {
   font-family: Poppins;
@@ -46,20 +45,21 @@
   letter-spacing: 0em;
   text-align: center;
   margin-bottom: 10px;
+  color: #2E4276;
 }
 .step-heading-sec .main-title span {
-  color: #0C15F9;
+  color: #2966FF;
 }
 .step-heading-sec .content-sec {
   margin-bottom: 60px;
 }
 .step-heading-sec .content-sec p {
-  font-family: Poppins;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: center;
+  color: #4D6090;
 }
 
 .box-sec {
@@ -69,15 +69,20 @@
 }
 .box-sec .box-inner {
   width: 30%;
-  border: 1px solid #3D72C5;
-  background: linear-gradient(134.63deg, #0C0D30 3.25%, rgba(0, 0, 0, 0) 98.14%);
+  border: 1px solid #A1BBFF;
+  background: linear-gradient(150.43deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
   padding: 15px;
   border-radius: 27px;
   margin-bottom: 20px;
 }
 .box-sec .box-inner .box-icon {
+  border: 1px solid #A1BBFF;
   width: 84px;
   height: 84px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .box-sec .box-inner .box-subtitle {
   margin-top: 20px;
@@ -86,7 +91,7 @@
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-  color: #0C15F9;
+  color: #2966FF;
 }
 .box-sec .box-inner .box-title {
   margin-bottom: 20px;
@@ -95,6 +100,7 @@
   line-height: 35px;
   letter-spacing: 0em;
   text-align: left;
+  color: #2E4276;
 }
 .box-sec .box-inner .box-content p {
   font-size: 14px;
@@ -102,15 +108,20 @@
   line-height: 24px;
   letter-spacing: 0em;
   text-align: justified;
+  color: #4D6090;
 }
 
 @media (max-width: 1679px) {
+  .step-guide {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .step-heading-sec {
     width: 57%;
     margin: 0 auto;
   }
   .step-heading-sec::before {
-    right: -232px;
+    right: -170px;
   }
   .step-heading-sec .top-title {
     font-size: 18px;
@@ -126,26 +137,92 @@
     width: 64px;
     height: 64px;
   }
-  .box-sec .box-inner .box-icon img {
-    width: 100%;
-    height: 100%;
-  }
   .box-sec .box-inner .box-title {
-    font-size: 18px;
+    font-size: 20px;
   }
   .box-sec .box-inner .box-content {
     font-size: 13px;
   }
 }
+@media (max-width: 1441px) {
+  .step-guide {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .step-heading-sec {
+    width: 57%;
+    margin: 0 auto;
+  }
+  .step-heading-sec::before {
+    right: -170px;
+  }
+  .step-heading-sec .top-title {
+    font-size: 16px;
+  }
+  .step-heading-sec .main-title {
+    font-size: 28px;
+    line-height: 43px;
+  }
+  .step-heading-sec .content-sec p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .box-sec .box-inner .box-icon {
+    width: 64px;
+    height: 64px;
+  }
+  .box-sec .box-inner .box-title {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .box-sec .box-inner .box-content p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1281px) {
+  .step-heading-sec .main-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 991px) {
+  .step-guide {
+    padding: 50px 0px;
+  }
+  .step-heading-sec .top-title {
+    font-size: 14px;
+  }
+  .step-heading-sec .main-title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .step-heading-sec .content-sec p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .box-sec .box-inner .box-content p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
 @media (max-width: 767px) {
+  .step-guide {
+    padding-top: 70px;
+  }
   .step-heading-sec {
     width: 100%;
   }
   .step-heading-sec::before {
-    display: none;
+    background: url(/img/coin-sm-brand.svg) no-repeat;
+    width: 150px;
+    height: 150px;
+    content: "";
+    right: -38px;
+    top: -82px;
+    background-size: contain;
   }
   .box-sec {
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
   .box-sec .box-inner {
     width: 100%;
@@ -155,6 +232,34 @@
   .box-sec .box-inner {
     width: 48%;
   }
+}
+.theme-dark .step-heading-sec .top-title {
+  color: #0C15F9;
+}
+.theme-dark .step-heading-sec .main-title {
+  color: #fff;
+}
+.theme-dark .step-heading-sec .main-title span {
+  color: #0C15F9;
+}
+.theme-dark .step-heading-sec .content-sec p {
+  color: #fff;
+}
+.theme-dark .box-sec .box-inner {
+  background: linear-gradient(134.63deg, #0C0D30 3.25%, rgba(0, 0, 0, 0) 98.14%);
+  border: 1px solid #3D72C5;
+}
+.theme-dark .box-sec .box-icon {
+  border: 1px solid #191B4F;
+}
+.theme-dark .box-sec .box-title {
+  color: #fff;
+}
+.theme-dark .box-sec .box-subtitle {
+  color: #0C15F9;
+}
+.theme-dark .box-sec .box-content p {
+  color: #fff;
 }
 
 /*# sourceMappingURL=step-by-step.css.map */

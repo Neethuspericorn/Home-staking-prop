@@ -9,7 +9,7 @@
         line-height: 30px;
         letter-spacing: 0em;
         text-align: center;
-        color: #0C15F9;
+        color: $primary-blue;
 
     }
     .campaign-subtitle{
@@ -20,9 +20,10 @@
         letter-spacing: 0em;
         text-align: center;
         padding-bottom: 75px;
+        color: #2E4276;
 
         span{
-            color: #0C15F9;
+            color: $primary-blue;
         }
 
     }
@@ -48,8 +49,9 @@
         letter-spacing: 0em;
         text-align: left;
         padding: 20px 0px;
+        color: #2E4276;
         span{
-            color: #0C15F9;
+            color: $primary-blue;
         }
 
         }
@@ -76,7 +78,7 @@
                 line-height: 24px;
                 letter-spacing: 0em;
                 text-align: left;
-                background-color:#2966FF;
+                background-color:$primary-blue;
                 padding: 15px 100px;
                 
             }
@@ -91,18 +93,20 @@
             &::before{
                 position:absolute;
                 content: "";
-                background-image: url(/img/probase_icon.png);
+                background-image: url(/img/probase-icon-light.png);
                 background-repeat: no-repeat;
                 top: 112px;
                 right: -93px;
                 width: 211px;
                 height: 224px; 
                 
+                // top: 89px;
+                // right: -65px
             }
 
             .right-boxes{
-                background: linear-gradient(134.63deg, #0C0D30 3.25%, rgba(0, 0, 0, 0) 98.14%);
-                border: 1px solid #3D72C5;
+                background: linear-gradient(150.43deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
+                border: 1px solid #A1BBFF;
                 border-radius: 27px;
                 padding: 50px 30px;
                 margin-bottom: 25px;
@@ -110,7 +114,7 @@
 
 
                 .bottom-content{
-
+                    color:  #2E4276;
                     font-size: 28px;
                     font-weight: 600;
                     line-height: 42px;
@@ -129,11 +133,11 @@
 
 
 
-
 @media($sm-1679){
 
 
     .campaign {
+        padding-bottom: 50px;
         .campaign-title{
             font-size: 18px;
         }
@@ -174,53 +178,110 @@
    }
 
 
-//    @media(max-width:1481px){
+   @media($sm-1441){
   
 
 
-//     .campaign {
-//         .campaign-title{
-//             font-size: 16px;
-//         }
-//         .campaign-subtitle{
-//             font-size: 26px;
-//             line-height: 43px;
-//         }
+    .campaign {
+        padding-bottom: 50px;
+        .campaign-title{
+            font-size: 16px;
+        }
+        .campaign-subtitle{
+            font-size: 28px;
+            line-height: 43px;
+        }
 
-//         .two-col {
-//             .top-heading {
-//                 font-size: 24px;
-//                 line-height: 40px;
-//             }
-//             .campaign-content{
-//                 p{
-//                     font-size: 14px;
-//                     line-height: 22px;
-//                 }
-//             }
-//             .right-sec{
-//                 .right-boxes {
-//                     .bottom-content{
-//                         font-size: 19px;
-//                     }
-//                 }
-//                 &::before{
-//                     right: -69px;
-//                 }
-//             }
+        .two-col {
+            .top-heading {
+                font-size: 26px;
+                line-height: 40px;
+            }
+            .campaign-content{
+                p{
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+            .right-sec{
+                .right-boxes {
+                    .bottom-content{
+                        font-size: 19px;
+                    }
+                }
+                &::before{
+                    right: -69px;
+                }
+            }
            
-//         }
+        }
 
-//     }
+   }
+
+ }
+ @media ($sm-1281){
+
+    .campaign {
+        .campaign-subtitle{
+          font-size: 24px;
+          line-height: 32px;
+        }
+    }
+ }
+@media ($sm-991){
+    .campaign {
+        .campaign-subtitle{
+          font-size: 22px;
+          line-height: 32px;
+        }
+
+        .campaign-title {
+            font-size: 14px;
+        }
+        .two-col {
+
+            .campaign-content p {
+                font-size: 12px;
+                line-height: 22px;
+            }
+
+            .top-heading {
+                font-size: 20px;
+                line-height: 26px;
+            }
+
+            .join-us {
+
+                a{
+                    font-size: 14px;
+                    padding: 15px 60px;
+                }
+             
+            }
+
+            .right-sec{
+
+                .right-boxes{
+
+                    .bottom-content {
+                        font-size: 20px;
+                        padding-top: 0px;
+                    }
+
+                } 
+            }
 
 
+        }
+       
+        
+        
+    }
+
+}
 
 
-
-//    }
-
-
-   @media(max-width:767px){
+   @media($sm-767 ){
    
     .campaign {
       .campaign-subtitle{
@@ -241,8 +302,11 @@
                 padding-left: 0px;
 
                 &::before {
-                    right: -70px;
-                    top: 160px;
+                    right: -52px;
+                    top: 167px;
+                    height: 150px;
+                    width: 150px;
+                    background-size: contain;
                 }
 
                 .right-boxes{
@@ -291,4 +355,59 @@
 
 
    }
+}
+
+
+//   ......................... dark theme............................
+
+
+.theme-dark{
+    .campaign{
+
+        .top-heading{
+            color: $primary-light;
+            span{
+              color: #0C15F9;
+            }
+        }
+        .campaign-title{
+            color: #0C15F9;
+        } 
+        .campaign-subtitle{
+            color:$primary-light;
+            span{
+                color: #0C15F9;
+            }
+        }
+
+        .join-us{
+            a{
+                background-color:#2966FF;
+                color: #fff; 
+            }
+    }
+
+    .two-col {
+
+    
+
+    .right-sec{
+
+        &::before{
+            background-image: url(/img/probase_icon.png);
+
+            // top: 112px;
+            // right: -93px;
+            
+        }
+        .right-boxes {
+
+            .bottom-content{
+                color: $primary-light !important;
+            }
+        }
+        
+}
+}
+}
 }

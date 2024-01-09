@@ -605,15 +605,15 @@
     width: 420px;
   }
   .portfolio-sec .portfolio-card .card-table th:first-child,
-.portfolio-sec .portfolio-card .card-table td:first-child {
+  .portfolio-sec .portfolio-card .card-table td:first-child {
     padding-left: 15px;
   }
   .portfolio-sec .portfolio-card .card-table th:last-child,
-.portfolio-sec .portfolio-card .card-table td:last-child {
+  .portfolio-sec .portfolio-card .card-table td:last-child {
     padding-right: 15px;
   }
   .portfolio-sec .portfolio-card .card-table th,
-.portfolio-sec .portfolio-card .card-table td {
+  .portfolio-sec .portfolio-card .card-table td {
     padding: 12px 8px;
     font-size: 12px;
   }
@@ -690,6 +690,7 @@
 }
 @media (max-width: 991px) {
   .portfolio-sec .portfolio-card .card-table {
+    min-width: -moz-max-content;
     min-width: max-content;
   }
 }
@@ -713,6 +714,7 @@
     padding-right: 15px;
   }
   .portfolio-sec .portfolio-card .card-table {
+    min-width: -moz-max-content;
     min-width: max-content;
   }
   .portfolio-sec .portfolio-card .title-wrapper {
@@ -726,5 +728,3 @@
     flex: 1 1 auto;
   }
 }
-
-/*# sourceMappingURL=portfolio.css.map */

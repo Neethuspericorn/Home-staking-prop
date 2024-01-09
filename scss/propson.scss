@@ -10,10 +10,11 @@
     line-height: 54px;
     letter-spacing: 0em;
     padding-bottom: 30px;
+    color: #2E4276;
 
 
     span{
-        color: #0C15F9;
+        color:$primary-blue;
     }
 
     }
@@ -35,27 +36,23 @@
                 letter-spacing: 0em;
                 text-align: left;
                 margin: 0;
+                color: #2E4276;
             }
           
-            background: linear-gradient(0deg, #050D16, #050D16),
-            linear-gradient(0deg, #09192B, #09192B);
+            background:#B8DCFF;
             
             &:nth-child(2){
-                background: linear-gradient(0deg, #031212, #031212),
-                linear-gradient(0deg, #062222, #062222);
+                background:#DFFAFC;
 
             }
 
             &:nth-child(3){
-                background: linear-gradient(0deg, #100414, #100414),
-                linear-gradient(0deg, #280A33, #280A33);
+                background:#F8E1FF;
 
             }
 
             &:last-child{
-                background: linear-gradient(0deg, #0F0F0F, #0F0F0F),
-                linear-gradient(0deg, #1E1D1D, #1E1D1D);
-
+                background:#E6E6E6;
             }
 
             .imgs-props{
@@ -77,7 +74,51 @@
 }
 
 
+//   ......................... dark theme............................
 
+.theme-dark{
+    
+.by-props-sec{
+    .heading{
+        color: $primary-light;
+        span{
+            color: #0C15F9;
+        }
+    }
+
+
+    .four-props{
+       
+
+        .box-props{
+            background: linear-gradient(0deg, #050D16, #050D16),
+            linear-gradient(0deg, #09192B, #09192B);
+            
+            &:nth-child(2){
+                background: linear-gradient(0deg, #031212, #031212),
+                linear-gradient(0deg, #062222, #062222);
+
+            }
+
+            &:nth-child(3){
+                background: linear-gradient(0deg, #100414, #100414),
+                linear-gradient(0deg, #280A33, #280A33);
+
+            }
+
+            &:last-child{
+                background: linear-gradient(0deg, #0F0F0F, #0F0F0F),
+                linear-gradient(0deg, #1E1D1D, #1E1D1D);
+
+            }
+
+            p{
+                color: $primary-light;
+            }
+}
+}
+
+}}
 
 
 @media($sm-1679){
@@ -86,7 +127,7 @@
     .by-props-sec{
 
         .heading{
-            font-size: 28px;
+            font-size: 30px;
             line-height: 44px;
          }
         .four-props {
@@ -104,31 +145,59 @@
    }
 
 
-//    @media(max-width:1481px){
+   @media($sm-1441){
     
 
-//     .by-props-sec{
+    .by-props-sec{
 
-//         .heading{
-//             font-size: 22px;
-//             line-height: 40px;
-//          }
-//         .four-props {
+        .heading{
+            font-size: 28px;
+            line-height: 43px;
+         }
+        .four-props {
             
-//             .box-props {
-//                 p{
-//                     font-size: 12px;
-//                 }
-//             }
+            .box-props {
+                p{
+                    font-size: 14px;
+                }
+            }
 
-//         }
-//     } 
-
-
-//    }
+        }
+    } 
 
 
-   @media(max-width:767px){
+   }
+   @media ($sm-1281){
+    .by-props-sec{
+
+        .heading{
+            font-size: 24px;
+            line-height: 32px;
+         }
+        
+        }
+    }
+   @media ($sm-991){
+    .by-props-sec{
+
+        .heading{
+            font-size: 22px;
+            line-height: 43px;
+         }
+
+         .four-props {
+            
+            .box-props {
+                p{
+                    font-size: 14px;
+                }
+            }
+
+        }
+        }
+   }
+
+   @media($sm-767){
  
 
     .by-props-sec {

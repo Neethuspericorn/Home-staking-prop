@@ -129,6 +129,9 @@
     font-size: 14px;
   }
 }
+.login-wrapper .login-left-block .form-group .input-group .form-control::-moz-placeholder {
+  color: #4D6090;
+}
 .login-wrapper .login-left-block .form-group .input-group .form-control::placeholder {
   color: #4D6090;
 }
@@ -240,7 +243,6 @@
   font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   color: #697F9B;
   font-size: 15px;
@@ -287,8 +289,6 @@
   height: 15px;
   border: solid #3072F3;
   border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 .login-wrapper .login-right-block {
@@ -776,5 +776,3 @@ button.close-modal {
     font-size: 15px;
   }
 }
-
-/*# sourceMappingURL=login.css.map */

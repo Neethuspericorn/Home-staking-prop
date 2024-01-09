@@ -3,11 +3,35 @@
 .section-security{
     padding-top: 70px;
     padding-bottom: 70px;
+    @media ($sm-1679){
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    @media ($sm-1441){
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    @media ($sm-1281){ 
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    @media ($sm-991){
+         
+    }
     .title{
         font-size: 36px;
         line-height: 1.5;
         @media ($sm-1679){
-            font-size: 30px;
+            font-size: 30px; 
+        }
+        @media ($sm-1441){
+            font-size: 28px;
+        }
+        @media ($sm-1281){
+            font-size: 24px;
+        }
+        @media ($sm-991){
+            font-size: 22px;
         }
         span{
             color: $primary-blue;
@@ -16,27 +40,59 @@
 
     .security-cont-wrp{
         padding: 42px;
-        border: 1px solid #1A2339;
+        border: 1px solid transparent;
         border-radius: 28px;
         margin-top: 48px;
+        @media ($sm-1679){
+            margin-top: 36px;
+        }
+        @media ($sm-1441){
+            margin-top: 28px;
+        }
+        @media ($sm-1281){
+            margin-top: 20px;
+        }
+         
         .title{
             font-size: 25px;
         }
         ul{
+            color: #4D6090; 
             padding-left: 0;
             list-style: none;
             padding-top: 30px;
+            @media ($sm-1679){
+                padding-top: 20px;
+            }
+            @media ($sm-1441){
+                padding-top: 15px;
+            }
+            @media ($sm-1281){
+                padding-top: 10px;
+            }
+            @media ($sm-991){
+              //  padding-top: 30px;
+            }
             li{
                 font-size: 18px;
                 line-height: 1.8333;
                 margin-bottom: 2em;
                 padding-left: 20px;
                 position: relative;
+                @media ($sm-1679){
+                    margin-bottom: 1.3em;
+                }
                 @media ($sm-1481){
                     font-size: 14px;
-                    margin-bottom: 1.3em;
-                    margin-bottom: 1.2;
-
+                   
+                }
+                @media ($sm-1281){
+                    margin-bottom: 1.2em;
+                    line-height: 1.6;
+                    
+                }
+                @media ($sm-991){
+                    font-size: 12px;
                 }
                 &:last-child{
                     margin-bottom: 0;
@@ -57,8 +113,6 @@
         }
         .img-col{
             max-width: 360px;
-            padding-top: 30px;
-            padding-bottom: 30px;
             @media ($sm-1481){
                 max-width: 260px;
             }
@@ -70,6 +124,8 @@
             }
             @media ($sm-1199){
                 max-width: 360px;
+                padding-top: 30px;
+                padding-bottom: 30px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -85,8 +141,20 @@
                 flex: 0 0 100%;
             }
         }
+        .txt-title{
+            color: #2E4276;
+            font-size: 25px;
+            @media ($sm-1679){
+                font-size: 20px; 
+            }
+            @media ($sm-1441){
+                font-size: 18px;
+            }
+            
+        }
+
         &.security{
-            background-color: #020419;
+            background-color: #F8F8FF;
             .txt-col{
                 @media ($sm-1199){
                     order: 2;
@@ -94,13 +162,40 @@
             }
         }
         &.assurance{
-            background-color: #020626;
+            background-color: #F8F8FF;
             .txt-col{
                 order: 2;
+                @media ($lg-992){
+                    padding-left: 20px;
+                }
+                @media (min-width: 1481px){
+                    padding-left: 50px;
+                }
             }
             .img-col{
                 order: 1;
             }
         }
     }
+}
+
+.theme-dark{
+   
+    .section-security{
+        .security-cont-wrp{
+            border: 1px solid #1A2339;
+            .txt-title{
+                color: #ffffff;
+            }
+            ul{
+                color: #ffffff; 
+            }
+            &.security{
+                background-color: #020419;
+            }
+            &.assurance{
+                background-color: #020626;
+            }
+        }
+    } 
 }
