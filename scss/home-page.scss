@@ -19,7 +19,6 @@
 }
 
 .home-banner-sec{
-    overflow: hidden;
     padding: 100px 50px 125px;
     .home-banner-container{
         position: relative;
@@ -449,7 +448,7 @@
         font-size: 14px;
     }
     .home-banner-sec {
-        padding: 80px 50px 100px;
+        padding: 80px 50px 80px;
     }
     .home-banner-sec .home-banner-cover h2 {
         font-size: 36px;
@@ -468,10 +467,12 @@
     }
     .home-banner-sec .home-banner-container::before {
         background-size: 180px;
+        width: 182px;
     }
     .home-banner-sec .home-banner-container::after {
-        right: -160px;
+        right: -80px;
         top: -30px;
+        width: 182px;
     }
     .home-banner-sec .home-banner-cover .btn-block .banner-btn{
         font-size: 14px;
@@ -935,6 +936,9 @@
         position: absolute;
         top: -95px;
         left: 37%;
+        @media ($sm-1679){
+            width: 225px;
+        }
         @media ($sm-1199){
             width: 200px;
             height: 200px;
@@ -993,7 +997,7 @@
             position: absolute;
             top: 44%;
             transform: translateY(-50%);
-            background: url(/img/cta-btn-brand.svg) no-repeat center;
+            background: url('../img/cta-btn-brand.svg') no-repeat center;
             background-size: contain;
             width: 389px;
             height: 121px;
@@ -1321,7 +1325,7 @@
         color: $para-color;
         margin-bottom: 24px;
         text-align: center;
-        @media ($sm-1481){
+        @media ($sm-1679){
             font-size: 16px;
             line-height: 26px;
         }
@@ -1348,7 +1352,8 @@
         margin-top: 70px;
         @media ($sm-1679){
             margin-top: 65px;
-            row-gap: 49px;
+            row-gap: 45px;
+            column-gap: 15px;
         }
         @media ($sm-1481){
             margin-top: 55px;
@@ -1390,7 +1395,11 @@
                 line-height: normal;
                 margin-bottom: 36px;
                 @media ($sm-1679){
-                    margin-bottom: 25px;
+                    font-size: 14px;
+                    margin-bottom: 22px;
+                    img{
+                        width: 20px;
+                    }
                 }
                 @media ($sm-991){
                     margin-bottom: 20px;
@@ -1407,16 +1416,13 @@
                 font-weight: 600;
                 line-height: normal;
                 @media ($sm-1679){
-                    font-size: 26px;
-                }
-                @media ($sm-1481){
                     font-size: 24px;
                 }
-                @media ($sm-1441){
+                @media ($sm-1481){
                     font-size: 22px;
                 }
                 @media ($sm-1281){
-                    font-size: 22px;
+                    font-size: 20px;
                 }
                 @media ($sm-991){
                     font-size: 20px;
@@ -1522,34 +1528,37 @@
             &::before{
                 position:absolute;
                 content: "";
-                background-image: url(/img/probase-icon-light.png);
+                background-image: url(../img/probase-icon-light.png);
                 background-repeat: no-repeat;
-                top: 112px;
+                top: 80px;
                 right: -93px;
                 width: 211px;
                 height: 224px; 
                 
                 // top: 89px;
                 // right: -65px
+               
             }
 
             .right-boxes{
                 background: linear-gradient(150.43deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
                 border: 1px solid #A1BBFF;
                 border-radius: 27px;
-                padding: 50px 30px;
+                padding: 34px;
+                padding-bottom: 45px;
                 margin-bottom: 25px;
                
-
+                @media (max-width: 1679px) {
+                    padding: 30px;
+                    padding-bottom: 40px;
+                }
 
                 .bottom-content{
                     color:  #2E4276;
                     font-size: 28px;
                     font-weight: 600;
-                    line-height: 42px;
-                    letter-spacing: 0em;
                     text-align: left;
-                    padding-top: 20px;
+                    padding-top: 8px;
 
                 }
             }
@@ -1583,7 +1592,7 @@
             .campaign-content{
                 p{
                     font-size: 16px;
-                    line-height: 24px;
+                    line-height: 30px;
                 }
             }
             .right-sec{
@@ -1593,7 +1602,9 @@
                     }
                 }
                 &::before{
-                    right: -69px;
+                    right: -100px;
+                    background-size: 200px;
+                    top: 70px;
                 }
             }
            
@@ -1796,7 +1807,7 @@
     &::before{
         position:absolute;
         content: "";
-        background: url(/img/coin-lg-brand.svg) no-repeat;
+        background: url(../img/coin-lg-brand.svg) no-repeat;
         top: -31px;
         right: -223px;
         width: 211px;
@@ -1851,13 +1862,17 @@ justify-content: space-between;
 flex-wrap: wrap;
 
 .box-inner{
-    width: 30%;
+    width: calc((100% / 3) - 35px);
+    // width: 30%;
     border: 1px solid #A1BBFF;
     background: linear-gradient(150.43deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
-    padding: 15px;
+    padding: 25px;
     border-radius: 27px;
     margin-bottom: 20px;
-
+    @media (max-width: 1679px) {
+        width: calc((100% / 3) - 20px);
+        padding: 20px;
+    }
     .box-icon{
         border: 1px solid #A1BBFF;
         width: 84px;
@@ -1870,7 +1885,6 @@ flex-wrap: wrap;
 
     .box-subtitle{
         margin-top: 20px;
-    
         font-size: 13px;
         font-weight: 500;
         line-height: 20px;
@@ -1880,11 +1894,9 @@ flex-wrap: wrap;
 
     }
     .box-title{
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         font-size: 23px;
         font-weight: 600;
-        line-height: 35px;
-        letter-spacing: 0em;
         text-align: left;
         color: $primary-dark;
 
@@ -1896,9 +1908,11 @@ flex-wrap: wrap;
         font-weight: 300;
         line-height: 24px;
         letter-spacing: 0em;
-        text-align: justified;
+        text-align: justify;
         color:#4D6090;
-        ;
+        @media (max-width: 1679px) {
+            font-size: 13px;
+        }
 
         }
     }
@@ -1920,7 +1934,8 @@ flex-wrap: wrap;
         margin: 0 auto;
 
         &::before{
-            right: -170px;
+            right: -200px;
+            background-size: 200px
         }
         .top-title{
             font-size: 18px;
@@ -2076,7 +2091,7 @@ flex-wrap: wrap;
         
         &::before{
           
-            background: url(/img/coin-sm-brand.svg) no-repeat;
+            background: url(../img/coin-sm-brand.svg) no-repeat;
             width: 150px;
             height: 150px;
             content: "";
@@ -2176,6 +2191,116 @@ flex-wrap: wrap;
     }
 
 }
+
+@media($sm-1679){
+   
+
+    .by-props-sec{
+
+        .heading{
+            font-size: 30px;
+            line-height: 44px;
+         }
+        .four-props {
+            
+            .box-props {
+                p{
+                    font-size: 13px;
+                }
+            }
+
+        }
+    } 
+
+
+   }
+
+
+   @media($sm-1441){
+    
+
+    .by-props-sec{
+
+        .heading{
+            font-size: 28px;
+            line-height: 43px;
+         }
+        .four-props {
+            
+            .box-props {
+                p{
+                    font-size: 14px;
+                }
+            }
+
+        }
+    } 
+
+
+   }
+   @media ($sm-1281){
+    .by-props-sec{
+
+        .heading{
+            font-size: 24px;
+            line-height: 32px;
+         }
+        
+        }
+    }
+   @media ($sm-991){
+    .by-props-sec{
+
+        .heading{
+            font-size: 22px;
+            line-height: 43px;
+         }
+
+         .four-props {
+            
+            .box-props {
+                p{
+                    font-size: 14px;
+                }
+            }
+
+        }
+        }
+   }
+
+   @media($sm-767){
+ 
+
+    .by-props-sec {
+        padding: 50px 0px;
+        .four-props{
+            flex-wrap: wrap;
+
+            .box-props{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+   }
+
+   @media (min-width: 768px) and (max-width: 1199px) {
+
+    
+    .by-props-sec {
+        padding: 50px 0px;
+        .four-props{
+            flex-wrap: wrap;
+
+            .box-props{
+                width: 48%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+   }
+
 // Anju End
 
 // Antony
