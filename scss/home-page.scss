@@ -2589,7 +2589,7 @@ flex-wrap: wrap;
                 font-size: 18px;
             }
             @media ($sm-1199){
-                font-size: 14px;
+                font-size: 16px;
                 line-height: 1.2;
             }
         }
@@ -2598,8 +2598,9 @@ flex-wrap: wrap;
             font-size: 14px; 
             line-height: 1.7143;
             color: #4D6090; 
-            @media ($sm-1199){
-                font-size: 12px; 
+            font-weight: 300;
+            @media ($sm-579){
+                font-size: 13px; 
             }
         }
         
@@ -2622,9 +2623,7 @@ flex-wrap: wrap;
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    @media ($sm-991){
-         
-    }
+     
     .title{
         font-size: 36px;
         line-height: 1.5;
@@ -2698,7 +2697,7 @@ flex-wrap: wrap;
                     line-height: 1.6;
                     
                 }
-                @media ($sm-991){
+                @media ($sm-579){
                     font-size: 12px;
                 }
                 &:last-child{
@@ -2872,9 +2871,7 @@ flex-wrap: wrap;
                 max-width: 80px;
                 max-height: 20px;
             }
-            @media ($sm-991){
-
-            }
+             
         }
     }
 } 
