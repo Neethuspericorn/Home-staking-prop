@@ -246,9 +246,6 @@
           font-size: 35px;
           // align-self: flex-start;
         }
-        // &.collapsed{
-        //   padding-bottom: 40px;
-        // }
         &:not(.collapsed){
           background-color: $accordion-light;
           border-color: $white;
