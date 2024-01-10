@@ -129,7 +129,7 @@
                 font-size: 18px; 
                 margin-bottom: 10px;
             }
-            @media ($sm-1441){
+            @media ($sm-1481){
                 font-size: 16px;
             }
             @media ($sm-991){
@@ -386,6 +386,8 @@
             text-decoration: none;
             margin-left: auto;
             margin-right: 10px;
+            position: relative;
+            top: -3px;
             @media ($sm-1679){
                 font-size: 16px; 
                 line-height: 26px;

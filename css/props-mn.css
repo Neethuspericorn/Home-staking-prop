@@ -187,7 +187,7 @@
     margin-bottom: 10px;
   }
 }
-@media (max-width: 1441px) {
+@media (max-width: 1481px) {
   .props-token .benefits-listing li {
     font-size: 16px;
   }
@@ -511,6 +511,8 @@
   text-decoration: none;
   margin-left: auto;
   margin-right: 10px;
+  position: relative;
+  top: -3px;
 }
 @media (max-width: 1679px) {
   .props-posts .title-blk .article-link {
