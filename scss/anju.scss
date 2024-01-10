@@ -103,7 +103,10 @@
             bottom: 100px;
             left: -0.5vw;
         }
+        @media ($sm-767){
+            display: none;
 
+        }
         @media ($sm-1199){
          width: 70px;
          bottom: 80px;
@@ -238,6 +241,7 @@
 
 
 .table-sec1{
+    padding-bottom: 30px;
     .top-title{
         text-align: center;
         margin-bottom: 50px;
@@ -294,12 +298,10 @@
             tr{
                 background-color: #F8F8FF;
             
-
                 &:nth-child(even) {
-               
-                    background-color: #020310 ;
-          
-                    }        
+                    background-color:#ECECFF;
+        
+                  }      
             }
         }
         tr {
