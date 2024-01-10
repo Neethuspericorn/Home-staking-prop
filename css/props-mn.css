@@ -155,20 +155,15 @@
 }
 @media (max-width: 1481px) {
   .props-token .benefits-listing {
-    margin: 40px 0 0 20px;
+    margin: 30px 0 0 20px;
   }
 }
 @media (max-width: 1281px) {
   .props-token .benefits-listing {
-    margin: 35px 0 0 20px;
+    margin: 25px 0 0 20px;
   }
 }
 @media (max-width: 991px) {
-  .props-token .benefits-listing {
-    margin: 30px 0 0 20px;
-  }
-}
-@media (max-width: 579px) {
   .props-token .benefits-listing {
     margin: 20px 0 0 20px;
   }
@@ -184,17 +179,20 @@
 @media (max-width: 1679px) {
   .props-token .benefits-listing li {
     font-size: 18px;
+    line-height: 28px;
     margin-bottom: 10px;
   }
 }
 @media (max-width: 1481px) {
   .props-token .benefits-listing li {
     font-size: 16px;
+    line-height: 26px;
   }
 }
 @media (max-width: 991px) {
   .props-token .benefits-listing li {
     font-size: 14px;
+    line-height: 24px;
     margin-bottom: 10px;
   }
 }
