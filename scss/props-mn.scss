@@ -215,7 +215,7 @@
         @media ($sm-1679){
             width: 166px;
             height: 175px;
-            right: -120px;
+            right: -135px;
         }
         @media ($sm-1481){
             right: -110px;
@@ -278,6 +278,7 @@
         @media ($sm-767){
             font-size: 20px;
             line-height: 30px;
+            margin-bottom: 20px;
         }
         @media ($sm-579){
             font-size: 19px;
@@ -369,6 +370,9 @@
         @media ($sm-991){
             margin-bottom: 30px;
         }
+        @media ($sm-767){
+            margin-bottom: 20px;
+        }
         @media (max-width:370px){
             flex-direction: column;
             align-items: flex-start;
@@ -444,6 +448,7 @@
         @media ($sm-767){
             font-size: 20px;
             line-height: 30px;
+
         }
         @media ($sm-579){
             font-size: 19px;
