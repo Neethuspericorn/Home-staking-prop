@@ -1063,6 +1063,9 @@
                 max-width: 250px;
                 transform: none;
             }
+            @media ($sm-767){
+                height: auto;
+            }
                 color: $white;
                 text-decoration: none;
         }
