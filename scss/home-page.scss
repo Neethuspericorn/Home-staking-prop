@@ -3116,6 +3116,7 @@ section.pathway-outer
     }
     .props-value
     {
+        position: relative;
         margin-top: 25px;
         @media($sm-1679)
         {
@@ -3160,6 +3161,11 @@ section.pathway-outer
                     font-size: 14px;
                 }
             }
+        }
+        .copy-icon{
+            background: transparent;
+            border: none;
+            outline: none;
         }
     }
 }

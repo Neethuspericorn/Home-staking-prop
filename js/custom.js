@@ -38,7 +38,7 @@ $(document).ready(function () {
 		dots: false,
 		slidesToShow: 1,
 		fade: true,
-		  cssEase: 'linear',
+		cssEase: 'linear',
 		prevArrow: $('.video-prev-btn'),
 		nextArrow: $('.video-next-btn')
 	});

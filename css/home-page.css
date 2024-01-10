@@ -2404,6 +2404,7 @@ section.pathway-outer .section-pathway-content {
       section.pathway-outer .section-pathway-content .img-coin::before {
         display: none; } }
 section.pathway-outer .props-value {
+  position: relative;
   margin-top: 25px; }
   @media (max-width: 1679px) {
     section.pathway-outer .props-value {
@@ -2440,6 +2441,10 @@ section.pathway-outer .props-value {
       @media (max-width: 1679px) {
         section.pathway-outer .props-value .input-form-text .text-sec {
           font-size: 14px; } }
+  section.pathway-outer .props-value .copy-icon {
+    background: transparent;
+    border: none;
+    outline: none; }
 
 section.utility-section {
   margin-top: 55px; }
