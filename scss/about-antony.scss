@@ -307,6 +307,8 @@
 
 
 .section-tokenomics{
+    padding-top: 100px;
+    padding-bottom: 60px;
     .title{
         font-size: 40px;
         color: #2E4276;
@@ -326,6 +328,12 @@
         }
         span{
             color: $primary-blue;
+        }
+    }
+    .img-wrp{
+        img{
+            width: 100%;
+            max-width: 450px;
         }
     }
 
