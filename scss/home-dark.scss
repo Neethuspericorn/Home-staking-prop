@@ -234,7 +234,7 @@
     .right-sec{
 
         &::before{
-            background-image: url(/img/probase_icon.png);
+            background-image: url(../img/probase_icon.png);
 
             // top: 112px;
             // right: -93px;
@@ -411,5 +411,15 @@
             color: #FFF;
         }
         
+    }
+    section.utility-section .utility-outer .util-list .util-outer{
+        border: 1px solid #191B4F;
+        background: #0A0A0A;
+    }
+    section.utility-section .utility-outer .util-list .util-outer span{
+        color: #fff;
+    }
+    .campaign .two-col .right-sec .right-boxes{
+        border: 1px solid #3D72C5;
     }
 }

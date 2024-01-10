@@ -1044,7 +1044,7 @@
                 transform: none;
             }
             a{
-                color: $white;
+                color: $primary-light;
                 text-decoration: none;
             }
         }
@@ -1252,7 +1252,7 @@
         .accordion-button{
           box-shadow: none !important;
           border-radius: 27px;
-          border: 1px solid $white;
+          border: 1px solid $primary-light;
           background-color: $accordion-light;
           font-family: $font-primary;
           font-size: 20px;
@@ -1308,7 +1308,7 @@
           }
           &:not(.collapsed){
             background-color: $accordion-light;
-            border-color: $white;
+            border-color: $primary-light;
             border-bottom-color: transparent !important;
             border-radius: 27px 27px 0px 0px;
             padding-bottom: 10px;
@@ -1325,7 +1325,7 @@
           padding-left: 43px;
           padding-right: 43px;
           border: 1px solid;
-          border-color: $white;
+          border-color: $primary-light;
           border-top-color: transparent !important;
           border-radius: 0px 0px 27px 27px ;
           color: $para-color;
@@ -3155,6 +3155,7 @@ section.utility-section
                 }
                 span
                 {
+                    font-weight: 500;
                     margin-left: 20px;
                     font-style: italic;
                     color: #2E4276;

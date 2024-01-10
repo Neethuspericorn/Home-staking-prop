@@ -2420,6 +2420,7 @@ section.utility-section {
           section.utility-section .utility-outer .util-list .util-outer {
             margin-right: 0; } }
         section.utility-section .utility-outer .util-list .util-outer span {
+          font-weight: 500;
           margin-left: 20px;
           font-style: italic;
           color: #2E4276; }
