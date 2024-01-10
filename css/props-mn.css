@@ -54,9 +54,9 @@
 @media (max-width: 991px) {
   .props-token::after {
     right: 30px;
-    width: 100px;
-    height: 100px;
-    top: 20px;
+    width: 120px;
+    height: 125px;
+    top: 0px;
   }
 }
 @media (max-width: 767px) {
@@ -607,7 +607,7 @@
          column-gap: 25px;
   }
 }
-@media (max-width: 1199px) {
+@media (max-width: 1281px) {
   .props-posts .posts-hldr {
     -moz-column-gap: 20px;
          column-gap: 20px;
@@ -629,7 +629,7 @@
 @media (max-width: 1199px) {
   .props-posts .posts-hldr .post-wrp {
     border-radius: 10px;
-    width: 47%;
+    width: 48%;
     margin-bottom: 20px;
   }
 }
