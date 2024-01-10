@@ -810,6 +810,9 @@
         height: 254px;
         top: 15px;
     }
+    .home-video-block::after {
+        display: none;
+    }
     .home-video-block .video-block-cover .video-slider .video-item .video-item-cover .right-col .video-block {
        border-radius: 20px;
     }
@@ -1800,6 +1803,23 @@
         }
     }
  }
+
+ @media ($sm-1199){
+    .campaign .two-col .right-sec::before {
+        top: 122px !important;
+        background-size: 100%;
+        width: 150px;
+        height: 130px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .campaign .two-col .right-sec .right-boxes {
+        padding: 25px;
+        padding-bottom: 30px;
+    }
+}
+
 @media ($sm-991){
     .campaign {
         .campaign-subtitle{
@@ -1836,7 +1856,6 @@
                 .right-boxes{
 
                     .bottom-content {
-                        font-size: 20px;
                         padding-top: 0px;
                     }
 
@@ -1874,6 +1893,7 @@
                 padding-left: 0px;
 
                 &::before {
+                    display: none;
                     right: -52px;
                     top: 167px;
                     height: 150px;
@@ -1893,9 +1913,16 @@
 
  
    }
+   @media($sm-579 ){
+    .campaign .two-col .right-sec .right-boxes {
+        padding: 20px;
+        padding-bottom: 25px;
+    }
+   }
+
 
    @media (min-width: 768px) and (max-width: 1199px) {
-
+    
     .campaign {
         .campaign-subtitle{
           padding-bottom: 35px !important;
@@ -1915,10 +1942,6 @@
             padding-top: 50px;
             padding-left: 0px !important;
         
-            &::before {
-      
-                top: 149px !important;
-            }
         }
         }
    }
@@ -2225,7 +2248,11 @@ flex-wrap: wrap;
 
 
    }
-
+   @media($sm-579 ){
+        .step-heading-sec::before{
+            display: none;
+        }
+   }
    @media (min-width: 768px) and (max-width: 1199px) {
 
     .box-sec .box-inner {
@@ -2441,9 +2468,9 @@ flex-wrap: wrap;
             left: -0.5vw;
         }
         @media ($sm-1199){
-            width: 80px;
+            width: 70px;
             bottom: 80px;
-            left: -0.33vw;
+            left: -0.1vw;
         }
         @media ($sm-579){
             display: none;
@@ -3032,7 +3059,7 @@ section.pathway-outer
         {
             position: relative;
             padding-left:45px;
-            @media(max-width:700px)
+            @media(max-width:767px)
             {
                 display:none;
             }
@@ -3070,7 +3097,16 @@ section.pathway-outer
             @media($sm-1199)
             {
                 top: -129px;
-                right: -116px;
+                right: -90px;
+                transform: scale(0.8);
+            }
+            @media($sm-991)
+            {
+                right: -100px;
+            }
+            @media($sm-767)
+            {
+                display: none;
             }
            
         }
