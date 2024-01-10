@@ -193,6 +193,7 @@
     color: #fff; }
 .theme-dark section.buy-props .number-txt {
   background: #0C0D30;
+<<<<<<< HEAD
   color: #FFF; }
 .theme-dark section.utility-section .utility-outer .util-list .util-outer {
   border: 1px solid #191B4F;
@@ -203,3 +204,7 @@
   border: 1px solid #3D72C5; }
 
 /*# sourceMappingURL=home-dark.css.map */
+=======
+  color: #FFF;
+}
+>>>>>>> b1ab5db9c057f08246e22c76804f3499b07abf95
