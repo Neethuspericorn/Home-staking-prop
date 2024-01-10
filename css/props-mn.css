@@ -224,108 +224,93 @@
     display: none;
   }
 }
-.props-accumulation::before {
+.props-accumulation.floating-icon-left {
+  position: relative;
+}
+.props-accumulation.floating-icon-left > div {
+  position: relative;
+  z-index: 1;
+}
+.props-accumulation.floating-icon-left:before {
+  z-index: 0;
   content: "";
-  width: 160px;
-  height: 160px;
-  background: url(/img/title-coin.svg) no-repeat center;
-  background-size: contain;
+  background: url(../img/sec-floating.svg) no-repeat center/contain;
+  width: 130px;
+  aspect-ratio: 1.08;
+  display: block;
   position: absolute;
-  left: -190px;
   top: 0px;
+  left: -2.333vw;
+  transform: translateX(-100%);
 }
 @media (max-width: 1679px) {
-  .props-accumulation::before {
-    width: 120px;
-    height: 140px;
-    left: -145px;
-  }
-}
-@media (max-width: 1481px) {
-  .props-accumulation::before {
-    left: -110px;
-    width: 110px;
-    height: 145px;
-  }
-}
-@media (max-width: 1441px) {
-  .props-accumulation::before {
-    left: -78px;
-    width: 110px;
-    height: 110px;
-  }
-}
-@media (max-width: 991px) {
-  .props-accumulation::before {
-    left: -50px;
-    width: 80px;
-    height: 80px;
-    top: 10px;
-  }
-}
-@media (max-width: 767px) {
-  .props-accumulation::before {
-    left: -65px;
-  }
-}
-@media (max-width: 479px) {
-  .props-accumulation::before {
-    display: none;
-  }
-}
-.props-accumulation::after {
-  content: "";
-  width: 190px;
-  height: 200px;
-  background: url(/img/coin-lg-brand.svg) no-repeat center;
-  background-size: contain;
-  position: absolute;
-  right: -145px;
-  bottom: -40px;
-}
-@media (max-width: 1679px) {
-  .props-accumulation::after {
-    width: 166px;
-    height: 175px;
-    right: -135px;
-  }
-}
-@media (max-width: 1481px) {
-  .props-accumulation::after {
-    right: -110px;
-    width: 140px;
-    height: 140px;
-  }
-}
-@media (max-width: 1441px) {
-  .props-accumulation::after {
-    right: -75px;
-    width: 120px;
-    height: 130px;
+  .props-accumulation.floating-icon-left:before {
+    width: 100px;
+    top: 0px;
+    left: -0.5vw;
   }
 }
 @media (max-width: 1199px) {
-  .props-accumulation::after {
-    right: -45px;
-    width: 100px;
-    height: 120px;
+  .props-accumulation.floating-icon-left:before {
+    width: 70px;
+    top: 0px;
+    left: -0.1vw;
+  }
+}
+@media (max-width: 579px) {
+  .props-accumulation.floating-icon-left:before {
+    display: none;
+  }
+}
+.props-accumulation.floating-icon-right {
+  position: relative;
+}
+.props-accumulation.floating-icon-right > div {
+  position: relative;
+  z-index: 1;
+}
+.props-accumulation.floating-icon-right:after {
+  z-index: 1;
+  content: "";
+  background: url(../img/coin-lg-brand.svg) no-repeat center/contain;
+  width: 200px;
+  aspect-ratio: 1.08;
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  right: -18.333vw;
+  transform: translateX(-100%);
+}
+@media (max-width: 1679px) {
+  .props-accumulation.floating-icon-right:after {
+    width: 160px;
+    bottom: -70px;
+    right: -15.5vw;
+  }
+}
+@media (max-width: 1199px) {
+  .props-accumulation.floating-icon-right:after {
+    width: 120px;
+    bottom: -45px;
+    right: -12.1vw;
   }
 }
 @media (max-width: 991px) {
-  .props-accumulation::after {
-    right: -45px;
-    width: 90px;
-    height: 100px;
-    bottom: -35px;
+  .props-accumulation.floating-icon-right:after {
+    width: 110px;
+    bottom: -50px;
+    right: -14.1vw;
   }
 }
 @media (max-width: 767px) {
-  .props-accumulation::after {
-    right: -48px;
+  .props-accumulation.floating-icon-right:after {
+    width: 110px;
+    bottom: -40px;
+    right: -14.1vw;
   }
 }
-@media (max-width: 479px) {
-  .props-accumulation::after {
+@media (max-width: 579px) {
+  .props-accumulation.floating-icon-right:after {
     display: none;
   }
 }
@@ -415,52 +400,41 @@
     display: none;
   }
 }
-.props-posts::before {
+.props-posts.floating-icon-left {
+  position: relative;
+}
+.props-posts.floating-icon-left > div {
+  position: relative;
+  z-index: 1;
+}
+.props-posts.floating-icon-left:before {
+  z-index: 0;
   content: "";
-  width: 160px;
-  height: 160px;
-  background: url(/img/title-coin.svg) no-repeat center;
-  background-size: contain;
+  background: url(../img/sec-floating.svg) no-repeat center/contain;
+  width: 130px;
+  aspect-ratio: 1.08;
+  display: block;
   position: absolute;
-  left: -190px;
-  bottom: 0px;
+  bottom: 20px;
+  left: -2.333vw;
+  transform: translateX(-100%);
 }
 @media (max-width: 1679px) {
-  .props-posts::before {
-    width: 120px;
-    height: 140px;
-    left: -145px;
+  .props-posts.floating-icon-left:before {
+    width: 100px;
+    bottom: 20px;
+    left: -0.5vw;
   }
 }
-@media (max-width: 1481px) {
-  .props-posts::before {
-    left: -110px;
-    width: 110px;
-    height: 145px;
+@media (max-width: 1199px) {
+  .props-posts.floating-icon-left:before {
+    width: 70px;
+    bottom: 20px;
+    left: -0.1vw;
   }
 }
-@media (max-width: 1441px) {
-  .props-posts::before {
-    left: -78px;
-    width: 110px;
-    height: 110px;
-  }
-}
-@media (max-width: 991px) {
-  .props-posts::before {
-    left: -50px;
-    width: 80px;
-    height: 80px;
-    bottom: 10px;
-  }
-}
-@media (max-width: 767px) {
-  .props-posts::before {
-    left: -65px;
-  }
-}
-@media (max-width: 479px) {
-  .props-posts::before {
+@media (max-width: 579px) {
+  .props-posts.floating-icon-left:before {
     display: none;
   }
 }
