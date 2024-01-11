@@ -377,11 +377,11 @@
 // props accumulation end here
 // post session start here
 .props-posts{
-    padding: 68px 0 85px;
+    padding: 68px 0 154px;
     position: relative;
 
     @media ($sm-1679){
-        padding: 30px 0 30px;
+        padding: 30px 0 65px;
     }
     @media ($sm-1481){
         padding: 25px 0 25px;
@@ -408,17 +408,22 @@
             aspect-ratio: 1.08;
             display: block;
             position: absolute;
-            bottom: 20px;
+            bottom: 150px;
             left: -2.333vw;
             transform: translateX(-100%);
             @media ($sm-1679){
                 width: 100px;
-                bottom: 20px;
+                bottom: 85px;
                 left: -0.5vw;
+            }
+            @media ($sm-1481){
+                width: 70px;
+                bottom: 50px;
+                left: -0.1vw;
             }
             @media ($sm-1199){
                 width: 70px;
-                bottom: 20px;
+                bottom: 50px;
                 left: -0.1vw;
             }
             @media ($sm-579){
