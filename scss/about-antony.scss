@@ -236,6 +236,8 @@
         }
     }
     .img-wrp{
+        display: flex;
+        justify-content: center;
         img{
             width: 100%;
             max-width: 450px;
@@ -248,7 +250,10 @@
         font-size: 23px;
         margin-bottom: 0.8em;
     }
-
+    .slider-col{
+        display: flex;
+        justify-content: center;
+    }
     .token-slider-wrp{
         background: linear-gradient(150.43deg, rgba(78, 93, 181, 0.09) 1.44%, rgba(121, 140, 255, 0) 47.82%);
         border: 1px solid rgba(182, 195, 229, 1);
@@ -256,9 +261,21 @@
         padding: 45px;
         color: rgba(46, 66, 118, 1);
         position: relative;
+        max-width: 460px;
+        width: 100%;
+        @media ($sm-1679){
+            padding: 32px;
+        }
+        @media ($sm-1441){
+            
+        }
+        @media ($sm-1199){
+            
+        }
         .token-slides{
             position: relative;
             z-index: 1;
+            height: 100%;
         }
         .token-slider-ico{
             width: 84px;
