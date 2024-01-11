@@ -973,7 +973,7 @@
         margin-bottom: 50px;
         padding-bottom: 0;
 
-        @media ($sm-767 ){
+        @media ($sm-991 ){
             margin-bottom: 30px;
         }
     }
@@ -1074,7 +1074,7 @@
     padding: 68px 0 41px;
     position: relative;
     @media ($sm-1679){
-        padding: 30px 0 30px;
+        padding: 40px 0 40px;
     }
     @media ($sm-1481){
         padding: 25px 0 25px;
@@ -1102,7 +1102,7 @@
             height: 145px;
         }
         @media ($sm-991){
-            right: 30px;
+            right: 80px;
             width: 120px;
             height: 125px;
             top: 0px;
@@ -1208,7 +1208,7 @@
             @media ($sm-991){
                 font-size: 14px;
                 line-height: 24px;
-                margin-bottom: 10px;
+                margin-bottom: 15px;
             }
             span{
                 &.bold{
@@ -1767,13 +1767,13 @@
 
 
 .section-powering{
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 80px;
     @media ($sm-1679){
-        padding-top: 40px;
+        padding-top: 20px;
     }
     @media ($sm-767){
-        padding-bottom: 40px;
+        padding-bottom: 10px;
     }
     .title{
         font-size: 40px;
