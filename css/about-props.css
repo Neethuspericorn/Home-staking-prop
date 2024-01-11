@@ -1069,7 +1069,7 @@
 }
 @media (max-width: 1679px) {
   .props-token {
-    padding: 30px 0 30px;
+    padding: 40px 0 40px;
   }
 }
 @media (max-width: 1481px) {
@@ -1107,7 +1107,7 @@
 }
 @media (max-width: 991px) {
   .props-token::after {
-    right: 30px;
+    right: 80px;
     width: 120px;
     height: 125px;
     top: 0px;
@@ -1247,7 +1247,7 @@
   .props-token .benefits-listing li {
     font-size: 14px;
     line-height: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 .props-token .benefits-listing li span.bold {
@@ -1627,21 +1627,25 @@
 .props-posts .posts-hldr {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 35px;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
 }
 @media (max-width: 1679px) {
   .props-posts .posts-hldr {
-    column-gap: 30px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
   }
 }
 @media (max-width: 1441px) {
   .props-posts .posts-hldr {
-    column-gap: 25px;
+    -moz-column-gap: 25px;
+         column-gap: 25px;
   }
 }
 @media (max-width: 1281px) {
   .props-posts .posts-hldr {
-    column-gap: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
   }
 }
 @media (max-width: 700px) {
@@ -2002,11 +2006,13 @@
 }
 .section-powering .icon-wrp .powering-icon {
   max-width: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .section-powering .icon-wrp .lines {
   position: absolute;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   inset: -10%;
   width: 120%;
   height: 120%;
@@ -2018,7 +2024,8 @@
 }
 .section-powering .icon-wrp .img-shadow {
   position: absolute;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   inset: 0;
   width: 150%;
   height: 150%;
@@ -2229,7 +2236,8 @@
 }
 .section-tokenomics .token-slider-wrp .token-slider-ico img {
   width: 42%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media (max-width: 1679px) {
   .section-tokenomics .token-slider-wrp .token-slider-ico {
@@ -2318,7 +2326,8 @@
   top: 60px;
   right: 50px;
   z-index: 2;
-  backdrop-filter: opacity(0) blur(100px);
+  -webkit-backdrop-filter: opacity(0) blur(100px);
+          backdrop-filter: opacity(0) blur(100px);
 }
 @media (max-width: 1679px) {
   .section-tokenomics .token-slider-wrp .token-slide-btns {
@@ -2350,7 +2359,8 @@
 }
 .section-tokenomics .token-slider-wrp .token-slide-btns .btn img {
   width: 30%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media (max-width: 1679px) {
   .section-tokenomics .token-slider-wrp .token-slide-btns .btn {
@@ -2365,5 +2375,3 @@
 .section-tokenomics .token-slider-wrp .token-slide-btns .btn:hover {
   background-color: #2966FF !important;
 }
-
-/*# sourceMappingURL=about-props.css.map */
