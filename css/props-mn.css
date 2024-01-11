@@ -422,7 +422,7 @@
 @media (max-width: 1679px) {
   .props-posts.floating-icon-left:before {
     width: 100px;
-    bottom: 65px;
+    bottom: 85px;
     left: -0.5vw;
   }
 }
