@@ -1225,13 +1225,13 @@
     position: relative;
 
     @media ($sm-1679){
-        padding: 30px 0 30px;
+        padding: 40px 0 40px;
     }
     @media ($sm-1481){
-        padding: 20px 0 25px;
+        padding: 35px 0 35px;
     }
     @media ($sm-991){
-        padding: 0px 0 20px;
+        padding: 0px 0 30px;
     }
     br{
         @media (max-width:680px){
@@ -1286,27 +1286,42 @@
             position: absolute;
             bottom: -10px;
             // right: -2.333vw;
-            right: -18.333vw;
+            right: -20vw;
             transform: translateX(-100%);
             @media ($sm-1679){
                 width: 160px;
-                bottom: -70px;
-                right: -15.5vw;
+                bottom: -50px;
+                right: -18.5vw;
+            }
+            @media ($sm-1481){
+                width: 140px;
+                bottom: -50px;
+                right: -18vw;
+            }
+            @media ($sm-1441){
+                width: 130px;
+                bottom: -50px;
+                right: -16vw;
+            }
+            @media ($sm-1281){
+                width: 115px;
+                bottom: -50px;
+                right: -15.33vw;
             }
             @media ($sm-1199){
-                width: 120px;
-                bottom: -45px;
-                right: -12.1vw;
+                width: 110px;
+                bottom: -65px;
+                right: -14vw;
             }
             @media ($sm-991){
-                width: 110px;
-                bottom: -50px;
-                right: -14.1vw;
+                width: 90px;
+                bottom: -55px;
+                right: -15.1vw;
             }
             @media ($sm-767){
-                width: 110px;
-                bottom: -40px;
-                right: -14.1vw;
+                width: 90px;
+                bottom: -50px;
+                right: -15.1vw;
             }
             @media ($sm-579){
                 display: none;
@@ -1452,13 +1467,13 @@
     position: relative;
 
     @media ($sm-1679){
-        padding: 30px 0 65px;
+        padding: 40px 0 65px;
     }
     @media ($sm-1481){
-        padding: 25px 0 25px;
+        padding: 35px 0 40px;
     }
     @media ($sm-991){
-        padding: 20px 0 20px;
+        padding: 30px 0 30px;
     }
     br{
         @media (max-width:680px){
