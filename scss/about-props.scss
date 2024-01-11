@@ -718,13 +718,13 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 50px 107px 40px;
+        padding: 40px 107px 40px;
 
         @media ($sm-1679){
-            padding: 50px 80px 40px;
+            padding: 40px 80px 40px;
         }
         @media ($sm-1441){
-            padding: 50px 50px 35px;
+            padding: 40px 50px 35px;
         } 
         @media ($sm-991){
             padding: 0px;
@@ -1767,13 +1767,13 @@
 
 
 .section-powering{
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 80px;
     @media ($sm-1679){
-        padding-top: 40px;
+        padding-top: 20px;
     }
     @media ($sm-767){
-        padding-bottom: 40px;
+        padding-bottom: 10px;
     }
     .title{
         font-size: 40px;

@@ -702,16 +702,16 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 50px 107px 40px;
+  padding: 40px 107px 40px;
 }
 @media (max-width: 1679px) {
   .two-rows-content .content-inner {
-    padding: 50px 80px 40px;
+    padding: 40px 80px 40px;
   }
 }
 @media (max-width: 1441px) {
   .two-rows-content .content-inner {
-    padding: 50px 50px 35px;
+    padding: 40px 50px 35px;
   }
 }
 @media (max-width: 991px) {
@@ -1627,25 +1627,21 @@
 .props-posts .posts-hldr {
   display: flex;
   flex-wrap: wrap;
-  -moz-column-gap: 35px;
-       column-gap: 35px;
+  column-gap: 35px;
 }
 @media (max-width: 1679px) {
   .props-posts .posts-hldr {
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
 }
 @media (max-width: 1441px) {
   .props-posts .posts-hldr {
-    -moz-column-gap: 25px;
-         column-gap: 25px;
+    column-gap: 25px;
   }
 }
 @media (max-width: 1281px) {
   .props-posts .posts-hldr {
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
   }
 }
 @media (max-width: 700px) {
@@ -1773,17 +1769,17 @@
 }
 
 .section-powering {
-  padding-top: 80px;
+  padding-top: 30px;
   padding-bottom: 80px;
 }
 @media (max-width: 1679px) {
   .section-powering {
-    padding-top: 40px;
+    padding-top: 20px;
   }
 }
 @media (max-width: 767px) {
   .section-powering {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
 }
 .section-powering .title {
@@ -2006,13 +2002,11 @@
 }
 .section-powering .icon-wrp .powering-icon {
   max-width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .section-powering .icon-wrp .lines {
   position: absolute;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   inset: -10%;
   width: 120%;
   height: 120%;
@@ -2024,8 +2018,7 @@
 }
 .section-powering .icon-wrp .img-shadow {
   position: absolute;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   inset: 0;
   width: 150%;
   height: 150%;
@@ -2236,8 +2229,7 @@
 }
 .section-tokenomics .token-slider-wrp .token-slider-ico img {
   width: 42%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media (max-width: 1679px) {
   .section-tokenomics .token-slider-wrp .token-slider-ico {
@@ -2326,8 +2318,7 @@
   top: 60px;
   right: 50px;
   z-index: 2;
-  -webkit-backdrop-filter: opacity(0) blur(100px);
-          backdrop-filter: opacity(0) blur(100px);
+  backdrop-filter: opacity(0) blur(100px);
 }
 @media (max-width: 1679px) {
   .section-tokenomics .token-slider-wrp .token-slide-btns {
@@ -2359,8 +2350,7 @@
 }
 .section-tokenomics .token-slider-wrp .token-slide-btns .btn img {
   width: 30%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media (max-width: 1679px) {
   .section-tokenomics .token-slider-wrp .token-slide-btns .btn {
@@ -2375,3 +2365,5 @@
 .section-tokenomics .token-slider-wrp .token-slide-btns .btn:hover {
   background-color: #2966FF !important;
 }
+
+/*# sourceMappingURL=about-props.css.map */
