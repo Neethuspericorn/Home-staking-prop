@@ -1074,12 +1074,12 @@
 }
 @media (max-width: 1481px) {
   .props-token {
-    padding: 25px 0 25px;
+    padding: 35px 0 35px;
   }
 }
 @media (max-width: 991px) {
   .props-token {
-    padding: 20px 0 20px;
+    padding: 30px 0 30px;
   }
 }
 .props-token::after {
